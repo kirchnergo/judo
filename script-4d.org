@@ -1,0 +1,81 @@
+#+Title: Skript zur Prüfung zum 4. Dan
+#+Author: Göran Kirchner
+#+Language: de
+
+* Prüfungsprogramm
+
+** Prüfungsschwerpunkte
+
+Ab dem 4. Dan soll die Beschäftigung mit der Theorie der Sportart intensiviert werden.
+Die langjährige Erfahrung, die gesteigerten Kenntnisse und die daraus entstehende Kreativität sollen in dieser Stufe zum Ausdruck kommen und möglichst auch an andere weitergegeben werden.
+
+** Vorkenntnisse 
+
+Alle Techniken der Kyu‐ und Dan‐ Ausbildungsstufen (außer Kata) können stichprobenartig abgeprüft werden.
+
+Es können alle Techniken des bisherigen Ausbildungsprogramms (außer Kata) im Sinne
+einer Ergebnis‐ und Qualitätssicherung stichprobenartig abgeprüft werden.
+
+** Standtechnik (stichprobenartig)
+
+Erläuterung der folgenden Wurfprinzipien und Demonstration mit je 2 Techniken aus je 2 sinnvollen Situationen:
+- Sicheln
+- Fegen
+- Blockieren / Stoppen
+- Verwringen
+- Einhängen
+- Eindrehen
+- Ausheben
+- Einrollen
+- Selbstfallen
+
+Die oben aufgeführten Wurfprinzipien sollen anhand von jeweils zwei unterschiedlichen Wurftechniken aus jeweils zwei unterschiedlichen, judotypischen, sinnvollen Situationen erläutert und demonstriert werden (nähere Erläuterungen zu den Wurfprinzipien im Begleitskript).
+
+Der Prüfling muss sich auf alle Prinzipien vorbereiten, die Prüfungskommission soll 2‐3
+Beispiele auswählen, um den Zeitrahmen nicht zu sprengen.
+
+** Bodentechnik (stichprobenartig)
+
+Demonstration, Erläuterung und Begründung grundsätzlicher Verhaltensweisen, Prinzipien und Lösungsmöglichkeiten am Boden:
+a) Angriff aus Ober‐ und Unterlage
+b) Abwehr aus Ober‐ und Unterlage
+jeweils zu allen Standardsituationen.
+
+Grundsätzliche Verhaltensweisen am Boden, wie /Angriffs‐ und Verteidigungsverhalten/,
+sowie realistische Lösungsmöglichkeiten gegen alle Standardsituationen müssen
+erläutert, begründet und ausführlich demonstriert werden können. Dies gilt für das
+Angriffs‐ und auch für das Verteidigungsverhalten, sowohl in Ober‐ als auch in
+Unterlage. Zu unseren *Standardsituationen* des Bodenkampfes gehören:
+- die Bauchlage
+- die Bankposition
+- die Rückenlage (Angriff zwischen den Beinen)
+- die Beinklammer (ein Bein ist geklammert, einfach oder doppelt)
+
+Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die
+Prüfungskommission soll 2‐3 Beispiele auswählen um den Zeitrahmen nicht zu sprengen.
+
+** Theorie 
+
+Geschichtliche Entwicklung und die Judo‐Prinzipien.
+
+Der Prüfling soll die historische Entwicklung des Judo von den Ursprüngen in Japan bis
+zur Gegenwart in Deutschland skizzieren können.
+
+Er soll die Bedeutung von Jigoro Kano und die von ihm entwickelten Prinzipien,
+*Seiryoku‐zen‐yo* und *Ji‐ta‐kyo‐ei*, kurz beschreiben und bewerten.
+
+** Kata 
+
+Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
+
+* Vorkenntnisse
+
+* Standtechnik
+
+* Bodentechnik
+
+* Theorie
+
+* Kata
+
+

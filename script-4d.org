@@ -108,7 +108,11 @@ m daran erkennen, dass
 - beim Üben von Judotechniken und beim Randori Rücksicht auf Alter, Geschlecht, körperliche und technische  Entwicklung des Partners genommen wird und wechselseitige Erfolgserlebnisse ermöglicht werden 
 - jeder Übende bereit ist, für sein Handeln und für die Gruppe Verantwortung zu übernehmen. 
 
-** Onore wo tsukushite naru wo matsu!
+** Onore o tsukushite naru o matsu! [尽己竢成]
+
+#+BEGIN_QUOTE
+「己を尽して成るを竢つ」
+#+END_QUOTE
 
 Do Your Best and Await the Result.
 

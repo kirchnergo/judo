@@ -124,145 +124,168 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 | <<<Tate-obi-shiho-gatame>>>    |                                                                                                                      |
 
 
-**** TODO Shime-Waza (Würgetechnik) [絞技] [0/6]
+**** TODO Shime-Waza (Würgetechnik) [絞技] [5/7]
 
-***** TODO Juji-Jime 
+***** DONE Juji-jime 
+      CLOSED: [2018-09-17 Mon 23:26]
 
 - mit beiden Händen unter Kreuzen der Unterarme würgen
 
-1.	Nami-juji-jime → beide Daumen innen und Handflächen oben
-2.	Gyaku-juji-jime → beide Handflächen unten
-3.	Kata-juji-jime → eine Handfläche oben und eine unten
-4.	Tomeo-jime → Einseitig ein Reverse fassen und den Kopf einfangen
-5.	Sode-guruma → in den eigenen Ärmel fassen und Ukes Hals zwischen den Unterarmen einklemmen.
-6.	Drehwürge (Mahrenke) → eine Hand im Nacken die andere ins gleiche Revers unter den Arm durch. Ellenbogen eindrehen und unter den Partner rollen
+| <<<Nami-juji-jime>>>       | beide Daumen innen                                                                                                       |
+| <<<Gyaku-juji-jime>>>      | beide Daumen außen                                                                                                       |
+| <<<Kata-juji-jime>>>       | ein Daumen außen und einen innen                                                                                         |
+| <<<Tomeo-jime>>>           | Einseitig ein Reverse fassen und den Kopf einfangen                                                                      |
+| <<<Sode-kuruma-jime>>>     | in den eigenen Ärmel fassen und Ukes Hals zwischen den Unterarmen einklemmen                                             |
+| <<<Drehwürge>>> (Mahrenke) | eine Hand im Nacken die andere ins gleiche Revers unter den Arm durch, Ellenbogen eindrehen und unter den Partner rollen |
 
-***** TODO Okuri-eri-Jime
+***** DONE Okuri-eri-jime
+      CLOSED: [2018-09-17 Mon 23:41]
 
-- durch Ziehen des Kragens würgen
++ durch Ziehen des Kragens würgen
 
-1.	Okurie-eri-jime → Urform. Recht Hand geht unter Ukes Kinn und greift in dessen linkes Reverse. Reverse mit der linken Hand straff halten, damit Tori besser greifen kann. Die linke Hand greift in das andere Reverse, um es straff zu halten.
-2.	Gyaku-okuri-eri-jime → Uke in Bankstelleung und Tori greift von vorn um Ukes Hals.
-3.	Koshi-jime → Uke greift mit Seoi-Nage an. Tori übernimmt mit Okuri-eri-jime. Linke Hand blockiert Ukes rechte Seite, in dem er unter dem Arm durch greift. Die Würge zieht durch vorbringen der Hüfte zwischen Toris Arm und Ukes Schulter.
-4.	? Jigoku-jime → Tori kontrolliert beide Arme von Uke. Ein Arm Ukes wird mit dem Bein blockiert, der andere mit dem Arm.
-5.	Kingston-Rolle → Uke ist in der Bankstellung. Tori greift mit der rechten Hand unter dem Kinn Ukes in dessen rechtes Reverse. Die andere Hand greift in den Gürtel und das linke Bein wird über Uke zwischen dessen Arm und Bein gesteckt. Das Bein wird als Schwungbein für eine Rolle genutzt. Tori dreht durch die Rolle Uke um.  Er baut Spannung zwischen der rechten Hand am Hals und der linken Hand an den Beinen auf.
+| <<<Okuri-eri-jime>>>       | Urform[fn:okuri-eri], Variante: <<<Schlinge>>>                                                          |
+| <<<Gyaku-okuri-eri-jime>>> | Uke in Bankstelleung und Tori greift von vorn um Ukes Hals.                                             |
+| <<<Koshi-jime>>>           | (<<<Krüger-Würge>>>)[fn:koshi-jime]                                                                     |
+| <<<Jigoku-jime>>>          | [[https://www.youtube.com/watch?v=5kHjF5OkwMs][Tori kontrolliert beide Arme von Uke. Ein Arm Ukes wird mit dem Bein blockiert, der andere mit dem Arm.]] |
+| <<<Kingston-Rolle>>>       | Kontrolle des Knies und durchrollen[fn:kingston]                                                        |
 
-***** TODO Kata-ha-Jime
+[fn:okuri-eri] Recht Hand geht unter Ukes Kinn und greift in dessen linkes Reverse. Reverse mit der linken Hand straff halten, damit Tori besser greifen kann. Die linke Hand greift in das andere Reverse, um es straff zu halten
+[fn:koshi-jime] Uke greift mit Seoi-Nage an. Tori übernimmt mit Okuri-eri-jime. Linke Hand blockiert Ukes rechte Seite, in dem er unter dem Arm durch greift. Die Würge zieht durch vorbringen der Hüfte zwischen Toris Arm und Ukes Schulter.
+[fn:kingston] Uke ist in der Bankstellung. Tori greift mit der rechten Hand unter dem Kinn Ukes in dessen rechtes Reverse. Die andere Hand greift in den Gürtel und das linke Bein wird über Uke zwischen dessen Arm und Bein gesteckt. Das Bein wird als Schwungbein für eine Rolle genutzt. Tori dreht durch die Rolle Uke um.  Er baut Spannung zwischen der rechten Hand am Hals und der linken Hand an den Beinen auf.
 
-- Würgen unter Festlegung von Arm bzw. Schulter
+***** DONE Kata-ha-jime
+      CLOSED: [2018-09-17 Mon 23:45]
 
-1.	Kata-ha-jime → Urform. Tori sitzt hinter Uke. Recht Hand geht unter Ukes Kinn und greift in dessen linkes Revers. Die linke Hand schiebt sich unter Ukes linken Arm hin durch und führt seinen Arm hinter Ukes Kopf bzw. Nacken.
-2.	Kaeshi-jime → Uke in Bankstellung. Tori führt von vorn unter Ukes Arm hindurch hinter Ukes Kopf und dann drehen.
-3.	Gyaku-gaeshi-jime → Ansatz wie Kaeshi-Jime. Uke baut Gegendruck auf. Tori dreht in die andere Richtung.
-4.	Othen-Jime → Kata-ha-jime, wobei Tori ein Arm Ukes mit dem Bein fixiert
-Hadaka-Jime (ohne Hilfe des Judogi würgen)
-5.	Hadanka-jime → Urform. -Tori legt die Innenseite seines rechten Unterarms vorn an Ukes Hals, schließt über dessen linker Schulter die Hände zusammen, und übt durch kombinierte Aktion der Arme Druck auf Ukes Kehle aus. 
-6.	Ushiro-Jime → Tori ist hinter Uke und schiebt seinen unter Arm unter Ukes Halt durch. Tori greift Hand in Hand und würgt.
-7.	? Sode-juji → Wie Sode-Guruma-Jime, nur den Arm greifen und nicht den eigenen Ärmel. Ausgangsposition zwischen den Beinen.
++ Würgen unter Festlegung von Arm bzw. Schulter
 
-***** TODO Ryo-Te-Jime 
+| <<<Kata-ha-jime>>>      | Urform[fn:kata-ha]                                                                                 |
+| <<<Kaeshi-jime>>>       | Uke in Bankstellung. Tori führt von vorn unter Ukes Arm hindurch hinter Ukes Kopf und dann drehen. |
+| <<<Gyaku-gaeshi-jime>>> | Ansatz wie Kaeshi-Jime. Uke baut Gegendruck auf. Tori dreht in die andere Richtung.                |
+| <<<Othen-jime>>>        | Kata-ha-jime, wobei Tori ein Arm Ukes mit dem Bein fixiert                                         |
 
-- die Revers ergreifen und mit Parallegriff würgen
+[fn:kata-ha] Tori sitzt hinter Uke. Recht Hand geht unter Ukes Kinn und greift in dessen linkes Revers. Die linke Hand schiebt sich unter Ukes linken Arm hin durch und führt seinen Arm hinter Ukes Kopf bzw. Nacken.
 
-1.	Ryo-te-jime → Tori  greift mit beiden Händen in Uke Revers in Höhe dessen Halses. Beide Daumen innen. Dann werden beide Hände nach außen gedreht und dadurch gewürgt.
-2.	? Maki-komi-jime → ähnlich Tomeo-jime. Angriff von unten zwischen den Beinen.
+***** DONE Hadaka-Jime 
+      CLOSED: [2018-09-17 Mon 23:55]
 
-***** TODO Kata-te-jime 
++ ohne Hilfe des Judogi würgen
 
-- Hauptsächlich mit einer Hand würgen
+| <<<Hadaka-jime>>> | Urform[fn:hadaka]                                                                                            |
+| <<<Ushiro-jime>>> | Tori ist hinter Uke und schiebt seinen unter Arm unter Ukes Halt durch. Tori greift Hand in Hand und würgt.  |
+| <<<Sode-jime>>>   | Wie Sode-kuruma-jime, nur den Arm greifen und nicht den eigenen Ärmel. Ausgangsposition zwischen den Beinen. |
 
-1.	Kata-te-jime → Urform. -?
-2.	Tsuki-komi-jime → Schiebe würge
-3.	Ebi-jime → Tori ist zwischen den Beinen. Er arbeitet sich heraus, hält die Beine mit der einen Hand von unten und greift mit der anderen Hand in Ukes Revers und würgt mit dem Unterarm.
+[fn:hadaka] Tori legt die Innenseite seines rechten Unterarms vorn an Ukes Hals, schließt über dessen linker Schulter die Hände zusammen, und übt durch kombinierte Aktion der Arme Druck auf Ukes Kehle aus.
 
-***** TODO Ashi-Jime 
+***** DONE Ryo-te-jime 
+      CLOSED: [2018-09-17 Mon 23:56]
 
-- mit Hilfe von Fuß oder Bein würgen
++ die Revers ergreifen und mit Parallegriff würgen
 
-4.	Ashi-jime → Urform. – Ü
-5.	? Kata-jime →
-6.	Kagato-jime →
-7.	Hasami-jime →
-a.	Uke befindet sich in der Bankstellung. Tor kniet dich an Ukes linker Seite. Sein rechtes Knie berührt den Bocen, während das linke hochgestellt ist. Er schiebt seinen linken Unterarm so unter Ukes Kinn, das die Speiche auf die Luftröhre zu liegen kommt. Seine linke Hand ergreift mit dem Daumen nach innen Ukes rechten Jackenaufschlag möglichst weit oben. Die rechte Hand erfaßt indessen Ukes rechten Ärmel dicht am Schultergelenk.
+| <<<Ryo-te-jime>>>    | Tori greift mit beiden Händen in Uke Revers in Höhe dessen Halses. Beide Daumen innen. Beide Hände nach außen drehen |
+| <<<Maki-komi-jime>>> | ähnlich Tomeo-jime. Angriff von unten zwischen den Beinen.                                                           |
+
+***** TODO Katate-jime 
+
++ Hauptsächlich mit einer Hand würgen
+
+| <<<Katate-jime>>>     | [[https://www.youtube.com/watch?v=aKEQKdlSjlE][Urform]]             |
+| <<<Tsuki-komi-jime>>> | <<<Schiebewürge>>> |
+| <<<Ebi-jime>>>        |                    |
+
+[fn:ebi] Tori ist zwischen den Beinen. Er arbeitet sich heraus, hält die Beine mit der einen Hand von unten und greift mit der anderen Hand in Ukes Revers und würgt mit dem Unterarm.
+
+***** TODO Ashi-jime 
+
++ mit Hilfe von Fuß oder Bein würgen
+
+| <<<Ashi-jime>>>            | Urform |
+| <<<Kata-jime>>>            |        |
+| <<<Kagato-jime>>>          |        |
+| <<<Hasami-jime>>>          |        |
+| <<<Kensui-jime>>>          |        |
+| <<<Kami-shiho-ashi-jime>>> |        |
+| <<<Sankaku-jime>>>         |        |
+
+[fn:hasami] Uke befindet sich in der Bankstellung. Tor kniet dich an Ukes linker Seite. Sein rechtes Knie berührt den Bocen, während das linke hochgestellt ist. Er schiebt seinen linken Unterarm so unter Ukes Kinn, das die Speiche auf die Luftröhre zu liegen kommt. Seine linke Hand ergreift mit dem Daumen nach innen Ukes rechten Jackenaufschlag möglichst weit oben. Die rechte Hand erfaßt indessen Ukes rechten Ärmel dicht am Schultergelenk.
 Nun schwingt Tori sein linkes Bein über Ukes Kopf und legt die Kniekehle auf Ukes Nacken. Ein Zug mit dem linken Arm nach oben und ein gleichzeitiger Druck  mit der linken Kniekehle nach unten würgen Uke.
-8.	Kensui-jime →
-9.	Kami-shiho-ashi-jime
-10.	Sankaku-jime →
 
 **** TODO Kansetsu-Waza (Hebeltechnik) [関節技] [0/7]
 
 - Ude-hishigi-waza (Streckhebel)
 - Ude-garami-waza (Beugehebel)
 
-***** TODO Juji-gatame 
+***** TODO Juji-gatame
 
-- den zwischen den Beinen befindlichen Arm über die Leistengegend hebeln
++ den zwischen den Beinen befindlichen Arm über die Leistengegend hebeln
 
-1.	Ude-hishigi-juji-gatame / Nami-juji-gatame → ein Bein vor dem Körper
-2.	Gyaku-juji-gatame → zwischen den Beinen; Bein von außen über den Arm schwingen und in der Seiten oder Bauchlage hebeln
-3.	Kami-juji-gatame → ?
-4.	Yoko-juji-gatame → ?
-5.	Othen-gatame → ein Bein über dem Körper das andere hinder dem Kopf fixiert den anderen Arm.
+| <<<Ude-hishigi-juji-gatame>>> | Urform                                                                                             |
+| <<<Nami-juji-gatame>>>        | ein Bein vor dem Körper                                                                            |
+| <<<Gyaku-juji-gatame>>>       | zwischen den Beinen; Bein von außen über den Arm schwingen und in der Seiten oder Bauchlage hebeln |
+| <<<Kami-juji-gatame>>>        |                                                                                                    |
+| <<<Yoko-juji-gatame>>>        |                                                                                                    |
+| <<<Othen-gatame>>>            | ein Bein über dem Körper das andere hinder dem Kopf fixiert den anderen Arm.                       |
 
 ***** TODO Ude-gatame 
 
-- mit beiden Händen auf Arm oder Ellenbogen drückend hebeln
++ mit beiden Händen auf Arm oder Ellenbogen drückend hebeln
 
-6.	Ude gatame
-7.	Gyaku-ude-gatame → zwischen den Beinen und Tori stößt ein Bein von Uke weg, Uke fällt auf den Bauch, Tori hebelt mit Ude-gatame
-8.	Hizi-maki-komi → ?
-9.	Kuzure-hizi-maki-komi → ?
+| <<<Ude-gatame>>>            |                                                                                                              |
+| <<<Gyaku-ude-gatame>>>      | zwischen den Beinen und Tori stößt ein Bein von Uke weg, Uke fällt auf den Bauch, Tori hebelt mit Ude-gatame |
+| <<<Hizi-maki-komi>>>        |                                                                                                              |
+| <<<Kuzure-hizi-maki-komi>>> |                                                                                                              |
 
 ***** TODO Ashi-gatame 
 
-- mit Hilfe von Bein oder Knie hebeln
++ mit Hilfe von Bein oder Knie hebeln
 
-1.	Ashi-gatame
-2.	Hiza-gatame → 
-a.	Uke zwischen den Beinen, Arm von außen umschlingen, Ukes Knie weg stoßen, Tori Knie unterstützt das Hebeln
-b.	Tori sitzt neben Uke an der Seite und hebelt den Arm über das Knie. Die andere Hand fixiert die Schulter
-3.	Kami-hiza-gatame → Tori sitzt auf Uke und hebelt den Arm über das Knie.
-4.	? Yoko-hiza-gatame → ?
-5.	Ryo-hiza-gatame → Tori sitzt auf Uke und hebelt beide Arme über je ein Knie.
-6.	Kesa-ashi-gatame → Kesa-Gatame und Uke fixierten Arm unter das Bein bringen und hebeln.
+| <<<Ashi-gatame>>>      |                                                                                                            |
+| <<<Hiza-gatame>>>      | Uke zwischen den Beinen, Arm von außen umschlingen, Ukes Knie weg stoßen, Tori Knie unterstützt das Hebeln |
+| Hiza-gatame (2)        | Tori sitzt neben Uke an der Seite und hebelt den Arm über das Knie. Die andere Hand fixiert die Schulter   |
+| <<<Kami-hiza-gatame>>> | Tori sitzt auf Uke und hebelt den Arm über das Knie.                                                       |
+| <<<Yoko-hiza-gatame>>> |                                                                                                            |
+| <<<Ryo-hiza-gatame>>>  | Tori sitzt auf Uke und hebelt beide Arme über je ein Knie.                                                 |
+| <<<Kesa-ashi-gatame>>> | Kesa-Gatame und Uke fixierten Arm unter das Bein bringen und hebeln.                                       |
 
 ***** TODO Hara-gatame 
 
-- mit dem Bauch oder der Körpervorderseite hebeln
++ mit dem Bauch oder der Körpervorderseite hebeln
 
-1.	Hara-gatame → Uke Bankstellung und den Arm über den Bauch hebeln
-2.	Gyaku-ude-gatame → zwischen den Beinen, dann Uke umdrehen, Arm fixieren und in der eigenen Rückenlage über den Bauch hebeln. Arm und Bein helfen Uke zu blockieren
-3.	Kuzure-hara-gatame → aus Kuzure-gesa-gatame den Fuß über Uke Kopf bringen
+| Hara-gatame        | Uke Bankstellung und den Arm über den Bauch hebeln                                                       |
+| Gyaku-ude-gatame   | zwischen den Beinen, dann Uke umdrehen, Arm fixieren und in der eigenen Rückenlage über den Bauch hebeln |
+| Kuzure-hara-gatame | aus Kuzure-gesa-gatame den Fuß über Uke Kopf bringen                                                     |
 
 ***** TODO Waki-gatame
-- mit einer Körperseite oder der Achsel hebeln
 
-1.	Waki-gatame → parallel in Bankstellung über die Achsel hebeln
-2.	Gyaku-waki-gatame → gegenparallel in der Bankstellung, Arm in der Achselhöhle eingeklemmt und hebel. 
++ mit einer Körperseite oder der Achsel hebeln
+
+| <<<Waki-gatame>>> | parallel in Bankstellung über die Achsel hebeln                                  |
+| <<<Gyaku-waki-gatame>>> | gegenparallel in der Bankstellung, Arm in der Achselhöhle eingeklemmt und hebeln |
 
 ***** TODO Kannuki-gatame
-- den Arm mit den Unterarmen verriegeln und hebeln
 
-1.	Kannuki-gatame → Uke Arm von außen umschlingen. Die andere Hand drückt gegen Ukes Oberarm bzw. Bizeps
-2.	? Gyaku-kannuki-gatame → ?
-3.	Mune-kannuki-gatame → in Mune-gatame Ukes Arm strecken und hebeln
-4.	? Kami-shiho-kannuki-gatame → kuzure-kami-shiho gatame den Arm strecken, der andere Arm fasst den Oberarm
-5.	? Ryo-kannuki-gatame → beide Arme von außen umschlingen 
++ den Arm mit den Unterarmen verriegeln und hebeln
+
+| <<<Kannuki-gatame>>>            | Uke Arm von außen umschlingen. Die andere Hand drückt gegen Ukes Oberarm bzw. Bizeps |
+| <<<Gyaku-kannuki-gatame>>>      |                                                                                      |
+| <<<Mune-kannuki-gatame>>>       | in Mune-gatame Ukes Arm strecken und hebeln                                          |
+| <<<Kami-shiho-kannuki-gatame>>> | kuzure-kami-shiho gatame den Arm strecken, der andere Arm fasst den Oberarm          |
+| <<<Ryo-kannuki-gatame>>>        | beide Arme von außen umschlingen                                                     |
 
 ***** TODO Ude-garami
 
-- Ukes gebeugten Arm hebeln
++ Ukes gebeugten Arm hebeln
 
-1.	Ude-garami → aus der Bauchlage den gebeugten Arm schlüsseln.
-2.	Ashi-garami → 
-3.	Gyaku-ude-garami → aus der eigenen Rückenlage Ukes Schulter fixieren und den Arm nach hinten schieben. Toris rechte Hand fasst Ukes linkes Handgelenk.
-4.	Kesa-garami → Kesa-gatame und den Arm nach oben zum Garami unter das vordere Bein schieben
-5.	? Waki-garami →
-6.	? Gyaku-waki-garami →
-7.	Hara- garami → wie Hara Gatame, nur Uke Arm ist gebeugt.
-8.	Gyaku-hara-garami → Tori kniet neben Uke und umschlingt mit dem linken Arm Ukes linken Arm von innen. Er dreht sich dann nach außen und schlüsselt über den Bauch. Ukes Arm ist dabei gebeugt.  Bei gestrecktem Arm wäre es Gyaku-hara-gatame
+| <<<Ude-garami>>>        | aus der Bauchlage den gebeugten Arm schlüsseln.                                     |
+| <<<Ashi-garami>>>       |                                                                                     |
+| <<<Gyaku-ude-garami>>>  | aus der eigenen Rückenlage Ukes Schulter fixieren und den Arm nach hinten schieben, |
+|                         | Toris rechte Hand fasst Ukes linkes Handgelenk                                      |
+| <<<Kesa-garami>>>       | Kesa-gatame und den Arm nach oben zum Garami unter das vordere Bein schieben        |
+| <<<Waki-garami>>>       |                                                                                     |
+| <<<Gyaku-waki-garami>>> |                                                                                     |
+| <<<Hara-garami>>>       | wie Hara-gatame, nur Uke Arm ist gebeugt                                            |
+| <<<Gyaku-hara-garami>>> |                                                                                     |
 
-
+[fn:gyaku-hara] Tori kniet neben Uke und umschlingt mit dem linken Arm Ukes linken Arm von innen. Er dreht sich dann nach außen und schlüsselt über den Bauch. Ukes Arm ist dabei gebeugt. Bei gestrecktem Arm wäre es Gyaku-hara-gatame
 
 * Standtechnik [1/10]
 
@@ -275,16 +298,16 @@ b.	Tori sitzt neben Uke an der Seite und hebelt den Arm über das Knie. Die ande
 |              | De-ashi-barai         | Vorwärtsbewegung       | x    |
 |              |                       | Rückwärtsbewegung      | x    |
 |              |                       | Finte Ko-uchi-gari     | x    |
-| Sicheln      | Ko-uchi-gari          | Standard               |      |
-|              |                       | (Keiji Suzuki)         |      |
-|              | O-soto-gari           | Standard               |      |
-|              |                       | Gegenwurf O-soto-gari  |      |
+| Sicheln      | Ko-uchi-gari          | Standard               | x    |
+|              |                       | (Keiji Suzuki)         | x    |
+|              | O-soto-gari           | Standard               | x    |
+|              |                       | Gegenwurf O-soto-gari  | x    |
 | Einhängen    | Ko-soto-gake          | Standard               |      |
 |              |                       | Nidan (Nachsetzen)     |      |
 |              | O-soto-gake           | Standard               |      |
 |              |                       |                        |      |
-| Blockieren   | Hiza-guruma           | Standard               |      |
-|              |                       | Gegenwurf Hiza-Guruma  |      |
+| Blockieren   | Hiza-guruma           | Standard               | x    |
+|              |                       | Gegenwurf Hiza-Guruma  | x    |
 |              | Sasae-Tsuri-komi-ashi | Standard               |      |
 |              |                       |                        |      |
 | Verwringen   | Harai-goshi           | Standard               |      |
@@ -295,18 +318,18 @@ b.	Tori sitzt neben Uke an der Seite und hebelt den Arm über das Knie. Die ande
 |              |                       | Finte Ko-uchi-barai    |      |
 |              | Sode-tsuri-komi-goshi | Standard               |      |
 |              |                       |                        |      |
-| Einrollen    | Soto-maki-komi        | Standard               |      |
-|              |                       | Kombi Harai-goshi      |      |
-|              | Ko-uchi-maki-komi     | Standard               |      |
-|              |                       | Kombi Ipon-seoi-nage   |      |
-| Ausheben     | Ura-nage              | Standard               |      |
-|              |                       | Gegenwurf Harai-goshi  |      |
-|              | Sukui-nage            | Standard               |      |
-|              |                       | Gegenwurf O-soto-gari  |      |
-| Selbstfallen | Tomoe-nage            | Standard               |      |
-|              |                       | Gegenwurf Ko-uchi-gari |      |
-|              | Yoko-sumi-gaeshi      | Standard               |      |
-|              |                       | Kombi Uchi-mata        |      |
+| Einrollen    | Soto-maki-komi        | Standard               | x    |
+|              |                       | Kombi Harai-goshi      | x    |
+|              | Ko-uchi-maki-komi     | Standard               | x    |
+|              |                       | Kombi Ipon-seoi-nage   | x    |
+| Ausheben     | Ura-nage              | Standard               | x    |
+|              |                       | Gegenwurf Harai-goshi  | x    |
+|              | Sukui-nage            | Standard               | x    |
+|              |                       | Gegenwurf O-soto-gari  | x    |
+| Selbstfallen | Tomoe-nage            | Standard               | x    |
+|              |                       | Gegenwurf Ko-uchi-gari | x    |
+|              | Yoko-sumi-gaeshi      | Standard               | x    |
+|              |                       | Kombi Uchi-mata        | x    |
 
 ** DONE Fegen (Barai)
    CLOSED: [2018-09-16 Sun 21:32]
@@ -354,23 +377,15 @@ oder der Fußsohle wegreißen, sicheln.
 
 *** Ko-uchi-gari [0/2]
 
-**** TODO Situation A
+**** TODO Standard
 
-Tori startet mit einem kurzen, explosiven Kuzushi, als ob er eine Technik nach vorn ansetzen möchte. Er provoziert damit eine Gegenreaktion bei Uke. Uke verlagert sein Gleichgewicht ruckartig nach hinten und hat sein linkes Bein belastet. Tori nutzt die Spannung und schlägt (sichelt) mit seinem linken Bein Ukes linkes Bein. Toris rechte Zughand zieht schräg nach unten zu sich heran. Die linke Hand zieht gerade nach unten. Dadurch wird Ukes Schwerpunkt auf sein linkes Bein gebracht, wo ihm die Unterstützungsfläche fehlt.
-
-**** TODO Situation B
-
-Tori greift Ukes rechtes Bein mit O-Uchi Gari an. Ukes verteidigt, indem er mit seinem  rechten Bein über Toris Fuß nach hinten ausweicht. Damit ist das gesamte Gewicht auf Ukes rechtem Bein. Bevor Uke das Bein wieder entlastet, sichelt Tori es mit Ko-Uchi-Gari nach außen weg. Der Zug Tori geht dorthin, wo er Uke die Unterstützungsfläche wegreißt.
+**** TODO Keiji Suzuki
 
 *** O-soto-gari [0/2]
 
-**** TODO Situation A
+**** TODO Standard
 
-Die Kämpfer befinden sich in Kenka-Yotsu Auslage. Tori verdreht Ukes Oberkörper durch gleichzeitigen Zug mit der rechten Hand und Druck gegen Ukes Schulter mit der linken Hand. Ukes Gleichgewicht wird stark auf sein linkes Bein verlagert. Tori hält die Spannung und setzt seinen linken Fuß an Ukes linker Kniekehle von außen an und erzeugt zusätzlich Druck. Unter dieser Spannung springt Tori mit seinem rechen Bein (Standbein) näher an Uke heran. Toris Oberkörper ist jetzt parallel zu Ukes. Sein linkes Angriffsbein schiebt er weiter durch, bis etwa seine Kniekehle Ukes Kniekehle erreicht hat. Dadurch vergrößert Tori die Hebelwirkung für das Wegreißen von Ukes Standbein. Tori Blick ist auf die Stelle gerichtet, wo Uke hinfallen wird. Dadurch wird die Kraft auf den richtigen Punkt konzentriert.
-
-**** TODO Situation B 
-
-Ausgangsposition ist Ai-Jutsu. Tori greift mit Hiza-Guruma mit seinem linken Bein an. Uke vereitelt den Angriff. Er steigt mit seinem angegriffenen, rechten Bein über Toris Angriffsbein. Dabei wird er nach vorn aus dem Gleichgewicht gebracht. Um sein Gleichgewicht wiederzubekommen, verlagert er sein Gewicht auf das linke Bein. Genau in diesem Moment nutzt Tori die Bewegung Ukes und reißt mit der rechten Hand an. Uke wird dadurch fest auf das linke Bein gestellt. Tori vollzieht den Platzwechsel. D.h. er setzt sein rechtes Bein neben Ukes linkes Bein. Tori stellt einen engen Kontakt her. Er drückt seine Brust in Richtung Ukes Achselhöhle, während die Zughand die Spannung aufrecht erhält. Dann schwingt Tori sein linkes Bein durch und schiebt die Hüfte mit nach vorn. Die Zehen vom Schwungbein sind gestreckt. Dann wird das linke Standbein von Uke weggesichelt.
+**** TODO Gegenwurf O-soto-gari
 
 ** TODO Einhängen (Gake)
 
@@ -411,7 +426,8 @@ Tori gibt sein Gleichgewicht auf, lässt sich fallen. Unter Ausnutzung der so en
 wird Uke mit Armzug zum Teil auch Beineinsatz geworfen.
 
 
-* Bodentechnik [2/6]
+* DONE Bodentechnik [6/6]
+  CLOSED: [2018-09-17 Mon 23:21]
 
 ** DONE Grundsätzliches Verhalten am Boden
    CLOSED: [2018-09-16 Sun 16:32]
@@ -445,34 +461,46 @@ Ziel ist es, sich aus der Verteidigungsposition in die Angriffsposition zu bring
 Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit eingrenzen und kontrollieren.
 
 
-** TODO Übersicht
+** DONE Übersicht
+   CLOSED: [2018-09-17 Mon 23:15]
 
-| Situation           |          | Angriff            | Verteidigung               | Done |
-|---------------------+----------+--------------------+----------------------------+------|
-| Bauchlage           | oben     |                    |                            |      |
-|                     | seitlich |                    |                            |      |
-|                     | vorn     |                    |                            |      |
-| Bankstellung        | oben     |                    | Positionswechsel/Aufstehen |      |
-|                     | seitlich |                    | Ura-gatame                 |      |
-|                     | vorn     |                    | Waki-gatame                |      |
-| Zwischen den Beinen |          |                    | Befreien/Durchsteigen      |      |
-| Bein geklammert     |          | Ushiro-kesa-gatame | Partner drehen             | x    |
-|                     |          | Kata-gatame        |                            | x    |
+| Situation           |          | Angriff                                                | Verteidigung                 | Done |
+|---------------------+----------+--------------------------------------------------------+------------------------------+------|
+| Bauchlage           | oben     | Sankaku-juji-gatame, Juji-gatame,                      | Einigeln/Angriff provozieren |      |
+|                     |          | Hadaka-jime, Ushiro-kesa-gatame                        |                              |      |
+|                     | seitlich | Koshi-jime (Krüger-Würge), Sode-kuruma-jime            | Aufstehen                    |      |
+|                     | vorn     | Sankaku-gatame                                         | Über-Rollen                  |      |
+| Bankstellung        | oben     | Sankaku-juji-gatame, Juji-gatame, Kami-shiho-gatame    | Positionswechsel/Aufstehen   |      |
+|                     | seitlich | Okuri-eri-jime (Schlinge), Gyaku-juji-jime (Drehwürge) | Ura-gatame                   |      |
+|                     |          | Ashi-gatame, Kesa-gatame                               |                              |      |
+|                     | vorn     | Sankaku-gatame, Hiza-gatame (Huizinga-Rolle),          | Waki-gatame                  |      |
+| Zwischen den Beinen |          | Juji-gatame (2), Sankaku-gatame,                       | Befreien/Durchsteigen        |      |
+|                     |          | Hiza-gatame, Ude-gatame                                |                              |      |
+| Bein geklammert     |          | Ushiro-kesa-gatame                                     | Partner drehen               | x    |
+|                     |          | Kata-gatame                                            |                              | x    |
 
-** TODO <<<Bauchlage>>> [1/2]
+** DONE <<<Bauchlage>>> [2/2]
+   CLOSED: [2018-09-17 Mon 23:15]
 
-*** TODO Angriff
+*** DONE Angriff
+    CLOSED: [2018-09-17 Mon 23:15]
 
-1. von oben
-   - Sankaku-juji-gatame
-   - Ude-hijigi-juji-gatame
-   - Hadaka-jime
-   - Yoko-shiho-gatame
-2. von der Seite
-   - Ude-garami
-   - Ude-hijigi-juji-gatame
-3. Von vorn
-   - Sankaku-juji-gatame
++ von oben
+  1. Sankaku-juji-gatame (Kashiwazaki--Hebeltechniken S. 32)
+  2. Ude-hijigi-juji-gatame (Kashiwazaki--Hebeltechniken S. 27)
+  3. Hadaka-jime (Kashiwazaki--Shime-waza S. 58)
+  4. Rollen in Ushiro-kesa-gatame (Komlock S. 104)
+     - linker Arm fasst durch die linke Achsel von Uke ins eigene Revers
+     - Drehung um 180 Grad unter Kontrolle von Ukes Schultern
+     - Kopf gegen Hüfte und rechte Hand in Uke Hose am Knie
+     - überrollen 
++ von der Seite
+  1. Koshi-jime (Krüger-Würge)
+  2. Sode-kuruma-jime (Kashiwazaki-Komuro-2 S. 86)
+     - linkes Bein klammert, linker Arm greift durch Uke auf seine rechte Schulter, rechter Arm kontrolliert die Hüfte
+     - Griff ins eigene rechte Revers
++ Von vorn
+  1. Sankaku-gatame
 
 *** DONE Verteidigung
     CLOSED: [2018-09-16 Sun 21:40]
@@ -490,7 +518,7 @@ Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit ei
 + Einschränken der Bewegungsfreiheit und damit den Weg zur Ausführung der Technik versperren
   - festhalten des angreifenden Arms bzw. Hand
   - fixieren des Beines
-  - fixieren der Hüfte durch seitliches rollen
+  - fixieren der Hüfte durch seitliches Rollen
 + Den Partner zwischen die Beine nehmen
   - sich aus dem Partner herausdrehen und ihn zwischen die Beine nehmen, dadurch ist die Kontrolle hergestellt
 + In die Bankstellung wechseln
@@ -498,39 +526,46 @@ Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit ei
 + Aufstehen 
   - solange der Partner einen nicht fixiert hat, versuchen aufzustehen
 
-** TODO <<<Bankstellung>>> [1/2]
 
-*** TODO Angriff
+** DONE <<<Bankstellung>>> [2/2]
+   CLOSED: [2018-09-17 Mon 22:22]
 
-1. von der Seite
-   + a.	Aus einem misslungenen Ippon-Seo-Nage mit Okuri-Eri-Jime beenden
-   + b.	Drehwürge
-   + c.	Ude-Hishigi-Ashi -Gatame
-   + Kesa-Gatame
+*** DONE Angriff
+    CLOSED: [2018-09-17 Mon 22:22]
+
++ von oben
+  1. Sankaku-juji-gatame
+  2. Ude-hijigi-juji-gatame
+  3. Kami-shiho-gatame
+     - Mit beiden Händen von hinten unter den Achselhöhlen des Partners in das jeweilige Reverse fassen
+     - Zur Seite rollen und mit den Beinen den Partner wegstoßen
++ von der Seite
+  1. einen misslungenen Ippon-seoi-nage von Uke mit Okuri-eri-jime (Schlinge) beenden
+  2. Gyaku-juji-jime (Drehwürge)
+  3. Ude-hishigi-ashi-gatame
+  4. Kesa-Gatame
      - Beide Arme des Partners umfassen und zu sich ziehen
      - Partner fällt auf die Seite
      - Kontrolle des Zugarms und Partner fixieren
-2. von vorn
-   + Sankaku Gatame
-3. von oben
-   + Ude-Hijigi-Juji-Gatame
-   + Kami-Shiho-Gatame
-     - Mit beiden Händen von hinten unter den Achselhöhlen des Partners in das jeweilige Reverse fassen
-     - Zur Seite rollen und mit den Beinen den Partner wegstoßen
-   + Sankaku-Juji-Gatame
++ von vorn
+  1. Sankaku-gatame
+  2. Hiza-gatame (Huizinga-Rolle)
+     - Einsteigen in Ukes rechten Arm von vorne, Drehung um 180 Grad, parallel zu Uke
+     - Durchfassen in Ukes rechtes Knie
+     - Durchschwingen
 
 *** DONE Verteidigung
     CLOSED: [2018-09-16 Sun 22:05]
 
 + Tori greift unter dem Arm durch
-  + von oben: Ura-Gatame (Gurke)
-    - Arm fest an sich heranziehen und über dem Ellenbogen Toris fixieren
-    - Zur Seite rollen und mit der anderen Hand ein Bein ergreifen (am besten innen)
-    - Spannung durch Druck mit dem Ellenbogen aufbauen
-  + von vorn: Waki-gatame
-    - Arm fest an sich heranziehen und über dem Ellenbogen Toris fixieren
-    - Fixieren des gegenüberliegenden Beines am Knie
-    - Durchsteigen und hebeln 
+  1. von der Seite: Ura-Gatame (Gurke)
+     - Arm fest an sich heranziehen und über dem Ellenbogen Toris fixieren
+     - Zur Seite rollen und mit der anderen Hand ein Bein ergreifen (am besten innen)
+     - Spannung durch Druck mit dem Ellenbogen aufbauen
+  2. von vorn: Waki-gatame (Kashiwazaki--Hebeltechniken S. 46)
+     - Arm fest an sich heranziehen und über dem Ellenbogen Toris fixieren
+     - Fixieren des Beines am Knie mit diagonalem Arm
+     - Durchsteigen und hebeln
 + Einschränken der Bewegungsfreiheit und damit den Weg zur Ausführung der Technik versperren
   - Festhalten des angreifenden Arms bzw. Hand
   - fixieren des Beines
@@ -540,21 +575,27 @@ Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit ei
 + Aufstehen
   - Beine grätschen und sich in den Grätschwinkelstand drücken
 
-** TODO <<<Zwischen den Beinen>>> [1/2]
 
-*** TODO Angriff
+** DONE <<<Zwischen den Beinen>>> [2/2]
+   CLOSED: [2018-09-17 Mon 22:36]
 
-1. Ude-hijigi-hiza-gatame
-2. Tate-shiho-gatame
-   - Knie weg stoßen und drehen
-   - Partner Beine scheren und drehen
-3.	Schiebewürge
-4.	Würge, in den eigenen Ärmel fassen (Hadaka-jime)
-5.	Kata-juji-jime oder Gyaku-juji-jime unter den Arm hindurch fassen
-6.	Kata-gatame – Partner greift zwischen den Beinen eine Seite an
-7.	Ude-hishigi-juji-gatame – quer zum Partner drehen und umkippen
-8.	Sode-guruma-jime (Ärmelradwürge)
-9.	Ude-hishigi-ude-gatame
+*** DONE Angriff
+    CLOSED: [2018-09-17 Mon 22:36]
+
++ Ude-hishigi-juji-gatame
+  - Schulter fixieren, quer zum Partner drehen und umkippen
++ Ude-hishigi-juji-gatame
+  - Schulter fixieren
+  - Bein überschwingen und durchrollen
++ Sankaku-gatame
+  - Uke greift unters Knie
+  - Schulter fixieren, Arm lang strecken
++ Ude-hijigi-hiza-gatame (Kashiwazaki--Hebeltechniken S. 42)
+  - wie eben, aber Uke wendet sich nach links
+  - Bein überrollen, sodass Kopf Richtung Beine zeigt
++ Ude-gatame (Kashiwazaki--Hebeltechniken S. 43) 
++ Ryote-juji-gatame
++ Sode-guruma-jime (Ärmelradwürge)
 
 *** DONE Verteidigung 
     CLOSED: [2018-09-16 Sun 22:03]
@@ -564,6 +605,7 @@ Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit ei
   - ein Arm geht von außen um das Bein und fasst im Reverse. Das eingeschlossene Bein wird mithilfe des eignen Oberkörpers zum Kopf des Partners gedrückt
 + Hose des Partners in Höhe Fußgelenke fassen, eng zusammenführen und auf die Matte drücken und fixieren. Außen am Partner vorbei gehen
 + Ansatz von Daki-age (Ausheber), um den Angriff zu unterbrechen
+
 
 ** DONE <<<Bein geklammert>>> [2/2]
    CLOSED: [2018-09-16 Sun 22:53]
@@ -578,7 +620,6 @@ Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit ei
    - Fixieren von Kopf und Schulter mithilfe von Kata-gatame
    - Befreien des Fußes mit Unterstützung des anderen Beines (Fußstellung muss seitlich sein!)
    
-
 *** DONE Verteidigung
     CLOSED: [2018-09-16 Sun 22:00]
 
@@ -586,11 +627,91 @@ Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit ei
 + Zum Partner drehen und den Partner nach hinten umkippen (Änderung der Rolle von Verteidigung zu Angriff)
 + Das abgewinkelte Bein mit der Hand zum Partner schieben und damit seine Unterstützungsfläche veringern (Nutzung physikalischer Gesetze)
 
-* Theorie [1/3]
+* DONE Theorie [2/2]
+  CLOSED: [2018-09-17 Mon 21:32]
 
-** TODO Geschichte
+** DONE Geschichte
+   CLOSED: [2018-09-17 Mon 21:31]
 
-** TODO Jigoro Kano
+*** DONE Ursprünge
+    CLOSED: [2018-09-17 Mon 21:31]
+
+Die Wurzeln des <<<Judo>>> reichen bis in die Nara-Zeit (710–784) zurück. In den beiden damaligen Chroniken Japans, dem Kojiki (712) und dem Nihonshoki (720), gibt es Beschreibungen von /Ringkämpfen/, die mythischen Ursprungs sind. Seit 717 fanden am Kaiserhof alljährlich Preisringen statt, an denen Ringer aus allen Provinzen teilnahmen. Dieses Ringen wurde /Sechie-Zumo/ genannt. Die Bushi griffen dieses Sumo auf und entwickelten daraus das /yoroikumiuchi/ (Ringen in voller Rüstung).
+
+Mit dem Aufstieg der Kriegerklasse Ende des 12. Jahrhunderts erlebten die Kampfkünste einen starken Aufschwung. Das kulturelle Geschehen wurde immer mehr vom Geist der Bushi bestimmt. In dieser Zeit entwickelten sich die Ursprünge des legendären Ehrenkodex', der später von Nitobe als Bushido beschrieben wurde.
+
+Im Japan der Ashikaga-Epoche (1136–1568) entwickelten sich unterschiedliche waffenlose Nahkampfsysteme: Eine Variante war /Kogusoku/ (kleine Rüstung). Diese Kampfart war nach den in dieser Zeit neu entwickelten leichteren Rüstungen benannt. In der Literatur und den historischen Dokumenten aus dieser Zeit finden sich weitere Nahkampfsysteme wie /Tai-Jutsu/ ("Körperkunst"), /Torite/ ("Ergreifen der Hände"), /Koshi-no-Mawari/ ("Hüfteindrehen"), /Hobaku/ (/Ergreifen"), /Torinawajutsu/ ("Kunst des Ergreifens und Verbindens").
+
+In der Mitte des 16. Jahrhunderts führten die Portugiesen die Schusswaffen in Japan ein und die Kriegskünste – /bugei/ mit Schwert, Pfeil und Bogen – verloren auf dem Schlachtfeld an Bedeutung. Ihre Traditionen wurden aber in der Edo-Zeit fortgeführt und im Sinne des Prinzips /Bunbu/ (literarische Bildung und militärische Praxis) zur Pflicht gemacht.
+
+Für das Prinzip des Nachgebens /Ju/ in der Kampfkunst gibt es verschiedene Einflüsse, Erklärungen, Legenden und Anekdoten: Im Konjaku-Monogatari findet man zum ersten Mal den Begriff /yawara/ (weich) im Zusammenhang mit einer Geschichte über das japanische Ringen. Stark waren sicherlich auch die chinesischen Einflüsse, denn seit der Ashikaga-Epoche wurde offiziell der Handel mit China aufgenommen und bis zum Ende des 16. Jahrhunderts immer weiter ausgedehnt.
+
+Über die Entstehung des <<<Jiu Jitsu>>> existieren unterschiedliche Berichte, die einen legendenhaften Charakter haben. Ihr historischer Wahrheitsgehalt ist schwer nachzuweisen. Die poetisch schönste ist sicherlich die Legende des Arztes Akiyama Shirobei aus Hizen, der in China Medizin und die Kunst der Selbstverteidigung studiert haben soll. Wieder in Japan, zog er sich in einen Tempel namens Dazai-Tenjin zurück. Der Überlieferung nach war es Winter, und am 21. Tag im Tempel setzte starker Schneefall ein. Er betrachtete die Bäume; ihm fiel auf, dass viele Äste unter der Last des Schnees brachen, die des Weidenbaums aber wegen ihrer Elastizität nachgaben und den Schnee abgleiten ließen. Auf Grund dieses Vorgangs soll der Arzt Shirobei das Prinzip des „Ju“ – Nachgebens – in der Kampfkunst eingeführt haben. In der ersten Hälfte der Edo-Epoche (17./18. Jahrhundert) entwickelten sich unzählige Jiu-Jiutsu- oder artverwandte Schulen – jap. Ryu.
+
+*** DONE Kanō Jigorō
+    CLOSED: [2018-09-17 Mon 21:31]
+
+Mit dem Ende der Tokugawa-Zeit und der Öffnung Japans kam es auch zu starken Veränderungen in der japanischen Gesellschaft. Durch die Meiji-Reform kam es zu einer Fülle von staatlichen, wirtschaftlichen und kulturellen Reformen. Die japanischen Künste wurden stark zurückgedrängt, alles „Westliche“ hatte Vorrang. Doch schon zu Beginn der 1880er-Jahre gab es eine Rückbesinnung in Bezug auf die geistlichen und sittlichen Werte.
+
+/Kanō Jigorō/ (1860–1938) wuchs in diesem Japan der extremen Veränderungen auf. Er lernte Jiu Jitsu an verschiedenen Schulen wie der Tenshinshinyo-Ryu und der Kito-Ryu. 1882 gründete Kanō Jigorō seine eigene Schule, das Kodokan („Ort zum Studium des Wegs“) in der Nähe des Eisho-Tempels im Stadtteil Shitaya in Tokio. Er nannte seine Kunst Judo, da das Kanji (Schriftzeichen) Ju sowohl „sanft“ als auch „Nachgeben“ bedeuten kann und das Zeichen Do ebenfalls mit „Grundsatz“ und nicht nur mit „Weg“ übersetzt werden kann.
+
+Sein System bestand neben Wurftechniken (Nage Waza) aus Bodentechniken (Ne Waza) sowie Schlag-, Tritt- und Stoßtechniken (Atemi Waza), die er dem System der /Kito-Ryu/ und der /Tenshinshinyo-Ryu/ entnommen hatte. Dies waren traditionelle Jiu-Jitsu-Schulen, bei denen Kanō mittlerweile das Menkyo-Kaiden (die universelle Lehrerlaubnis und Meisterwürde) innehatte. Es war sogar eine kleine Sparte Waffentechnik (z. B. mit Schwert und Stöcken) im Curriculum vorhanden. Kanō selektierte zwar einige Techniken aus, welche dem von ihm gefundenen obersten Prinzip /möglichst wirksamer Gebrauch von geistiger und körperlicher Energie/ widersprachen. Dass er dabei aber alle „bösen“ Techniken entfernt hätte, welche geeignet sind, einen Menschen ernsthaft zu verletzen oder zu töten, ist ein weitverbreiteter Irrtum.
+
+Im Jahre 1886 konnten Schüler Kanos einen regulären Kampf zwischen der Kodokan-Schule und der traditionellen Jiu Jitsu-Schule Ryoi-Shinto Ryu für sich entscheiden. Es wird behauptet, Kano habe das Judo durchaus als ernstzunehmende Selbstverteidigungskunst inklusive Schlägen und Fußtritten konzipiert, ohne die ein Sieg über Ryoi-Shinto Ryu nicht möglich gewesen wäre. Aufgrund dieses Erfolgs verbreitete sich Judo in Japan rasch und wurde bald bei der Polizei und der Armee eingeführt. 1911 wurde Judo an allen Mittelschulen Pflichtfach.
+
+Der berühmte japanische Regisseur Akira Kurosawa drehte seinen ersten Film Sanshiro Sugata 1943 über das Judo.
+Nach dem Zweiten Weltkrieg wurde das Kodokan für zwei Jahre zwangsweise geschlossen, 1947 wurde es wiedereröffnet.
+
+*** DONE Der Weg in den Westen
+    CLOSED: [2018-09-17 Mon 21:30]
+
+1906 kamen japanische Kriegsschiffe zu einem Freundschaftsbesuch nach Kiel. Die Gäste führten dem deutschen Kaiser ihre Nahkampfkünste vor. Wilhelm II. war begeistert und ließ seine Kadetten in der neuen Kampfkunst unterrichten. Der damals bedeutendste deutsche Schüler war der Berliner /Erich Rahn/, der im Jahre 1906 die erste deutsche Jiu-Jitsu-Schule gründete. Weitere Pioniere im Judo sind /Alfred Rhode/ und /Heinrich Frantzen/ (Köln). 1926 fanden in Köln im Rahmen der 2. Deutschen Kampfspiele die ersten deutschen Judo-(Jiu-Jitsu)-Meisterschaften statt. 1932 wurde im Frankfurter Waldstadion die erste internationale Judo-Sommerschule durchgeführt. Anlässlich der Judo-Sommerschule wurde am 11. August 1932 der Deutsche Judo-Ring gegründet. Erster Vorsitzender wurde Alfred Rhode. Der Begriff Judo setzte sich, wie schon im restlichen Europa, auch in Deutschland durch. 1933 besuchte Kanō Jigorō mit einigen Schülern auf einer Europareise auch Deutschland und gab Lehrgänge in Berlin und München. Die ersten Judo-Europameisterschaften wurden 1934 im Kristallpalast in Dresden ausgerichtet.
+
+Im August 1933 wurde Judo von den Nationalsozialisten in das Fachamt Schwerathletik des Deutschen Reichsbundes für Leibesübungen (DRL) eingegliedert und verlor damit seine Eigenständigkeit. Nach der Überführung des Deutschen Reichsbundes in den Nationalsozialistischen Reichsbund für Leibesübungen (NSRL) 1937 wurde Judo als eine Wettkampfdisziplin im Rahmen der originären Sportart Jiu Jitsu behandelt. Die letzten deutschen Meisterschaften in der NS-Zeit fanden 1941 in Essen statt.
+
+Nach dem Zweiten Weltkrieg war Judo in Deutschland bis 1948 durch die Alliierten verboten. Nach Gründung des Deutschen Athleten-Bundes (DAB) in Westdeutschland und des Deutschen Sportausschusses (DS) in der SBZ wurde Judo 1949 als Sportart der Schwerathletik wieder zugelassen. 1950 fanden in Dresden die ersten DDR-Einzelmeisterschaften und 1951 in Frankfurt die ersten deutschen Meisterschaften in der Bundesrepublik nach dem Zweiten Weltkrieg statt. Der DAB und der DS veranstalteten bis 1954 gesamtdeutsche Judo-Meisterschaften. 1952 wurde in Westdeutschland das Deutsche Dan-Kollegium (DDK) (Vorsitz: Alfred Rhode) und 1953 der Deutsche Judo-Bund (Vorsitz: Heinrich Frantzen) gegründet. In der DDR existierte seit 1952 die Sektion Judo im Deutschen Sportausschuß (Vorsitz: Lothar Skorning) als Vorläufer des 1958 gegründeten Deutschen Judo-Verbandes der DDR (DJV). Der DJV richtete 1966 die ersten DDR-Meisterschaften für Frauen aus. 1970 fanden in Rüsselsheim die ersten deutschen Meisterschaften der Frauen in der Bundesrepublik statt. 1975 in München war das Geburtsjahr der ersten Frauen-Europameisterschaften.
+
+*** DONE Entwicklung zum Wettkampfsport
+    CLOSED: [2018-09-17 Mon 21:30]
+
+Nach dem Zweiten Weltkrieg veränderte sich Judo immer mehr vom Nahkampfsystem zum Wettkampfsport. Schlag-, Tritt- und andere den Gegner ernsthaft verletzende Techniken wurden als für den Wettkampf unnötig nicht mehr unterrichtet und gerieten dadurch teilweise in Vergessenheit. Die verbliebenen Techniken sind hauptsächlich Würfe (jap. Nage Waza), Falltechniken (jap. Ukemi Waza) und Bodentechniken (jap. Katame Waza). Entgegen der landläufigen Meinung gehören Schlag- und Tritttechniken nach wie vor zum Judo. So sind in Katas wie der Kime-no-Kata oder der Kodokan Goshin-Jutsu immer noch potentiell tödliche Aktionen vorhanden. Allerdings werden Schläge und Tritte wie auch manch andere gefährlichere Techniken im heutigen Judo, wenn überhaupt, erst zur Erlangung höherer Graduierungen als Judo-Selbstverteidigung unterrichtet.
+
+*** DONE Weltmeisterschaften und Olympische Spiele
+    CLOSED: [2018-09-17 Mon 21:30]
+
+1956 fanden in Tokio die ersten Weltmeisterschaften statt. Damals gab es allerdings nur eine offene Gewichtsklasse. 1961 bei den dritten Weltmeisterschaften in Paris wurden dann erstmals Gewichtsklassen eingeführt. Dort gelang es dem Niederländer Anton Geesink erstmals, die Vormachtstellung der Japaner zu brechen und die japanischen Judoka zu besiegen.
+
+Bei den Olympischen Spielen in Tokio 1964 war Judo erstmals als olympischer Sport zu sehen. Der aus Köln stammende Wolfgang Hofmann gewann als erster Deutscher eine Silbermedaille bei den Olympischen Spielen. Zu diesem Anlass brachten die Deutsche Bundespost und auch die Deutsche Post der DDR eine 20-Pfennig-Briefmarke mit Judo-Motiv heraus. 1968 bei den Olympischen Spielen in Mexiko-Stadt wurde Judo zunächst wieder aus dem olympischen Programm gestrichen. Seit 1972 bei den Olympischen Spielen in München gehört Judo beständig zum olympischen Programm. War Judo zunächst eine Männerdomäne, so wurde 1988 Frauen-Judo bei den Olympischen Spielen in Seoul als Demonstrationswettbewerb vorgestellt. Seit den Olympischen Spielen in Barcelona 1992 ist auch Frauen-Judo im olympischen Programm.
+
+Im Jahre 1988 war Judo erstmals bei den Paralympics in Seoul mit dabei. Seit 2004 in Athen gibt es auch Frauen-Judo im Programm der Sommer-Paralympics. Judo wird bei diesen Spielen von Blinden und Menschen mit geringem Sehvermögen praktiziert. Die paralympischen Athleten folgen denselben Regeln wie die Nichtbehinderten. Eventuelle Defizite werden durch zusätzliche Regelungen ausgeglichen. So besteht ein wesentlicher Unterschied darin, dass sich die Kämpfer und Kämpferinnen zur besseren Orientierung vor Kampfbeginn berühren dürfen. 
+
+*** DONE Erfolge
+    CLOSED: [2018-09-17 Mon 21:28]
+
+Die größten Erfolge deutscher Judoka im Überblick:
+
+|------+----------------------+-----------------+------|
+| Jahr | Name                 | Titel           | Land |
+|------+----------------------+-----------------+------|
+| 1979 | Detlef Ultsch        | Weltmeister     | DDR  |
+| 1982 | Barbara Claßen       | Weltmeisterin   | BRD  |
+| 1983 | Detlef Ultsch        | Weltmeister     | DDR  |
+| 1983 | Andreas Preschel     | Weltmeister     | DDR  |
+| 1987 | Alexandra Schreiber  | Weltmeisterin   | BRD  |
+| 1991 | Frauke Eickhoff      | Weltmeisterin   | D    |
+| 1991 | Daniel Lascău        | Weltmeister     | D    |
+| 1991 | Udo Quellmalz        | Weltmeister     | D    |
+| 1993 | Johanna Hagn         | Weltmeisterin   | D    |
+| 1995 | Udo Quellmalz        | Weltmeister     | D    |
+| 2003 | Florian Wanner       | Weltmeister     | D    |
+| 2017 | Alexander Wieczerzak | Weltmeister     | D    |
+|------+----------------------+-----------------+------|
+| 1980 | Dietmar Lorenz       | Olympiasieger   | DDR  |
+| 1984 | Frank Wieneke        | Olympiasieger   | BRD  |
+| 1996 | Udo Quellmalz        | Olympiasieger   | D    |
+| 2004 | Yvonne Bönisch       | Olympiasiegerin | D    |
+| 2008 | Ole Bischof          | Olympiasieger   | D    |
+|------+----------------------+-----------------+------|
 
 ** DONE Die Judo-Prinzipien
    CLOSED: [2018-09-16 Sun 17:00]
@@ -633,7 +754,8 @@ Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit ei
 
  Do Your Best and Await the Result.
 
-* Kata [1/1]
+* DONE Kata [1/1]
+  CLOSED: [2018-09-17 Mon 21:33]
 
 ** DONE <<<Ju-no-Kata>>>
    CLOSED: [2018-09-16 Sun 22:35]
@@ -684,7 +806,9 @@ Die Kata schult Koordination, Körperhaltung, Tai-Sabaki und vor allem feinste K
 
 (s. Kano--Kodokan-Judo S. 204, [[https://www.judobund.de/fileadmin/_horusdam/897-DJB-Regelwerk_Kata-Wettbewerbe-IJF2015.pdf][DJB--Regelwerk-Kata-Wettbewerbe]])
 
-* Literatur
+* TODO Literatur [0/3]
+
+** TODO Bücher
 
 | Jigoro Kano           | Kodokan Judo (dt.)               |
 | Toshiro Daigo         | Kodokan Judo Throwing Techniques |
@@ -695,4 +819,12 @@ Die Kata schult Koordination, Körperhaltung, Tai-Sabaki und vor allem feinste K
 | Bernd Linn            | Judo Kompakt                     |
 | Ralf Lippmann         | Judo Trainer-C-Ausbildung        |
 |                       |                                  |
+
+** TODO DVD
+
+| Huizinga  | Total Judo |
+| Inue      | Samurai    |
+| Quelmaltz |            |
+
+** TODO Web-Links
 

@@ -1,10 +1,13 @@
-#+Title: Skript zur Prüfung zum 4. Dan
+# -*- coding: utf-8 -*-
+#+Title: Skript zur Prüfung zum 4. Dan
 #+Author: Göran Kirchner
 #+Language: de
 
-* Prüfungsprogramm
+#+SETUPFILE: ./theme-readtheorg.setup
 
-** DONE Prüfungsschwerpunkte
+* Prüfungsprogramm
+
+** DONE Prüfungsschwerpunkte
    CLOSED: [2018-09-16 Sun 15:25]
 
 /Ab dem 4. Dan soll die Beschäftigung mit der Theorie der Sportart intensiviert werden.
@@ -31,15 +34,15 @@ Erläuterung der folgenden Wurfprinzipien und Demonstration mit je 2 Techniken a
    + rückwärts (ma-sutemi)
    + seitwärts (yoko-sutemi)
 
-Die oben aufgeführten Wurfprinzipien sollen anhand von jeweils zwei unterschiedlichen Wurftechniken aus jeweils zwei unterschiedlichen, judotypischen, sinnvollen Situationen erläutert und demonstriert werden (nähere Erläuterungen zu den Wurfprinzipien im Begleitskript).
+Die oben aufgeführten Wurfprinzipien sollen anhand von jeweils zwei unterschiedlichen Wurftechniken aus jeweils zwei unterschiedlichen, judotypischen, sinnvollen Situationen erläutert und demonstriert werden (nähere Erläuterungen zu den Wurfprinzipien im Begleitskript).
 
-Der Prüfling muss sich auf alle Prinzipien vorbereiten, die Prüfungskommission soll 2‐3 Beispiele auswählen, um den Zeitrahmen nicht zu sprengen.
+Der Prüfling muss sich auf alle Prinzipien vorbereiten, die Prüfungskommission soll 2‐3 Beispiele auswählen, um den Zeitrahmen nicht zu sprengen.
 
 ** TODO Bodentechnik (stichprobenartig)
 
 Demonstration, Erläuterung und Begründung grundsätzlicher Verhaltensweisen, Prinzipien und Lösungsmöglichkeiten am Boden:
-a) Angriff aus Ober‐ und Unterlage
-b) Abwehr aus Ober‐ und Unterlage
++ Angriff aus Ober‐ und Unterlage
++ Abwehr aus Ober‐ und Unterlage  
 jeweils zu allen Standardsituationen.
 
 Grundsätzliche Verhaltensweisen am Boden, wie /Angriffs‐ und Verteidigungsverhalten/, sowie realistische Lösungsmöglichkeiten gegen alle Standardsituationen müssen erläutert, begründet und ausführlich demonstriert werden können. Dies gilt für das Angriffs‐ und auch für das Verteidigungsverhalten, sowohl in Ober‐ als auch in
@@ -51,14 +54,14 @@ Zu unseren *Standardsituationen* des Bodenkampfes gehören:
 - die Rückenlage (Angriff zwischen den Beinen)
 - die Beinklammer (ein Bein ist geklammert, einfach oder doppelt)
 
-Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfungskommission soll 2‐3 Beispiele auswählen um den Zeitrahmen nicht zu sprengen.
+Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfungskommission soll 2‐3 Beispiele auswählen um den Zeitrahmen nicht zu sprengen.
 
 ** DONE Theorie 
    CLOSED: [2018-09-16 Sun 16:41]
 
 /Geschichtliche Entwicklung und die Judo‐Prinzipien./
 
-/Der Prüfling soll die historische Entwicklung des Judo von den Ursprüngen in Japan bis zur Gegenwart in Deutschland skizzieren können./
+/Der Prüfling soll die historische Entwicklung des Judo von den Ursprüngen in Japan bis zur Gegenwart in Deutschland skizzieren können./
 
 /Er soll die Bedeutung von Jigoro Kano und die von ihm entwickelten Prinzipien, *Seiryoku‐zen‐yo* und *Ji‐ta‐kyo‐ei*, kurz beschreiben und bewerten./
 
@@ -84,7 +87,7 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 | <<<Uki-gatame>>>         | aus dem Ude-hishigi in die Festhalte wechseln (Eckersley), Schienbein gegen Oberkörper |
 | <<<Makura-gesa-gatame>>> | Urform, wobei die Hand, von dem Arm der um den Kopf geht, in das eigene Bein fasst     |
 | (Kashira-gatame)         |                                                                                        |
-| <<<Gyaku-kesa-gatame>>>  | Umgekert; Blick Richtung Beine, Hand im Gürtel                                         |
+| <<<Gyaku-kesa-gatame>>>  | Umgekert; Blick Richtung Beine, Hand im Gürtel                                        |
 | <<<Kata-Gatame>>>        | Arm und Kopf von Uke mit einem Arm umschlingen                                         |
 | <<<Ura-Gatame>>>         | Gurke                                                                                  |
 
@@ -93,7 +96,7 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 
 - von der Seite her auf dem Bauch liegend oder kniend halten
 
-| <<<Yoko-shiho-gatame>>>        | Arm um den Kopf, anderer Arm zwischen den Beinen und Hand in den Gürtel                               |
+| <<<Yoko-shiho-gatame>>>        | Arm um den Kopf, anderer Arm zwischen den Beinen und Hand in den Gürtel                              |
 | <<<Mune-gatame>>>              | Arm um den Kopf, anderer Arm nicht zwischen die Beine                                                 |
 | <<<Kuzure-mune-gatame>>>       | nur den Arm umschlingen                                                                               |
 | <<<Kuzure-yoko-shiho-gatame>>> | 1. Arm nicht um den Kopf, sondern nur Ukes Schulter fixieren                                          |
@@ -336,7 +339,7 @@ Nun schwingt Tori sein linkes Bein über Ukes Kopf und legt die Kniekehle auf Uk
 
 Ukes sich bewegendes Bein wird in Bewegungsrichtung weitergeleitet, gefegt. 
 Der Wurfansatz erfolgt /in dem Moment, in dem Ukes Bein gerade abhebt bzw. aufgesetzt wird/. 
-Das Bein ist noch/schon belastet, aber die Reibung zwischen Fußsohle und Unterstützungsfläche ist schon/noch gering.
+Das Bein ist noch/schon belastet, aber die Reibung zwischen Fußsohle und Unterstützungsfläche ist schon/noch gering.
 
 *** Okuri-ashi-barai [2/2]
 
@@ -372,7 +375,7 @@ Antäuschen von Ko-uchi-gari. Direkter Schritt mit dem rechten Fuß zur Seite un
 
 ** TODO Sicheln (Gari)
 
-Ukes Stützpunkt, ein stehendes, belastetes Bein in Richtung von dessen Zehen mit der Beinrückseite
+Ukes Stützpunkt, ein stehendes, belastetes Bein in Richtung von dessen Zehen mit der Beinrückseite
 oder der Fußsohle wegreißen, sicheln.
 
 *** Ko-uchi-gari [0/2]
@@ -389,36 +392,36 @@ oder der Fußsohle wegreißen, sicheln.
 
 ** TODO Einhängen (Gake)
 
-Tori hängt ein Bein blockierend hinter Ukes stehendes und belastetes Bein ein und drückt bzw.
-schiebt ihn über diese Blockade hinweg.
+Tori hängt ein Bein blockierend hinter Ukes stehendes und belastetes Bein ein und drückt bzw.
+schiebt ihn über diese Blockade hinweg.
 
 ** TODO Blockieren/Stoppen
 
 Ukes vorwärts kommendes oder stehendes Bein wird unterhalb des Körperschwerpunktes mit der
 Fußsohle oder der Beininnenseite blockiert oder gestoppt. Gleichzeitig wird er oberhalb seines
-Schwerpunktes über diese Blockade gezogen.
+Schwerpunktes über diese Blockade gezogen.
 
 ** TODO Verwringen/Rotieren lassen
 
-Tori stellt mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch eine starke Verwringung (gleichzeitige
+Tori stellt mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch eine starke Verwringung (gleichzeitige
 Rotation um die Körperquer- und längsachse) im Oberkörper, verbunden mit einer Kopfdrehung und
 Armzug wird Uke geworfen.
 
 ** TODO Eindrehen
 
 Tori stellt durch Platzwechsel und eine Drehbewegung im Oberkörper Seite-Bauch-Kontakt oder
-Rücken-Bauch-Kontakt zu Uke her. Mit diesem Kontakt wird durch Armzug, Weiterdrehen und/oder
+Rücken-Bauch-Kontakt zu Uke her. Mit diesem Kontakt wird durch Armzug, Weiterdrehen und/oder
 Ausheben geworfen.
 
 ** TODO Einrollen (Maki-komi)
 
-Tori rollt sich um einen Arm oder ein Bein ein (Maki-komi) und überträgt durch weiterrollen die Kraft
+Tori rollt sich um einen Arm oder ein Bein ein (Maki-komi) und überträgt durch weiterrollen die Kraft
 auf Uke.
 
 ** TODO Ausheben
 
-Tori stellt bei gebeugten Beinen mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch Beinstreckung,
-Hüfteinsatz und Armzug wird Uke ausgehoben und geworfen.
+Tori stellt bei gebeugten Beinen mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch Beinstreckung,
+Hüfteinsatz und Armzug wird Uke ausgehoben und geworfen.
 
 ** TODO Selbstfallen/Opfern (Sutemi)
 
@@ -640,7 +643,7 @@ Die Wurzeln des <<<Judo>>> reichen bis in die Nara-Zeit (710–784) zurück. In 
 
 Mit dem Aufstieg der Kriegerklasse Ende des 12. Jahrhunderts erlebten die Kampfkünste einen starken Aufschwung. Das kulturelle Geschehen wurde immer mehr vom Geist der Bushi bestimmt. In dieser Zeit entwickelten sich die Ursprünge des legendären Ehrenkodex', der später von Nitobe als Bushido beschrieben wurde.
 
-Im Japan der Ashikaga-Epoche (1136–1568) entwickelten sich unterschiedliche waffenlose Nahkampfsysteme: Eine Variante war /Kogusoku/ (kleine Rüstung). Diese Kampfart war nach den in dieser Zeit neu entwickelten leichteren Rüstungen benannt. In der Literatur und den historischen Dokumenten aus dieser Zeit finden sich weitere Nahkampfsysteme wie /Tai-Jutsu/ ("Körperkunst"), /Torite/ ("Ergreifen der Hände"), /Koshi-no-Mawari/ ("Hüfteindrehen"), /Hobaku/ (/Ergreifen"), /Torinawajutsu/ ("Kunst des Ergreifens und Verbindens").
+Im Japan der Ashikaga-Epoche (1136–1568) entwickelten sich unterschiedliche waffenlose Nahkampfsysteme: Eine Variante war /Kogusoku/ (kleine Rüstung). Diese Kampfart war nach den in dieser Zeit neu entwickelten leichteren Rüstungen benannt. In der Literatur und den historischen Dokumenten aus dieser Zeit finden sich weitere Nahkampfsysteme wie /Tai-Jutsu/ ("Körperkunst"), /Torite/ ("Ergreifen der Hände"), /Koshi-no-Mawari/ ("Hüfteindrehen"), /Hobaku/ ("Ergreifen"), /Torinawajutsu/ ("Kunst des Ergreifens und Verbindens").
 
 In der Mitte des 16. Jahrhunderts führten die Portugiesen die Schusswaffen in Japan ein und die Kriegskünste – /bugei/ mit Schwert, Pfeil und Bogen – verloren auf dem Schlachtfeld an Bedeutung. Ihre Traditionen wurden aber in der Edo-Zeit fortgeführt und im Sinne des Prinzips /Bunbu/ (literarische Bildung und militärische Praxis) zur Pflicht gemacht.
 

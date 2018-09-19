@@ -3,9 +3,69 @@
 #+Author: Göran Kirchner
 #+Language: de
 
-#+SETUPFILE: ./theme-readtheorg.setup
+#+Startup: showall
+#+Options: toc:nil tex:t H:4 num:4 todo:nil pri:nil tags:nil ^:nil ':t \n:nil stat:nil
+#+Property: header-args :cache yes
+#+Exclude_Tags: noexport
+ 
+#+Setupfile: ./theme-readtheorg.setup
+# #+Setupfile: ./theme-bigblow.setup
 
-* Prüfungsprogramm
+#+INCLUDE: "./preamble-handout.org"
+
+#+BEGIN_SRC elisp :results silent :exports none
+(defun my-org-export-change-options (plist backend)
+  (cond 
+    ((equal backend 'html)
+     (plist-put plist :with-toc t)
+     (plist-put plist :section-numbers nil))
+    ((equal backend 'latex)
+     (plist-put plist :with-toc t)
+     (plist-put plist :section-numbers t)))
+  plist)
+(add-to-list 'org-export-filter-options-functions 'my-org-export-change-options)
+#+END_SRC
+
+#+BEGIN_SRC latex :exports results
+\ifxetex
+  \newcommand{\textls}[2][5]{%
+    \begingroup\addfontfeatures{LetterSpace=#1}#2\endgroup
+  }
+  \renewcommand{\allcapsspacing}[1]{\textls[15]{#1}}
+  \renewcommand{\smallcapsspacing}[1]{\textls[10]{#1}}
+  \renewcommand{\allcaps}[1]{\textls[15]{\MakeTextUppercase{#1}}}
+  \renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+  \renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\fi
+#+END_SRC
+# #+TOC: headlines 0
+
+#+Latex_Header: \usepackage{xeCJK}
+#+Latex_Header: \setCJKmainfont{MS Mincho} % for \rmfamily
+#+Latex_Header: \setCJKsansfont{MS Gothic} % for \sffamily
+# #+Latex_header: \usepackage{CJKutf8}
+#+Latex_Header: \usepackage{booktabs}
+#+Latex_Header: \usepackage[normalem]{ulem}
+#+Latex_Header: \usepackage{soul}
+#+Latex_Header: \setstcolor{red}
+#+LATEX_HEADER: \usepackage{csquotes}
+#+LATEX_HEADER: \usepackage{hyphenat}
+#+LATEX_HEADER: \usepackage[
+#+LATEX_HEADER:   citestyle=numeric-comp, %authoryear, %verbose,
+#+LATEX_HEADER:   autocite=inline,
+#+LATEX_HEADER:   natbib=true,
+#+LATEX_HEADER:   backend=biber
+#+LATEX_HEADER: ]{biblatex}
+
+# #+LATEX_HEADER: \addbibresource{./judo.bib}
+# #+Latex_Header: \sisetup{output-decimal-marker={,}, load-configurations=abbreviations, group-separator={.}, per-mode=fraction, group-digits=integer}
+
+#+Latex: \newpage
+* TODO Einleitung
+
+#+Latex: \newpage
+* DONE Prüfungsprogramm
+  CLOSED: [2018-09-18 Tue 08:01]
 
 ** DONE Prüfungsschwerpunkte
    CLOSED: [2018-09-16 Sun 15:25]
@@ -16,7 +76,7 @@ Die langjährige Erfahrung, die gesteigerten Kenntnisse und die daraus entstehen
 ** DONE Vorkenntnisse 
    CLOSED: [2018-09-16 Sun 15:25]
 
-/Alle Techniken der Kyu‐ und Dan‐ Ausbildungsstufen (außer Kata) können stichprobenartig abgeprüft werden./
+Alle Techniken der Kyu‐ und Dan‐ Ausbildungsstufen (außer Kata) können stichprobenartig abgeprüft werden.
 
 ** TODO Standtechnik (stichprobenartig)
 
@@ -59,19 +119,20 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfungs
 ** DONE Theorie 
    CLOSED: [2018-09-16 Sun 16:41]
 
-/Geschichtliche Entwicklung und die Judo‐Prinzipien./
+Geschichtliche Entwicklung und die Judo‐Prinzipien.
 
-/Der Prüfling soll die historische Entwicklung des Judo von den Ursprüngen in Japan bis zur Gegenwart in Deutschland skizzieren können./
+Der Prüfling soll die historische Entwicklung des Judo von den Ursprüngen in Japan bis zur Gegenwart in Deutschland skizzieren können.
 
-/Er soll die Bedeutung von Jigoro Kano und die von ihm entwickelten Prinzipien, *Seiryoku‐zen‐yo* und *Ji‐ta‐kyo‐ei*, kurz beschreiben und bewerten./
+Er soll die Bedeutung von Jigoro Kano und die von ihm entwickelten Prinzipien, *Seiryoku‐zen‐yo* und *Ji‐ta‐kyo‐ei*, kurz beschreiben und bewerten.
 
 ** DONE Kata 
    CLOSED: [2018-09-16 Sun 16:43]
 
-/Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*./
+Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
 
 
-* Vorkenntnisse [0/1]
+#+Latex: \newpage
+* TODO Vorkenntnisse [0/1]
 
 *** TODO Ne-waza (Bodentechnik)
 
@@ -290,7 +351,9 @@ Nun schwingt Tori sein linkes Bein über Ukes Kopf und legt die Kniekehle auf Uk
 
 [fn:gyaku-hara] Tori kniet neben Uke und umschlingt mit dem linken Arm Ukes linken Arm von innen. Er dreht sich dann nach außen und schlüsselt über den Bauch. Ukes Arm ist dabei gebeugt. Bei gestrecktem Arm wäre es Gyaku-hara-gatame
 
-* Standtechnik [1/10]
+
+#+Latex: \newpage
+* TODO Standtechnik [1/10]
 
 ** TODO Übersicht
 
@@ -429,6 +492,7 @@ Tori gibt sein Gleichgewicht auf, lässt sich fallen. Unter Ausnutzung der so en
 wird Uke mit Armzug zum Teil auch Beineinsatz geworfen.
 
 
+#+Latex: \newpage
 * DONE Bodentechnik [6/6]
   CLOSED: [2018-09-17 Mon 23:21]
 
@@ -630,6 +694,7 @@ Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit ei
 + Zum Partner drehen und den Partner nach hinten umkippen (Änderung der Rolle von Verteidigung zu Angriff)
 + Das abgewinkelte Bein mit der Hand zum Partner schieben und damit seine Unterstützungsfläche veringern (Nutzung physikalischer Gesetze)
 
+#+Latex: \newpage
 * DONE Theorie [2/2]
   CLOSED: [2018-09-17 Mon 21:32]
 
@@ -751,12 +816,13 @@ Die größten Erfolge deutscher Judoka im Überblick:
 *** DONE Onore o tsukushite naru o matsu! [尽己竢成]
     CLOSED: [2018-09-16 Sun 12:05]
 
- #+BEGIN_QUOTE
- 「己を尽して成るを竢つ」
- #+END_QUOTE
+#+BEGIN_QUOTE
+「己を尽して成るを竢つ」
+#+END_QUOTE
 
  Do Your Best and Await the Result.
 
+#+Latex: \newpage
 * DONE Kata [1/1]
   CLOSED: [2018-09-17 Mon 21:33]
 
@@ -809,7 +875,8 @@ Die Kata schult Koordination, Körperhaltung, Tai-Sabaki und vor allem feinste K
 
 (s. Kano--Kodokan-Judo S. 204, [[https://www.judobund.de/fileadmin/_horusdam/897-DJB-Regelwerk_Kata-Wettbewerbe-IJF2015.pdf][DJB--Regelwerk-Kata-Wettbewerbe]])
 
-* TODO Literatur [0/3]
+#+Latex: \newpage
+* TODO Quellen [0/3]
 
 ** TODO Bücher
 

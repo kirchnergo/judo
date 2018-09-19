@@ -1,6 +1,12 @@
-% Created 2018-09-18 Tue 00:53
+% Created 2018-09-19 Wed 22:46
 % Intended LaTeX compiler: pdflatex
-\documentclass[11pt]{article}
+\documentclass[justified, a4paper, notitlepage, captions=tableheading, nobib]{tufte-handout}
+    \usepackage{color}
+    \usepackage{amssymb}
+    \usepackage{amsmath}
+    \usepackage{gensymb}
+    \usepackage{nicefrac}
+    \usepackage{units}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -14,12 +20,109 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman, germanb]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{atbegshi}
+\usepackage{footnote}
+\usepackage{minitoc}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{fancyvrb}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{listings}
+\usepackage{rotating}
+\usepackage{multicol}
+\usepackage{pdflscape}
+\usepackage{ctable}
+\usepackage{parskip}
+\usepackage{anysize}
+\usepackage{supertabular}
+\usepackage{minted}
+\usepackage{gensymb}
+\usepackage{nicefrac}
+\usepackage{units}
+\usepackage{siunitx}
+\usepackage{marginfix}
+\usepackage{hyphenat}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{tabu}
+\usepackage{tabulary}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{upquote}
+\usepackage{pdfpages}
+\usepackage{tabulary}
+\usepackage{minted}
+\newgeometry{left=0.12\paperwidth,top=1in,headsep=2\baselineskip,
+textwidth=0.7\paperwidth,marginparsep=1ex,marginparwidth=0.1\paperwidth,
+textheight=44\baselineskip,headheight=\baselineskip}
+\definecolor{darkblue}{rgb}{0,0,.5}
+\definecolor{darkgreen}{rgb}{0,.5,0}
+\definecolor{islamicgreen}{rgb}{0.0, 0.56, 0.0}
+\definecolor{darkred}{rgb}{0.5,0,0}
+\definecolor{mintedbg}{rgb}{0.95,0.95,0.95}
+\definecolor{arsenic}{rgb}{0.23, 0.27, 0.29}
+\definecolor{prussianblue}{rgb}{0.0, 0.19, 0.33}
+\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+\definecolor{cobalt}{rgb}{0.0, 0.28, 0.67}
+\definecolor{moonstoneblue}{rgb}{0.45, 0.66, 0.76}
+\definecolor{aliceblue}{rgb}{0.94, 0.97, 1.0}
+\hypersetup{colorlinks=true, breaklinks=true, linkcolor=coolblack, anchorcolor=blue, citecolor=islamicgreen, filecolor=blue,  menucolor=blue,  urlcolor=violet}
+\renewcommand\thefootnote{\textcolor{darkred}{\arabic{footnote}}}
+\renewcommand{\theFancyVerbLine}{\sffamily\textcolor[rgb]{0.7,0.7,0.7}{\tiny\arabic{FancyVerbLine}}}
+\setcounter{secnumdepth}{2}
+\titleformat{\section}{\normalfont\Large\bfseries\color{black}} {\llap{\colorbox{coolblack}{\parbox{1.5cm}{\hfill\color{white}\thesection}}}}{1em}{}[]
+\titleformat{\subsection}{\normalfont\large\bfseries\color{black}} {\llap{\colorbox{aliceblue}{\parbox{1.5cm}{\hfill\color{coolblack}\thesubsection}}}}{1em}{}[]
+\titleformat{\paragraph}{\normalfont\large\bfseries\color{black}} {}{1em}{}[]
+\titleformat{\subparagraph}{\normalfont\large\bfseries\color{black}} {}{1em}{}[]
+\makeatletter
+% Paragraph indentation and separation for normal text
+\renewcommand{\@tufte@reset@par}{%
+\setlength{\RaggedRightParindent}{0.0pc}%
+\setlength{\JustifyingParindent}{0.0pc}%
+\setlength{\parindent}{0pc}%
+\setlength{\parskip}{6pt}%
+}
+\@tufte@reset@par
+% Paragraph indentation and separation for marginal text
+\renewcommand{\@tufte@margin@par}{%
+\setlength{\RaggedRightParindent}{0.0pc}%
+\setlength{\JustifyingParindent}{0.0pc}%
+\setlength{\parindent}{0.0pc}%
+\setlength{\parskip}{3pt}%
+}
+\makeatother
+\usepackage{xeCJK}
+\setCJKmainfont{MS Mincho} % for \rmfamily
+\setCJKsansfont{MS Gothic} % for \sffamily
+\usepackage{booktabs}
+\usepackage[normalem]{ulem}
+\usepackage{soul}
+\setstcolor{red}
+\usepackage{csquotes}
+\usepackage{hyphenat}
+\usepackage[
+citestyle=numeric-comp, %authoryear, %verbose,
+autocite=inline,
+natbib=true,
+backend=biber
+]{biblatex}
 \author{Göran Kirchner}
 \date{\today}
-\title{Skript zur Prüfung zum 4. Dan}
+\title{Skript zur Prüfung zum 4. Dan}
 \hypersetup{
  pdfauthor={Göran Kirchner},
- pdftitle={Skript zur Prüfung zum 4. Dan},
+ pdftitle={Skript zur Prüfung zum 4. Dan},
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 26.1 (Org mode 9.1.6)}, 
@@ -29,21 +132,35 @@
 \maketitle
 \tableofcontents
 
+\ifxetex
+  \newcommand{\textls}[2][5]{%
+    \begingroup\addfontfeatures{LetterSpace=#1}#2\endgroup
+  }
+  \renewcommand{\allcapsspacing}[1]{\textls[15]{#1}}
+  \renewcommand{\smallcapsspacing}[1]{\textls[10]{#1}}
+  \renewcommand{\allcaps}[1]{\textls[15]{\MakeTextUppercase{#1}}}
+  \renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+  \renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\fi
 
-\section{Prüfungsprogramm}
-\label{sec:org400afce}
+\newpage
+\section{Einleitung}
+\label{sec:org7e0a785}
 
-\subsection{{\bfseries\sffamily DONE} Prüfungsschwerpunkte}
-\label{sec:org21b9a0f}
+\newpage
+\section{Prüfungsprogramm}
+\label{sec:orgc460068}
+\subsection{Prüfungsschwerpunkte}
+\label{sec:org53cf2dd}
 \emph{Ab dem 4. Dan soll die Beschäftigung mit der Theorie der Sportart intensiviert werden.
 Die langjährige Erfahrung, die gesteigerten Kenntnisse und die daraus entstehende Kreativität sollen in dieser Stufe zum Ausdruck kommen und möglichst auch an andere weitergegeben werden.}
 
-\subsection{{\bfseries\sffamily DONE} Vorkenntnisse}
-\label{sec:org0ff9001}
-\emph{Alle Techniken der Kyu‐ und Dan‐ Ausbildungsstufen (außer Kata) können stichprobenartig abgeprüft werden.}
+\subsection{Vorkenntnisse}
+\label{sec:org097b516}
+Alle Techniken der Kyu‐ und Dan‐ Ausbildungsstufen (außer Kata) können stichprobenartig abgeprüft werden.
 
-\subsection{{\bfseries\sffamily TODO} Standtechnik (stichprobenartig)}
-\label{sec:org07ba888}
+\subsection{Standtechnik (stichprobenartig)}
+\label{sec:org60a6063}
 
 Erläuterung der folgenden Wurfprinzipien und Demonstration mit je 2 Techniken aus je 2 sinnvollen Situationen:
 \begin{enumerate}
@@ -63,16 +180,18 @@ Erläuterung der folgenden Wurfprinzipien und Demonstration mit je 2 Techniken a
 \end{itemize}
 \end{enumerate}
 
-Die oben aufgeführten Wurfprinzipien sollen anhand von jeweils zwei unterschiedlichen Wurftechniken aus jeweils zwei unterschiedlichen, judotypischen, sinnvollen Situationen erläutert und demonstriert werden (nähere Erläuterungen zu den Wurfprinzipien im Begleitskript).
+Die oben aufgeführten Wurfprinzipien sollen anhand von jeweils zwei unterschiedlichen Wurftechniken aus jeweils zwei unterschiedlichen, judotypischen, sinnvollen Situationen erläutert und demonstriert werden (nähere Erläuterungen zu den Wurfprinzipien im Begleitskript).
 
-Der Prüfling muss sich auf alle Prinzipien vorbereiten, die Prüfungskommission soll 2‐3 Beispiele auswählen, um den Zeitrahmen nicht zu sprengen.
+Der Prüfling muss sich auf alle Prinzipien vorbereiten, die Prüfungskommission soll 2‐3 Beispiele auswählen, um den Zeitrahmen nicht zu sprengen.
 
-\subsection{{\bfseries\sffamily TODO} Bodentechnik (stichprobenartig)}
-\label{sec:org2cba4d7}
+\subsection{Bodentechnik (stichprobenartig)}
+\label{sec:org0c724dd}
 
 Demonstration, Erläuterung und Begründung grundsätzlicher Verhaltensweisen, Prinzipien und Lösungsmöglichkeiten am Boden:
-a) Angriff aus Ober‐ und Unterlage
-b) Abwehr aus Ober‐ und Unterlage
+\begin{itemize}
+\item Angriff aus Ober‐ und Unterlage
+\item Abwehr aus Ober‐ und Unterlage
+\end{itemize}
 jeweils zu allen Standardsituationen.
 
 Grundsätzliche Verhaltensweisen am Boden, wie \emph{Angriffs‐ und Verteidigungsverhalten}, sowie realistische Lösungsmöglichkeiten gegen alle Standardsituationen müssen erläutert, begründet und ausführlich demonstriert werden können. Dies gilt für das Angriffs‐ und auch für das Verteidigungsverhalten, sowohl in Ober‐ als auch in
@@ -80,81 +199,81 @@ Unterlage.
 
 Zu unseren \textbf{Standardsituationen} des Bodenkampfes gehören:
 \begin{itemize}
-\item die \hyperref[orgf42100a]{Bauchlage}
+\item die \hyperref[org22fd945]{Bauchlage}
 \item die Bankposition
-\item die Rückenlage (Angriff \hyperref[orgd3451e7]{zwischen den Beinen})
+\item die Rückenlage (Angriff \hyperref[org891f77f]{zwischen den Beinen})
 \item die Beinklammer (ein Bein ist geklammert, einfach oder doppelt)
 \end{itemize}
 
-Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfungskommission soll 2‐3 Beispiele auswählen um den Zeitrahmen nicht zu sprengen.
+Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfungskommission soll 2‐3 Beispiele auswählen um den Zeitrahmen nicht zu sprengen.
 
-\subsection{{\bfseries\sffamily DONE} Theorie}
-\label{sec:orgdbd830f}
-\emph{Geschichtliche Entwicklung und die \hyperref[org5f8b831]{Judo}‐Prinzipien.}
+\subsection{Theorie}
+\label{sec:org924c5c3}
+Geschichtliche Entwicklung und die \hyperref[org4f88021]{Judo}‐Prinzipien.
 
-\emph{Der Prüfling soll die historische Entwicklung des \hyperref[org5f8b831]{Judo} von den Ursprüngen in Japan bis zur Gegenwart in Deutschland skizzieren können.}
+Der Prüfling soll die historische Entwicklung des \hyperref[org4f88021]{Judo} von den Ursprüngen in Japan bis zur Gegenwart in Deutschland skizzieren können.
 
-\emph{Er soll die Bedeutung von Jigoro Kano und die von ihm entwickelten Prinzipien, \textbf{Seiryoku‐zen‐yo} und \textbf{Ji‐ta‐kyo‐ei}, kurz beschreiben und bewerten.}
+Er soll die Bedeutung von Jigoro Kano und die von ihm entwickelten Prinzipien, \textbf{Seiryoku‐zen‐yo} und \textbf{Ji‐ta‐kyo‐ei}, kurz beschreiben und bewerten.
 
-\subsection{{\bfseries\sffamily DONE} Kata}
-\label{sec:org0f3bd67}
-\emph{Wahlweise \textbf{Kodokan‐goshin‐jutsu} oder \textbf{Ju‐no‐kata}.}
+\subsection{Kata}
+\label{sec:orgfcb2e2e}
+Wahlweise \textbf{Kodokan‐goshin‐jutsu} oder \textbf{Ju‐no‐kata}.
 
 
-\section{Vorkenntnisse [0/1]}
-\label{sec:org0dce2f1}
+\newpage
+\section{Vorkenntnisse }
+\label{sec:org613a240}
 
-\subsubsection{{\bfseries\sffamily TODO} Ne-waza (Bodentechnik)}
-\label{sec:org5516c4d}
+\paragraph{Ne-waza (Bodentechnik)}
+\label{sec:org29a9d8b}
+
+\subparagraph{Osae-komi-waza (Haltetechnik) [抑込技] }
+\label{sec:orga7ea790}
 
 \begin{enumerate}
-\item {\bfseries\sffamily TODO} Osae-komi-waza (Haltetechnik) [抑込技] [2/4]
-\label{sec:orga734bce}
-
-\begin{enumerate}
-\item {\bfseries\sffamily DONE} \label{org0fccb72}Kesa-gatame (Schulterschärpe)
-\label{sec:org82cdeb3}
+\item \label{org5004057}Kesa-gatame (Schulterschärpe)
+\label{sec:orge29b077}
 \begin{itemize}
 \item neben dem Gegner auf einer Seite liegend oder kniend halten
 \end{itemize}
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org3ab0f91}Hon-kesa-gatame & Urform der \hyperref[org0fccb72]{Kesa-gatame}\\
-\label{org71a3940}Kuzure-kesa-gatame & nicht um den Kopf, sondern unter den Arm fassen\\
-\label{orgb1f51e2}Uki-gatame & aus dem Ude-hishigi in die Festhalte wechseln (Eckersley), Schienbein gegen Oberkörper\\
-\label{org61850d2}Makura-gesa-gatame & Urform, wobei die Hand, von dem Arm der um den Kopf geht, in das eigene Bein fasst\\
+\label{org291fffc}Hon-kesa-gatame & Urform der \hyperref[org5004057]{Kesa-gatame}\\
+\label{org5362391}Kuzure-kesa-gatame & nicht um den Kopf, sondern unter den Arm fassen\\
+\label{orga060fd7}Uki-gatame & aus dem Ude-hishigi in die Festhalte wechseln (Eckersley), Schienbein gegen Oberkörper\\
+\label{org82db592}Makura-gesa-gatame & Urform, wobei die Hand, von dem Arm der um den Kopf geht, in das eigene Bein fasst\\
 (Kashira-gatame) & \\
-\label{orgb717a37}Gyaku-kesa-gatame & Umgekert; Blick Richtung Beine, Hand im Gürtel\\
-\label{org9c0034c}Kata-Gatame & Arm und Kopf von Uke mit einem Arm umschlingen\\
-\label{orgac6ca0d}Ura-Gatame & \hyperref[org68a906c]{Gurke}\\
+\label{org11607e3}Gyaku-kesa-gatame & Umgekert; Blick Richtung Beine, Hand im Gürtel\\
+\label{org86532d5}Kata-Gatame & Arm und Kopf von Uke mit einem Arm umschlingen\\
+\label{org763a96e}Ura-Gatame & \hyperref[org297d645]{Gurke}\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily DONE} \hyperref[org6ebb80c]{Yoko-shiho-gatame} (Seitenvierer)
-\label{sec:org0940a0e}
+\item \hyperref[org5eab229]{Yoko-shiho-gatame} (Seitenvierer)
+\label{sec:orgf7d7d2f}
 \begin{itemize}
 \item von der Seite her auf dem Bauch liegend oder kniend halten
 \end{itemize}
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org6ebb80c}Yoko-shiho-gatame & Arm um den Kopf, anderer Arm \hyperref[orgd3451e7]{zwischen den Beinen} und Hand in den Gürtel\\
-\label{orgaf7dc4e}Mune-gatame & Arm um den Kopf, anderer Arm nicht zwischen die Beine\\
-\label{orgbc77a84}Kuzure-mune-gatame & nur den Arm umschlingen\\
-\label{orgbf5a1de}Kuzure-yoko-shiho-gatame & 1. Arm nicht um den Kopf, sondern nur Ukes Schulter fixieren\\
- & 2. Arm nicht \hyperref[orgd3451e7]{zwischen den Beinen}, Kopf und Arm fixieren\\
-\label{orgaf24e04}Gyaku-yoko-shiho-gatame & \label{org68a906c}Gurke\\
+\label{org5eab229}Yoko-shiho-gatame & Arm um den Kopf, anderer Arm \hyperref[org891f77f]{zwischen den Beinen} und Hand in den Gürtel\\
+\label{org671197b}Mune-gatame & Arm um den Kopf, anderer Arm nicht zwischen die Beine\\
+\label{org1519daf}Kuzure-mune-gatame & nur den Arm umschlingen\\
+\label{org1addcf5}Kuzure-yoko-shiho-gatame & 1. Arm nicht um den Kopf, sondern nur Ukes Schulter fixieren\\
+ & 2. Arm nicht \hyperref[org891f77f]{zwischen den Beinen}, Kopf und Arm fixieren\\
+\label{orgd632f9b}Gyaku-yoko-shiho-gatame & \label{org297d645}Gurke\\
  & - mit dem Rücken zum Partner und Arm unter die Achselhöhle hindurch führen und an der Hand festhalten\\
  & - mit der anderen Hand das Bein festhalten.\\
-\label{org3ed6c8f}Kata-osae-gatame & Arm um Kopf, Ukes Arm eingeklemmt\\
-\label{orgfd3884e}Yoko-ashi-shiho-gatame & wie, \hyperref[org3ed6c8f]{Kata-osae-gatame}, zusätzlich Ukes Fuß eingeklemmt\\
-\label{orge789cfc}Yoko-sankaku-gatame & Uke \hyperref[orgbc37293]{Bankstellung} und Tori steigt vom Kopf her ein. Endposition: Tori liegt im rechten Winkel zu Uke\\
+\label{orgf24bc8b}Kata-osae-gatame & Arm um Kopf, Ukes Arm eingeklemmt\\
+\label{org118e3bf}Yoko-ashi-shiho-gatame & wie, \hyperref[orgf24bc8b]{Kata-osae-gatame}, zusätzlich Ukes Fuß eingeklemmt\\
+\label{orgfa4f309}Yoko-sankaku-gatame & Uke \hyperref[orgf15b76f]{Bankstellung} und Tori steigt vom Kopf her ein. Endposition: Tori liegt im rechten Winkel zu Uke\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} \hyperref[org22a024c]{Kami-shiho-gatame} (oberer Vierer)
-\label{sec:org1d34853}
+\item \hyperref[org450423b]{Kami-shiho-gatame} (oberer Vierer)
+\label{sec:orgaa82343}
 
 \begin{itemize}
 \item über dem Gegner vom Kopf her auf dem Bauch liegend oder kniend halten
@@ -162,15 +281,15 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org22a024c}Kami-shiho-gatame & bei Hände in den Gürtel\\
-\label{org32acce5}Kuzure-kami-shiho-gatame & ein Arm umschlingt Ukes Arm von unten und greift in Ukes Kragen.\\
-\label{org374da7d}Ura-shiho-gatame & Tori greift beide Reverse\\
-\label{org0859ddc}Kami-sankaku-gatame & Angriff von Ukes Kopf und Endposition gegenparallel liegen. Wie \hyperref[orge789cfc]{Yoko-sankaku-gatame}, nur das Tori mit dem Kopf zu den Füßen geht\\
+\label{org450423b}Kami-shiho-gatame & bei Hände in den Gürtel\\
+\label{orgbc5ae4b}Kuzure-kami-shiho-gatame & ein Arm umschlingt Ukes Arm von unten und greift in Ukes Kragen.\\
+\label{orgc459d90}Ura-shiho-gatame & Tori greift beide Reverse\\
+\label{orge0f842d}Kami-sankaku-gatame & Angriff von Ukes Kopf und Endposition gegenparallel liegen. Wie \hyperref[orgfa4f309]{Yoko-sankaku-gatame}, nur das Tori mit dem Kopf zu den Füßen geht\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} \hyperref[orgb3d4b16]{Tate-shiho-gatame} (Reitvierer)
-\label{sec:orga67a830}
+\item \hyperref[orga2331bb]{Tate-shiho-gatame} (Reitvierer)
+\label{sec:org091334b}
 
 \begin{itemize}
 \item über dem Gegner liegend bzw. kniend halten
@@ -178,96 +297,96 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 
 \begin{center}
 \begin{tabular}{ll}
-\label{orgb3d4b16}Tate-shiho-gatame & ein Arm von Uke wird umschlungen\\
-\label{org7e39a78}Kuzure-tate-shiho-gatame & Tori schiebt seinen Arm unter Ukes Kopf hindurch und umschlingt den Hals\\
-\label{org9ca201f}Tate-sankaku-gatame & Ausgangsposition Tori hat Uke zwischen den Beine und setzt Sankaku an und dreht Uke über die Seite bis er oben sitzt\\
-\label{org6cec0f2}Tate-obi-shiho-gatame & \\
+\label{orga2331bb}Tate-shiho-gatame & ein Arm von Uke wird umschlungen\\
+\label{org13348d8}Kuzure-tate-shiho-gatame & Tori schiebt seinen Arm unter Ukes Kopf hindurch und umschlingt den Hals\\
+\label{org1230ab7}Tate-sankaku-gatame & Ausgangsposition Tori hat Uke zwischen den Beine und setzt Sankaku an und dreht Uke über die Seite bis er oben sitzt\\
+\label{org43dc6de}Tate-obi-shiho-gatame & \\
 \end{tabular}
 \end{center}
 \end{enumerate}
 
 
-\item {\bfseries\sffamily TODO} Shime-Waza (Würgetechnik) [絞技] [5/7]
-\label{sec:org23b3ec4}
+\subparagraph{Shime-Waza (Würgetechnik) [絞技] }
+\label{sec:org77c8662}
 
 \begin{enumerate}
-\item {\bfseries\sffamily DONE} Juji-jime
-\label{sec:org422b1ae}
+\item Juji-jime
+\label{sec:org89ab3b5}
 \begin{itemize}
 \item mit beiden Händen unter Kreuzen der Unterarme würgen
 \end{itemize}
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org872312a}Nami-juji-jime & beide Daumen innen\\
-\label{orgd4a5a2b}Gyaku-juji-jime & beide Daumen außen\\
-\label{org464a722}Kata-juji-jime & ein Daumen außen und einen innen\\
-\label{org76eba16}Tomeo-jime & Einseitig ein Reverse fassen und den Kopf einfangen\\
-\label{orgdc4236f}Sode-kuruma-jime & in den eigenen Ärmel fassen und Ukes Hals zwischen den Unterarmen einklemmen\\
-\label{org4fedd56}Drehwürge (Mahrenke) & eine Hand im Nacken die andere ins gleiche Revers unter den Arm durch, Ellenbogen eindrehen und unter den Partner rollen\\
+\label{org9bf3950}Nami-juji-jime & beide Daumen innen\\
+\label{org8d8f888}Gyaku-juji-jime & beide Daumen außen\\
+\label{org7081c5f}Kata-juji-jime & ein Daumen außen und einen innen\\
+\label{org83e4891}Tomeo-jime & Einseitig ein Reverse fassen und den Kopf einfangen\\
+\label{orga86277e}Sode-kuruma-jime & in den eigenen Ärmel fassen und Ukes Hals zwischen den Unterarmen einklemmen\\
+\label{org58795e5}Drehwürge (Mahrenke) & eine Hand im Nacken die andere ins gleiche Revers unter den Arm durch, Ellenbogen eindrehen und unter den Partner rollen\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily DONE} \hyperref[orgfb63c6b]{Okuri-eri-jime}
-\label{sec:orgbe66074}
+\item \hyperref[org55ecd66]{Okuri-eri-jime}
+\label{sec:org3a3bea7}
 \begin{itemize}
 \item durch Ziehen des Kragens würgen
 \end{itemize}
 
 \begin{center}
 \begin{tabular}{ll}
-\label{orgfb63c6b}Okuri-eri-jime & Urform\footnotemark, Variante: \label{org8b18817}Schlinge\\
-\label{org533548d}Gyaku-okuri-eri-jime & Uke in Bankstelleung und Tori greift von vorn um Ukes Hals.\\
-\label{orgce15c01}Koshi-jime & (\label{org8b732ab}Krüger-Würge)\footnotemark\\
-\label{orgd9b1751}Jigoku-jime & \href{https://www.youtube.com/watch?v=5kHjF5OkwMs}{Tori kontrolliert beide Arme von Uke. Ein Arm Ukes wird mit dem Bein blockiert, der andere mit dem Arm.}\\
-\label{org281fd20}Kingston-Rolle & Kontrolle des Knies und durchrollen\footnotemark\\
+\label{org55ecd66}Okuri-eri-jime & Urform\footnotemark, Variante: \label{orgd82ac5e}Schlinge\\
+\label{org3cfa6ca}Gyaku-okuri-eri-jime & Uke in Bankstelleung und Tori greift von vorn um Ukes Hals.\\
+\label{org5efae84}Koshi-jime & (\label{orge0fd603}Krüger-Würge)\footnotemark\\
+\label{orgdfb9ad4}Jigoku-jime & \href{https://www.youtube.com/watch?v=5kHjF5OkwMs}{Tori kontrolliert beide Arme von Uke. Ein Arm Ukes wird mit dem Bein blockiert, der andere mit dem Arm.}\\
+\label{org48b7cbe}Kingston-Rolle & Kontrolle des Knies und durchrollen\footnotemark\\
 \end{tabular}
-\end{center}\footnotetext[1]{\label{orgd8a9f9d}Recht Hand geht unter Ukes Kinn und greift in dessen linkes Reverse. Reverse mit der linken Hand straff halten, damit Tori besser greifen kann. Die linke Hand greift in das andere Reverse, um es straff zu halten}\footnotetext[2]{\label{orgab9531e}Uke greift mit Seoi-Nage an. Tori übernimmt mit \hyperref[orgfb63c6b]{Okuri-eri-jime}. Linke Hand blockiert Ukes rechte Seite, in dem er unter dem Arm durch greift. Die Würge zieht durch vorbringen der Hüfte zwischen Toris Arm und Ukes Schulter.}\footnotetext[3]{\label{org3b78bc2}Uke ist in der \hyperref[orgbc37293]{Bankstellung}. Tori greift mit der rechten Hand unter dem Kinn Ukes in dessen rechtes Reverse. Die andere Hand greift in den Gürtel und das linke Bein wird über Uke zwischen dessen Arm und Bein gesteckt. Das Bein wird als Schwungbein für eine Rolle genutzt. Tori dreht durch die Rolle Uke um.  Er baut Spannung zwischen der rechten Hand am Hals und der linken Hand an den Beinen auf.}
+\end{center}\footnotetext[1]{\label{org720190f}Recht Hand geht unter Ukes Kinn und greift in dessen linkes Reverse. Reverse mit der linken Hand straff halten, damit Tori besser greifen kann. Die linke Hand greift in das andere Reverse, um es straff zu halten}\footnotetext[2]{\label{orgbffd7ba}Uke greift mit Seoi-Nage an. Tori übernimmt mit \hyperref[org55ecd66]{Okuri-eri-jime}. Linke Hand blockiert Ukes rechte Seite, in dem er unter dem Arm durch greift. Die Würge zieht durch vorbringen der Hüfte zwischen Toris Arm und Ukes Schulter.}\footnotetext[3]{\label{orgfebce20}Uke ist in der \hyperref[orgf15b76f]{Bankstellung}. Tori greift mit der rechten Hand unter dem Kinn Ukes in dessen rechtes Reverse. Die andere Hand greift in den Gürtel und das linke Bein wird über Uke zwischen dessen Arm und Bein gesteckt. Das Bein wird als Schwungbein für eine Rolle genutzt. Tori dreht durch die Rolle Uke um.  Er baut Spannung zwischen der rechten Hand am Hals und der linken Hand an den Beinen auf.}
 
-\item {\bfseries\sffamily DONE} \hyperref[org9b25391]{Kata-ha-jime}
-\label{sec:org538436a}
+\item \hyperref[orgdb81931]{Kata-ha-jime}
+\label{sec:org17123dd}
 \begin{itemize}
 \item Würgen unter Festlegung von Arm bzw. Schulter
 \end{itemize}
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org9b25391}Kata-ha-jime & Urform\footnotemark\\
-\label{org880cf97}Kaeshi-jime & Uke in \hyperref[orgbc37293]{Bankstellung}. Tori führt von vorn unter Ukes Arm hindurch hinter Ukes Kopf und dann drehen.\\
-\label{org4db1615}Gyaku-gaeshi-jime & Ansatz wie \hyperref[org880cf97]{Kaeshi-Jime}. Uke baut Gegendruck auf. Tori dreht in die andere Richtung.\\
-\label{org404d9c1}Othen-jime & \hyperref[org9b25391]{Kata-ha-jime}, wobei Tori ein Arm Ukes mit dem Bein fixiert\\
+\label{orgdb81931}Kata-ha-jime & Urform\footnotemark\\
+\label{org1610b8e}Kaeshi-jime & Uke in \hyperref[orgf15b76f]{Bankstellung}. Tori führt von vorn unter Ukes Arm hindurch hinter Ukes Kopf und dann drehen.\\
+\label{orge63c1dd}Gyaku-gaeshi-jime & Ansatz wie \hyperref[org1610b8e]{Kaeshi-Jime}. Uke baut Gegendruck auf. Tori dreht in die andere Richtung.\\
+\label{org2e9467d}Othen-jime & \hyperref[orgdb81931]{Kata-ha-jime}, wobei Tori ein Arm Ukes mit dem Bein fixiert\\
 \end{tabular}
-\end{center}\footnotetext[4]{\label{org053f059}Tori sitzt hinter Uke. Recht Hand geht unter Ukes Kinn und greift in dessen linkes Revers. Die linke Hand schiebt sich unter Ukes linken Arm hin durch und führt seinen Arm hinter Ukes Kopf bzw. Nacken.}
+\end{center}\footnotetext[4]{\label{org7dfb940}Tori sitzt hinter Uke. Recht Hand geht unter Ukes Kinn und greift in dessen linkes Revers. Die linke Hand schiebt sich unter Ukes linken Arm hin durch und führt seinen Arm hinter Ukes Kopf bzw. Nacken.}
 
-\item {\bfseries\sffamily DONE} \hyperref[orgaed2942]{Hadaka-Jime}
-\label{sec:org3791a66}
+\item \hyperref[org2ffc91d]{Hadaka-Jime}
+\label{sec:orgf7d5150}
 \begin{itemize}
 \item ohne Hilfe des Judogi würgen
 \end{itemize}
 
 \begin{center}
 \begin{tabular}{ll}
-\label{orgaed2942}Hadaka-jime & Urform\footnotemark\\
-\label{orgc19b903}Ushiro-jime & Tori ist hinter Uke und schiebt seinen unter Arm unter Ukes Halt durch. Tori greift Hand in Hand und würgt.\\
-\label{org94ab00d}Sode-jime & Wie \hyperref[orgdc4236f]{Sode-kuruma-jime}, nur den Arm greifen und nicht den eigenen Ärmel. Ausgangsposition \hyperref[orgd3451e7]{zwischen den Beinen}.\\
+\label{org2ffc91d}Hadaka-jime & Urform\footnotemark\\
+\label{org75f758d}Ushiro-jime & Tori ist hinter Uke und schiebt seinen unter Arm unter Ukes Halt durch. Tori greift Hand in Hand und würgt.\\
+\label{orgfd3d28f}Sode-jime & Wie \hyperref[orga86277e]{Sode-kuruma-jime}, nur den Arm greifen und nicht den eigenen Ärmel. Ausgangsposition \hyperref[org891f77f]{zwischen den Beinen}.\\
 \end{tabular}
-\end{center}\footnotetext[5]{\label{orgf2f40d0}Tori legt die Innenseite seines rechten Unterarms vorn an Ukes Hals, schließt über dessen linker Schulter die Hände zusammen, und übt durch kombinierte Aktion der Arme Druck auf Ukes Kehle aus.}
+\end{center}\footnotetext[5]{\label{orgf03858e}Tori legt die Innenseite seines rechten Unterarms vorn an Ukes Hals, schließt über dessen linker Schulter die Hände zusammen, und übt durch kombinierte Aktion der Arme Druck auf Ukes Kehle aus.}
 
-\item {\bfseries\sffamily DONE} \hyperref[org4d43bbc]{Ryo-te-jime}
-\label{sec:org01e4b86}
+\item \hyperref[org0f55f76]{Ryo-te-jime}
+\label{sec:orgf023de9}
 \begin{itemize}
 \item die Revers ergreifen und mit Parallegriff würgen
 \end{itemize}
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org4d43bbc}Ryo-te-jime & Tori greift mit beiden Händen in Uke Revers in Höhe dessen Halses. Beide Daumen innen. Beide Hände nach außen drehen\\
-\label{orgaf130ed}Maki-komi-jime & ähnlich \hyperref[org76eba16]{Tomeo-jime}. Angriff von unten \hyperref[orgd3451e7]{zwischen den Beinen}.\\
+\label{org0f55f76}Ryo-te-jime & Tori greift mit beiden Händen in Uke Revers in Höhe dessen Halses. Beide Daumen innen. Beide Hände nach außen drehen\\
+\label{orga16281d}Maki-komi-jime & ähnlich \hyperref[org83e4891]{Tomeo-jime}. Angriff von unten \hyperref[org891f77f]{zwischen den Beinen}.\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} \hyperref[org5205198]{Katate-jime}
-\label{sec:orgaaa1370}
+\item \hyperref[orgbcc0361]{Katate-jime}
+\label{sec:org0f406f6}
 
 \begin{itemize}
 \item Hauptsächlich mit einer Hand würgen
@@ -275,14 +394,14 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org5205198}Katate-jime & \href{https://www.youtube.com/watch?v=aKEQKdlSjlE}{Urform}\\
-\label{org1fce139}Tsuki-komi-jime & \label{org0b2eb1a}Schiebewürge\\
-\label{org380b150}Ebi-jime & \\
+\label{orgbcc0361}Katate-jime & \href{https://www.youtube.com/watch?v=aKEQKdlSjlE}{Urform}\\
+\label{org47e81fd}Tsuki-komi-jime & \label{orge7ae3d1}Schiebewürge\\
+\label{orgcea1797}Ebi-jime & \\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} \hyperref[org5e2c0a8]{Ashi-jime}
-\label{sec:org8f4671d}
+\item \hyperref[orga3793aa]{Ashi-jime}
+\label{sec:org683cc72}
 
 \begin{itemize}
 \item mit Hilfe von Fuß oder Bein würgen
@@ -290,46 +409,46 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org5e2c0a8}Ashi-jime & Urform\\
-\label{orge50870b}Kata-jime & \\
-\label{org6a85f6d}Kagato-jime & \\
-\label{org4c71131}Hasami-jime & \\
-\label{orgc7f9485}Kensui-jime & \\
-\label{org64c6b3b}Kami-shiho-ashi-jime & \\
-\label{org0af0618}Sankaku-jime & \\
+\label{orga3793aa}Ashi-jime & Urform\\
+\label{org24ef5cd}Kata-jime & \\
+\label{org0f4d879}Kagato-jime & \\
+\label{orga49f349}Hasami-jime & \\
+\label{orgf3fa491}Kensui-jime & \\
+\label{org105cb03}Kami-shiho-ashi-jime & \\
+\label{orgcb06698}Sankaku-jime & \\
 \end{tabular}
 \end{center}
 \end{enumerate}
 
-\item {\bfseries\sffamily TODO} Kansetsu-Waza (Hebeltechnik) [関節技] [0/7]
-\label{sec:org047dbb4}
+\subparagraph{Kansetsu-Waza (Hebeltechnik) [関節技] }
+\label{sec:orgfb30679}
 
 \begin{itemize}
 \item Ude-hishigi-waza (Streckhebel)
-\item \hyperref[org3627c27]{Ude-garami}-waza (Beugehebel)
+\item \hyperref[org52f11cf]{Ude-garami}-waza (Beugehebel)
 \end{itemize}
 
 \begin{enumerate}
-\item {\bfseries\sffamily TODO} Juji-gatame
-\label{sec:org73b01be}
+\item Juji-gatame
+\label{sec:org08cc7c7}
 
 \begin{itemize}
-\item den \hyperref[orgd3451e7]{zwischen den Beinen} befindlichen Arm über die Leistengegend hebeln
+\item den \hyperref[org891f77f]{zwischen den Beinen} befindlichen Arm über die Leistengegend hebeln
 \end{itemize}
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org4898d0b}Ude-hishigi-juji-gatame & Urform\\
-\label{org968259e}Nami-juji-gatame & ein Bein vor dem Körper\\
-\label{org05dd446}Gyaku-juji-gatame & \hyperref[orgd3451e7]{zwischen den Beinen}; Bein von außen über den Arm schwingen und in der Seiten oder \hyperref[orgf42100a]{Bauchlage} hebeln\\
-\label{org7f23cbd}Kami-juji-gatame & \\
-\label{orgcb5e5d0}Yoko-juji-gatame & \\
-\label{orgb590763}Othen-gatame & ein Bein über dem Körper das andere hinder dem Kopf fixiert den anderen Arm.\\
+\label{orgfcb6e26}Ude-hishigi-juji-gatame & Urform\\
+\label{org61e3694}Nami-juji-gatame & ein Bein vor dem Körper\\
+\label{org3151e34}Gyaku-juji-gatame & \hyperref[org891f77f]{zwischen den Beinen}; Bein von außen über den Arm schwingen und in der Seiten oder \hyperref[org22fd945]{Bauchlage} hebeln\\
+\label{org579a66b}Kami-juji-gatame & \\
+\label{org85c3a81}Yoko-juji-gatame & \\
+\label{orgd826776}Othen-gatame & ein Bein über dem Körper das andere hinder dem Kopf fixiert den anderen Arm.\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} \hyperref[orgca3a14b]{Ude-gatame}
-\label{sec:org5334305}
+\item \hyperref[org79aac92]{Ude-gatame}
+\label{sec:org4ab833c}
 
 \begin{itemize}
 \item mit beiden Händen auf Arm oder Ellenbogen drückend hebeln
@@ -337,15 +456,15 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 
 \begin{center}
 \begin{tabular}{ll}
-\label{orgca3a14b}Ude-gatame & \\
-\label{org2e51b6d}Gyaku-ude-gatame & \hyperref[orgd3451e7]{zwischen den Beinen} und Tori stößt ein Bein von Uke weg, Uke fällt auf den Bauch, Tori hebelt mit \hyperref[orgca3a14b]{Ude-gatame}\\
-\label{orgeb279df}Hizi-maki-komi & \\
-\label{org72836bb}Kuzure-hizi-maki-komi & \\
+\label{org79aac92}Ude-gatame & \\
+\label{org78cd888}Gyaku-ude-gatame & \hyperref[org891f77f]{zwischen den Beinen} und Tori stößt ein Bein von Uke weg, Uke fällt auf den Bauch, Tori hebelt mit \hyperref[org79aac92]{Ude-gatame}\\
+\label{org33ae6ac}Hizi-maki-komi & \\
+\label{org26a988e}Kuzure-hizi-maki-komi & \\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} \hyperref[orga92f42c]{Ashi-gatame}
-\label{sec:org79977bd}
+\item \hyperref[org6644df8]{Ashi-gatame}
+\label{sec:org1b330de}
 
 \begin{itemize}
 \item mit Hilfe von Bein oder Knie hebeln
@@ -353,18 +472,18 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 
 \begin{center}
 \begin{tabular}{ll}
-\label{orga92f42c}Ashi-gatame & \\
-\label{orga0a2132}Hiza-gatame & Uke \hyperref[orgd3451e7]{zwischen den Beinen}, Arm von außen umschlingen, Ukes Knie weg stoßen, Tori Knie unterstützt das Hebeln\\
-\hyperref[orga0a2132]{Hiza-gatame} (2) & Tori sitzt neben Uke an der Seite und hebelt den Arm über das Knie. Die andere Hand fixiert die Schulter\\
-\label{orgb044bf8}Kami-hiza-gatame & Tori sitzt auf Uke und hebelt den Arm über das Knie.\\
-\label{org63601e1}Yoko-hiza-gatame & \\
-\label{org622d8b5}Ryo-hiza-gatame & Tori sitzt auf Uke und hebelt beide Arme über je ein Knie.\\
-\label{org2c7b0dd}Kesa-ashi-gatame & \hyperref[org0fccb72]{Kesa-Gatame} und Uke fixierten Arm unter das Bein bringen und hebeln.\\
+\label{org6644df8}Ashi-gatame & \\
+\label{orgbe98664}Hiza-gatame & Uke \hyperref[org891f77f]{zwischen den Beinen}, Arm von außen umschlingen, Ukes Knie weg stoßen, Tori Knie unterstützt das Hebeln\\
+\hyperref[orgbe98664]{Hiza-gatame} (2) & Tori sitzt neben Uke an der Seite und hebelt den Arm über das Knie. Die andere Hand fixiert die Schulter\\
+\label{org16a2734}Kami-hiza-gatame & Tori sitzt auf Uke und hebelt den Arm über das Knie.\\
+\label{org581bcdf}Yoko-hiza-gatame & \\
+\label{org564edcd}Ryo-hiza-gatame & Tori sitzt auf Uke und hebelt beide Arme über je ein Knie.\\
+\label{org4fb3d04}Kesa-ashi-gatame & \hyperref[org5004057]{Kesa-Gatame} und Uke fixierten Arm unter das Bein bringen und hebeln.\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} Hara-gatame
-\label{sec:org1499000}
+\item Hara-gatame
+\label{sec:org2249301}
 
 \begin{itemize}
 \item mit dem Bauch oder der Körpervorderseite hebeln
@@ -372,14 +491,14 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfung
 
 \begin{center}
 \begin{tabular}{ll}
-Hara-gatame & Uke \hyperref[orgbc37293]{Bankstellung} und den Arm über den Bauch hebeln\\
-\hyperref[org2e51b6d]{Gyaku-ude-gatame} & \hyperref[orgd3451e7]{zwischen den Beinen}, dann Uke umdrehen, Arm fixieren und in der eigenen Rückenlage über den Bauch hebeln\\
+Hara-gatame & Uke \hyperref[orgf15b76f]{Bankstellung} und den Arm über den Bauch hebeln\\
+\hyperref[org78cd888]{Gyaku-ude-gatame} & \hyperref[org891f77f]{zwischen den Beinen}, dann Uke umdrehen, Arm fixieren und in der eigenen Rückenlage über den Bauch hebeln\\
 Kuzure-hara-gatame & aus Kuzure-gesa-gatame den Fuß über Uke Kopf bringen\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} \hyperref[org78b6927]{Waki-gatame}
-\label{sec:org16b1cce}
+\item \hyperref[orgef65a86]{Waki-gatame}
+\label{sec:org96e0df8}
 
 \begin{itemize}
 \item mit einer Körperseite oder der Achsel hebeln
@@ -387,13 +506,13 @@ Kuzure-hara-gatame & aus Kuzure-gesa-gatame den Fuß über Uke Kopf bringen\\
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org78b6927}Waki-gatame & parallel in \hyperref[orgbc37293]{Bankstellung} über die Achsel hebeln\\
-\label{orgbe01075}Gyaku-waki-gatame & gegenparallel in der \hyperref[orgbc37293]{Bankstellung}, Arm in der Achselhöhle eingeklemmt und hebeln\\
+\label{orgef65a86}Waki-gatame & parallel in \hyperref[orgf15b76f]{Bankstellung} über die Achsel hebeln\\
+\label{orga3b3020}Gyaku-waki-gatame & gegenparallel in der \hyperref[orgf15b76f]{Bankstellung}, Arm in der Achselhöhle eingeklemmt und hebeln\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} \hyperref[org84d30c4]{Kannuki-gatame}
-\label{sec:orgdeafc6a}
+\item \hyperref[org4348818]{Kannuki-gatame}
+\label{sec:orgc20ec1e}
 
 \begin{itemize}
 \item den Arm mit den Unterarmen verriegeln und hebeln
@@ -401,16 +520,16 @@ Kuzure-hara-gatame & aus Kuzure-gesa-gatame den Fuß über Uke Kopf bringen\\
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org84d30c4}Kannuki-gatame & Uke Arm von außen umschlingen. Die andere Hand drückt gegen Ukes Oberarm bzw. Bizeps\\
-\label{orga60e3ab}Gyaku-kannuki-gatame & \\
-\label{org908bda4}Mune-kannuki-gatame & in \hyperref[orgaf7dc4e]{Mune-gatame} Ukes Arm strecken und hebeln\\
-\label{org73eaae9}Kami-shiho-kannuki-gatame & kuzure-kami-shiho gatame den Arm strecken, der andere Arm fasst den Oberarm\\
-\label{org01ecf47}Ryo-kannuki-gatame & beide Arme von außen umschlingen\\
+\label{org4348818}Kannuki-gatame & Uke Arm von außen umschlingen. Die andere Hand drückt gegen Ukes Oberarm bzw. Bizeps\\
+\label{orgf17188b}Gyaku-kannuki-gatame & \\
+\label{org9ae3228}Mune-kannuki-gatame & in \hyperref[org671197b]{Mune-gatame} Ukes Arm strecken und hebeln\\
+\label{orgdc60222}Kami-shiho-kannuki-gatame & kuzure-kami-shiho gatame den Arm strecken, der andere Arm fasst den Oberarm\\
+\label{org7761768}Ryo-kannuki-gatame & beide Arme von außen umschlingen\\
 \end{tabular}
 \end{center}
 
-\item {\bfseries\sffamily TODO} \hyperref[org3627c27]{Ude-garami}
-\label{sec:org0239140}
+\item \hyperref[org52f11cf]{Ude-garami}
+\label{sec:orgd43133a}
 
 \begin{itemize}
 \item Ukes gebeugten Arm hebeln
@@ -418,25 +537,25 @@ Kuzure-hara-gatame & aus Kuzure-gesa-gatame den Fuß über Uke Kopf bringen\\
 
 \begin{center}
 \begin{tabular}{ll}
-\label{org3627c27}Ude-garami & aus der \hyperref[orgf42100a]{Bauchlage} den gebeugten Arm schlüsseln.\\
-\label{org42a5426}Ashi-garami & \\
-\label{orgf69b104}Gyaku-ude-garami & aus der eigenen Rückenlage Ukes Schulter fixieren und den Arm nach hinten schieben,\\
+\label{org52f11cf}Ude-garami & aus der \hyperref[org22fd945]{Bauchlage} den gebeugten Arm schlüsseln.\\
+\label{org66e3f90}Ashi-garami & \\
+\label{org0c41154}Gyaku-ude-garami & aus der eigenen Rückenlage Ukes Schulter fixieren und den Arm nach hinten schieben,\\
  & Toris rechte Hand fasst Ukes linkes Handgelenk\\
-\label{orgdd7adbe}Kesa-garami & \hyperref[org0fccb72]{Kesa-gatame} und den Arm nach oben zum Garami unter das vordere Bein schieben\\
-\label{org1361116}Waki-garami & \\
-\label{orgb499e22}Gyaku-waki-garami & \\
-\label{orgc740ab9}Hara-garami & wie Hara-gatame, nur Uke Arm ist gebeugt\\
-\label{orgcb05beb}Gyaku-hara-garami & \\
+\label{org8e9c384}Kesa-garami & \hyperref[org5004057]{Kesa-gatame} und den Arm nach oben zum Garami unter das vordere Bein schieben\\
+\label{orgd437243}Waki-garami & \\
+\label{org503d226}Gyaku-waki-garami & \\
+\label{org453d5db}Hara-garami & wie Hara-gatame, nur Uke Arm ist gebeugt\\
+\label{org6a75ace}Gyaku-hara-garami & \\
 \end{tabular}
 \end{center}
-\end{enumerate}
-\end{enumerate}
 
-\section{Standtechnik [1/10]}
-\label{sec:org7e4ff60}
+\newpage
+\end{enumerate}
+\section{Standtechnik }
+\label{sec:org11ec6cd}
 
-\subsection{{\bfseries\sffamily TODO} Übersicht}
-\label{sec:org68113e1}
+\subsection{Übersicht}
+\label{sec:orgdf1b0dd}
 
 \begin{center}
 \begin{tabular}{llll}
@@ -482,123 +601,116 @@ Selbstfallen & Tomoe-nage & Standard & x\\
 \end{tabular}
 \end{center}
 
-\subsection{{\bfseries\sffamily DONE} Fegen (Barai)}
-\label{sec:orgda2a4aa}
+\subsection{Fegen (Barai)}
+\label{sec:orge058659}
 Ukes sich bewegendes Bein wird in Bewegungsrichtung weitergeleitet, gefegt. 
 Der Wurfansatz erfolgt \emph{in dem Moment, in dem Ukes Bein gerade abhebt bzw. aufgesetzt wird}. 
-Das Bein ist noch/schon belastet, aber die Reibung zwischen Fußsohle und Unterstützungsfläche ist schon/noch gering.
+Das Bein ist noch/schon belastet, aber die Reibung zwischen Fußsohle und Unterstützungsfläche ist schon/noch gering.
 
-\subsubsection{Okuri-ashi-barai [2/2]}
-\label{sec:orga121678}
+\paragraph{Okuri-ashi-barai }
+\label{sec:org81f1009}
 
-\begin{enumerate}
-\item {\bfseries\sffamily DONE} Standard
-\label{sec:org58f054c}
+\subparagraph{Standard}
+\label{sec:org303cf08}
 Ausgangsposition ist Kenka-yotsu. Tori leitet aktiv die Bewegung von Uke ein. Er macht mit seinem rechten Bein einen Schritt zurück und zieht gleichzeitig mit der rechten Hand (Tai Sabaki). Tori leitet eine Halbkreisbewegung ein, der Uke folgt. Uke setzt sein linkes Bein vor und zieht sein rechtes nach. Diese Bewegung nutzt Tori aus und fegt Ukes rechtes Bein mit seinem linken Fuß während Uke es nachzieht mit Okuri-Ashi-Barai.
 
-\item {\bfseries\sffamily DONE} Finte Harai-goshi
-\label{sec:org2e5fdda}
+\subparagraph{Finte Harai-goshi}
+\label{sec:org4a1cb2b}
 Tori greift mit Harai-goshi an. Dabei wird aber zunächst nur der Zug ausgeübt, der Uke veranlasst eine seitliche Bewegung nach Links auszuführen. 
 Diese Bewegung wird von Tori ausgenutzt, der einen Schritt zur rechten Seite macht und Okuri-ashi-barai wirft.
 
 (s. Sato--Ashi-waza S. 77)
-\end{enumerate}
 
-\subsubsection{De-ashi-barai [3/3]}
-\label{sec:org91ed5cb}
+\paragraph{De-ashi-barai }
+\label{sec:orgae00eb1}
 
-\begin{enumerate}
-\item {\bfseries\sffamily DONE} Vorwärtsbewegung
-\label{sec:org89adaf5}
+\subparagraph{Vorwärtsbewegung}
+\label{sec:org8cd550d}
 Uke ist in der Rückwärtsbewegung und kurz nachdem Uke sein linkes Bein entlastet hat, fegt es Tori mit seinem rechten Fuß weg. Tori Armzug beschreibt eine Kreisbewegung – rechte Hand nach unten und linke Hand nach rechts zur Seite. Dadurch wird Ukes Gleichgewicht vollständig gebrochen und geworfen.
 
-\item {\bfseries\sffamily DONE} Rückwärtsbewegung
-\label{sec:orgcd44ee0}
+\subparagraph{Rückwärtsbewegung}
+\label{sec:orgb491c57}
 Uke ist in der Vorwärtsbewegung und kurz bevor Uke sein linkes Bein belastet, fegt es Tori mit seinem rechten Fuß weg. Tori Armzug beschreibt eine Kreisbewegung – rechte Hand nach unten und linke Hand nach rechts zur Seite. Dadurch wird Ukes Gleichgewicht vollständig gebrochen und geworfen.
 
-\item {\bfseries\sffamily DONE} Finte Ko-uchi-gari
-\label{sec:org879ecb3}
+\subparagraph{Finte Ko-uchi-gari}
+\label{sec:org624a49e}
 Antäuschen von Ko-uchi-gari. Direkter Schritt mit dem rechten Fuß zur Seite und Fegen des rechten Fußes von Uke, welches leicht vorgeschoben ist.
-\end{enumerate}
 
-\subsection{{\bfseries\sffamily TODO} Sicheln (Gari)}
-\label{sec:org5da500e}
+\subsection{Sicheln (Gari)}
+\label{sec:org9b98dcf}
 
-Ukes Stützpunkt, ein stehendes, belastetes Bein in Richtung von dessen Zehen mit der Beinrückseite
+Ukes Stützpunkt, ein stehendes, belastetes Bein in Richtung von dessen Zehen mit der Beinrückseite
 oder der Fußsohle wegreißen, sicheln.
 
-\subsubsection{Ko-uchi-gari [0/2]}
-\label{sec:orgbc1baa4}
+\paragraph{Ko-uchi-gari }
+\label{sec:org0cadafe}
 
-\begin{enumerate}
-\item {\bfseries\sffamily TODO} Standard
-\label{sec:orgd8cb33f}
+\subparagraph{Standard}
+\label{sec:org02f70b5}
 
-\item {\bfseries\sffamily TODO} Keiji Suzuki
-\label{sec:org4c12383}
-\end{enumerate}
+\subparagraph{Keiji Suzuki}
+\label{sec:org2c36a9f}
 
-\subsubsection{O-soto-gari [0/2]}
-\label{sec:org1033809}
+\paragraph{O-soto-gari }
+\label{sec:org930c3de}
 
-\begin{enumerate}
-\item {\bfseries\sffamily TODO} Standard
-\label{sec:org6fd7a1c}
+\subparagraph{Standard}
+\label{sec:org2dd75c9}
 
-\item {\bfseries\sffamily TODO} Gegenwurf O-soto-gari
-\label{sec:orgd23b2c7}
-\end{enumerate}
+\subparagraph{Gegenwurf O-soto-gari}
+\label{sec:org12b7fce}
 
-\subsection{{\bfseries\sffamily TODO} Einhängen (Gake)}
-\label{sec:org5a70f5f}
+\subsection{Einhängen (Gake)}
+\label{sec:orgbfa053b}
 
-Tori hängt ein Bein blockierend hinter Ukes stehendes und belastetes Bein ein und drückt bzw.
-schiebt ihn über diese Blockade hinweg.
+Tori hängt ein Bein blockierend hinter Ukes stehendes und belastetes Bein ein und drückt bzw.
+schiebt ihn über diese Blockade hinweg.
 
-\subsection{{\bfseries\sffamily TODO} Blockieren/Stoppen}
-\label{sec:org33280a4}
+\subsection{Blockieren/Stoppen}
+\label{sec:org74da32a}
 
 Ukes vorwärts kommendes oder stehendes Bein wird unterhalb des Körperschwerpunktes mit der
 Fußsohle oder der Beininnenseite blockiert oder gestoppt. Gleichzeitig wird er oberhalb seines
-Schwerpunktes über diese Blockade gezogen.
+Schwerpunktes über diese Blockade gezogen.
 
-\subsection{{\bfseries\sffamily TODO} Verwringen/Rotieren lassen}
-\label{sec:org8d68053}
+\subsection{Verwringen/Rotieren lassen}
+\label{sec:orgf560606}
 
-Tori stellt mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch eine starke Verwringung (gleichzeitige
+Tori stellt mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch eine starke Verwringung (gleichzeitige
 Rotation um die Körperquer- und längsachse) im Oberkörper, verbunden mit einer Kopfdrehung und
 Armzug wird Uke geworfen.
 
-\subsection{{\bfseries\sffamily TODO} Eindrehen}
-\label{sec:orgd95ccfc}
+\subsection{Eindrehen}
+\label{sec:org97cdf7f}
 
 Tori stellt durch Platzwechsel und eine Drehbewegung im Oberkörper Seite-Bauch-Kontakt oder
-Rücken-Bauch-Kontakt zu Uke her. Mit diesem Kontakt wird durch Armzug, Weiterdrehen und/oder
+Rücken-Bauch-Kontakt zu Uke her. Mit diesem Kontakt wird durch Armzug, Weiterdrehen und/oder
 Ausheben geworfen.
 
-\subsection{{\bfseries\sffamily TODO} Einrollen (Maki-komi)}
-\label{sec:org0c7a311}
+\subsection{Einrollen (Maki-komi)}
+\label{sec:org383bde5}
 
-Tori rollt sich um einen Arm oder ein Bein ein (Maki-komi) und überträgt durch weiterrollen die Kraft
+Tori rollt sich um einen Arm oder ein Bein ein (Maki-komi) und überträgt durch weiterrollen die Kraft
 auf Uke.
 
-\subsection{{\bfseries\sffamily TODO} Ausheben}
-\label{sec:org220640b}
+\subsection{Ausheben}
+\label{sec:orgb2c87ea}
 
-Tori stellt bei gebeugten Beinen mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch Beinstreckung,
-Hüfteinsatz und Armzug wird Uke ausgehoben und geworfen.
+Tori stellt bei gebeugten Beinen mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch Beinstreckung,
+Hüfteinsatz und Armzug wird Uke ausgehoben und geworfen.
 
-\subsection{{\bfseries\sffamily TODO} Selbstfallen/Opfern (Sutemi)}
-\label{sec:org1badea6}
+\subsection{Selbstfallen/Opfern (Sutemi)}
+\label{sec:orgd8130a1}
 
 Tori gibt sein Gleichgewicht auf, lässt sich fallen. Unter Ausnutzung der so entstandenen Energie
 wird Uke mit Armzug zum Teil auch Beineinsatz geworfen.
 
 
-\section{{\bfseries\sffamily DONE} Bodentechnik [6/6]}
-\label{sec:org5b55b2b}
-\subsection{{\bfseries\sffamily DONE} Grundsätzliches Verhalten am Boden}
-\label{sec:org81bebe0}
+\newpage
+\section{Bodentechnik }
+\label{sec:org0068814}
+\subsection{Grundsätzliches Verhalten am Boden}
+\label{sec:org2b679cc}
 \begin{enumerate}
 \item den Gegner kontrollieren (belasten, fixieren) 
 \begin{itemize}
@@ -617,16 +729,16 @@ wird Uke mit Armzug zum Teil auch Beineinsatz geworfen.
 \end{itemize}
 \end{enumerate}
 
-\subsubsection{{\bfseries\sffamily DONE} Angriff}
-\label{sec:org9248aea}
+\paragraph{Angriff}
+\label{sec:orgc62c8af}
 Bei allen Angriffen ist darauf zu achten, dass es Uke nicht gelingen kann aufzustehen. 
 Er muss fixiert werden. Sonst wird der Bodenkampf unterbrochen und der Angriff kann nicht zu Ende geführt werden.
 Erst den Partner sicher fixieren bzw. unter Kontrolle haben, bevor die Zieltechnik erarbeitet und vollendet wird.
 
 Man sollte sich ein Angriffsportfolio aufbauen. Der Partner kann auf einen Angriff in verschiedenen Varianten reagieren. Für jede Reaktion sollte mindestens eine Folgetechnik im Repertoire sein. Hier auch die Empfehlung, viele Bodenrandori mit unterschiedlichen Partnern zu absolvieren. Dabei zeigen sich oft neue Reaktionen auf, für die man sich eine Technik erarbeiten kann. Dadurch kann das eigene Portfolio kontinuierlich erweitert werden. 
 
-\subsubsection{{\bfseries\sffamily DONE} Verteidigung}
-\label{sec:org3796010}
+\paragraph{Verteidigung}
+\label{sec:orgb6cd0a8}
 Die Verteidigung hat zwei Punkte. 
 \begin{enumerate}
 \item Eigene Sicherheit herstellen,
@@ -636,38 +748,38 @@ Ziel ist es, sich aus der Verteidigungsposition in die Angriffsposition zu bring
 Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit eingrenzen und kontrollieren.
 
 
-\subsection{{\bfseries\sffamily DONE} Übersicht}
-\label{sec:org0e2adb4}
+\subsection{Übersicht}
+\label{sec:org15f22cd}
 \begin{center}
 \begin{tabular}{lllll}
 Situation &  & Angriff & Verteidigung & Done\\
 \hline
-\hyperref[orgf42100a]{Bauchlage} & oben & Sankaku-juji-gatame, Juji-gatame, & Einigeln/Angriff provozieren & \\
- &  & \hyperref[orgaed2942]{Hadaka-jime}, Ushiro-\hyperref[org0fccb72]{kesa-gatame} &  & \\
- & seitlich & \hyperref[orgce15c01]{Koshi-jime} (\hyperref[org8b732ab]{Krüger-Würge}), \hyperref[orgdc4236f]{Sode-kuruma-jime} & Aufstehen & \\
+\hyperref[org22fd945]{Bauchlage} & oben & Sankaku-juji-gatame, Juji-gatame, & Einigeln/Angriff provozieren & \\
+ &  & \hyperref[org2ffc91d]{Hadaka-jime}, Ushiro-\hyperref[org5004057]{kesa-gatame} &  & \\
+ & seitlich & \hyperref[org5efae84]{Koshi-jime} (\hyperref[orge0fd603]{Krüger-Würge}), \hyperref[orga86277e]{Sode-kuruma-jime} & Aufstehen & \\
  & vorn & Sankaku-gatame & Über-Rollen & \\
-\hyperref[orgbc37293]{Bankstellung} & oben & Sankaku-juji-gatame, Juji-gatame, \hyperref[org22a024c]{Kami-shiho-gatame} & Positionswechsel/Aufstehen & \\
- & seitlich & \hyperref[orgfb63c6b]{Okuri-eri-jime} (\hyperref[org8b18817]{Schlinge}), \hyperref[orgd4a5a2b]{Gyaku-juji-jime} (\hyperref[org4fedd56]{Drehwürge}) & \hyperref[orgac6ca0d]{Ura-gatame} & \\
- &  & \hyperref[orga92f42c]{Ashi-gatame}, \hyperref[org0fccb72]{Kesa-gatame} &  & \\
- & vorn & Sankaku-gatame, \hyperref[orga0a2132]{Hiza-gatame} (Huizinga-Rolle), & \hyperref[org78b6927]{Waki-gatame} & \\
-\hyperref[orgd3451e7]{Zwischen den Beinen} &  & Juji-gatame (2), Sankaku-gatame, & Befreien/Durchsteigen & \\
- &  & \hyperref[orga0a2132]{Hiza-gatame}, \hyperref[orgca3a14b]{Ude-gatame} &  & \\
-\hyperref[org281c89d]{Bein geklammert} &  & Ushiro-\hyperref[org0fccb72]{kesa-gatame} & Partner drehen & x\\
- &  & \hyperref[org9c0034c]{Kata-gatame} &  & x\\
+\hyperref[orgf15b76f]{Bankstellung} & oben & Sankaku-juji-gatame, Juji-gatame, \hyperref[org450423b]{Kami-shiho-gatame} & Positionswechsel/Aufstehen & \\
+ & seitlich & \hyperref[org55ecd66]{Okuri-eri-jime} (\hyperref[orgd82ac5e]{Schlinge}), \hyperref[org8d8f888]{Gyaku-juji-jime} (\hyperref[org58795e5]{Drehwürge}) & \hyperref[org763a96e]{Ura-gatame} & \\
+ &  & \hyperref[org6644df8]{Ashi-gatame}, \hyperref[org5004057]{Kesa-gatame} &  & \\
+ & vorn & Sankaku-gatame, \hyperref[orgbe98664]{Hiza-gatame} (Huizinga-Rolle), & \hyperref[orgef65a86]{Waki-gatame} & \\
+\hyperref[org891f77f]{Zwischen den Beinen} &  & Juji-gatame (2), Sankaku-gatame, & Befreien/Durchsteigen & \\
+ &  & \hyperref[orgbe98664]{Hiza-gatame}, \hyperref[org79aac92]{Ude-gatame} &  & \\
+\hyperref[org6e67a55]{Bein geklammert} &  & Ushiro-\hyperref[org5004057]{kesa-gatame} & Partner drehen & x\\
+ &  & \hyperref[org86532d5]{Kata-gatame} &  & x\\
 \end{tabular}
 \end{center}
 
-\subsection{{\bfseries\sffamily DONE} \label{orgf42100a}Bauchlage [2/2]}
-\label{sec:org86efa26}
-\subsubsection{{\bfseries\sffamily DONE} Angriff}
-\label{sec:org0b04ed2}
+\subsection{\label{org22fd945}Bauchlage }
+\label{sec:orge0a75b1}
+\paragraph{Angriff}
+\label{sec:org061734b}
 \begin{itemize}
 \item von oben
 \begin{enumerate}
 \item Sankaku-juji-gatame (Kashiwazaki--Hebeltechniken S. 32)
 \item Ude-hijigi-juji-gatame (Kashiwazaki--Hebeltechniken S. 27)
-\item \hyperref[orgaed2942]{Hadaka-jime} (Kashiwazaki--Shime-waza S. 58)
-\item Rollen in Ushiro-\hyperref[org0fccb72]{kesa-gatame} (Komlock S. 104)
+\item \hyperref[org2ffc91d]{Hadaka-jime} (Kashiwazaki--Shime-waza S. 58)
+\item Rollen in Ushiro-\hyperref[org5004057]{kesa-gatame} (Komlock S. 104)
 \begin{itemize}
 \item linker Arm fasst durch die linke Achsel von Uke ins eigene Revers
 \item Drehung um 180 Grad unter Kontrolle von Ukes Schultern
@@ -677,8 +789,8 @@ Situation &  & Angriff & Verteidigung & Done\\
 \end{enumerate}
 \item von der Seite
 \begin{enumerate}
-\item \hyperref[orgce15c01]{Koshi-jime} (\hyperref[org8b732ab]{Krüger-Würge})
-\item \hyperref[orgdc4236f]{Sode-kuruma-jime} (Kashiwazaki-Komuro-2 S. 86)
+\item \hyperref[org5efae84]{Koshi-jime} (\hyperref[orge0fd603]{Krüger-Würge})
+\item \hyperref[orga86277e]{Sode-kuruma-jime} (Kashiwazaki-Komuro-2 S. 86)
 \begin{itemize}
 \item linkes Bein klammert, linker Arm greift durch Uke auf seine rechte Schulter, rechter Arm kontrolliert die Hüfte
 \item Griff ins eigene rechte Revers
@@ -690,8 +802,8 @@ Situation &  & Angriff & Verteidigung & Done\\
 \end{enumerate}
 \end{itemize}
 
-\subsubsection{{\bfseries\sffamily DONE} Verteidigung}
-\label{sec:org704bf82}
+\paragraph{Verteidigung}
+\label{sec:orgb9a1209}
 \begin{itemize}
 \item Flach auf den Bodenlegen (passiv)
 \begin{itemize}
@@ -717,7 +829,7 @@ Situation &  & Angriff & Verteidigung & Done\\
 \begin{itemize}
 \item sich aus dem Partner herausdrehen und ihn zwischen die Beine nehmen, dadurch ist die Kontrolle hergestellt
 \end{itemize}
-\item In die \hyperref[orgbc37293]{Bankstellung} wechseln
+\item In die \hyperref[orgf15b76f]{Bankstellung} wechseln
 \begin{itemize}
 \item mit dem Positionswechsel den Angriff des Partners zerstören
 \end{itemize}
@@ -728,16 +840,16 @@ Situation &  & Angriff & Verteidigung & Done\\
 \end{itemize}
 
 
-\subsection{{\bfseries\sffamily DONE} \label{orgbc37293}Bankstellung [2/2]}
-\label{sec:org018a726}
-\subsubsection{{\bfseries\sffamily DONE} Angriff}
-\label{sec:org9eb216e}
+\subsection{\label{orgf15b76f}Bankstellung }
+\label{sec:org1ee8124}
+\paragraph{Angriff}
+\label{sec:org6975ef4}
 \begin{itemize}
 \item von oben
 \begin{enumerate}
 \item Sankaku-juji-gatame
 \item Ude-hijigi-juji-gatame
-\item \hyperref[org22a024c]{Kami-shiho-gatame}
+\item \hyperref[org450423b]{Kami-shiho-gatame}
 \begin{itemize}
 \item Mit beiden Händen von hinten unter den Achselhöhlen des Partners in das jeweilige Reverse fassen
 \item Zur Seite rollen und mit den Beinen den Partner wegstoßen
@@ -745,10 +857,10 @@ Situation &  & Angriff & Verteidigung & Done\\
 \end{enumerate}
 \item von der Seite
 \begin{enumerate}
-\item einen misslungenen Ippon-seoi-nage von Uke mit \hyperref[orgfb63c6b]{Okuri-eri-jime} (\hyperref[org8b18817]{Schlinge}) beenden
-\item \hyperref[orgd4a5a2b]{Gyaku-juji-jime} (\hyperref[org4fedd56]{Drehwürge})
-\item Ude-hishigi-\hyperref[orga92f42c]{ashi-gatame}
-\item \hyperref[org0fccb72]{Kesa-Gatame}
+\item einen misslungenen Ippon-seoi-nage von Uke mit \hyperref[org55ecd66]{Okuri-eri-jime} (\hyperref[orgd82ac5e]{Schlinge}) beenden
+\item \hyperref[org8d8f888]{Gyaku-juji-jime} (\hyperref[org58795e5]{Drehwürge})
+\item Ude-hishigi-\hyperref[org6644df8]{ashi-gatame}
+\item \hyperref[org5004057]{Kesa-Gatame}
 \begin{itemize}
 \item Beide Arme des Partners umfassen und zu sich ziehen
 \item Partner fällt auf die Seite
@@ -758,7 +870,7 @@ Situation &  & Angriff & Verteidigung & Done\\
 \item von vorn
 \begin{enumerate}
 \item Sankaku-gatame
-\item \hyperref[orga0a2132]{Hiza-gatame} (Huizinga-Rolle)
+\item \hyperref[orgbe98664]{Hiza-gatame} (Huizinga-Rolle)
 \begin{itemize}
 \item Einsteigen in Ukes rechten Arm von vorne, Drehung um 180 Grad, parallel zu Uke
 \item Durchfassen in Ukes rechtes Knie
@@ -767,18 +879,18 @@ Situation &  & Angriff & Verteidigung & Done\\
 \end{enumerate}
 \end{itemize}
 
-\subsubsection{{\bfseries\sffamily DONE} Verteidigung}
-\label{sec:org4b89ba2}
+\paragraph{Verteidigung}
+\label{sec:orgf43e3a7}
 \begin{itemize}
 \item Tori greift unter dem Arm durch
 \begin{enumerate}
-\item von der Seite: \hyperref[orgac6ca0d]{Ura-Gatame} (\hyperref[org68a906c]{Gurke})
+\item von der Seite: \hyperref[org763a96e]{Ura-Gatame} (\hyperref[org297d645]{Gurke})
 \begin{itemize}
 \item Arm fest an sich heranziehen und über dem Ellenbogen Toris fixieren
 \item Zur Seite rollen und mit der anderen Hand ein Bein ergreifen (am besten innen)
 \item Spannung durch Druck mit dem Ellenbogen aufbauen
 \end{itemize}
-\item von vorn: \hyperref[org78b6927]{Waki-gatame} (Kashiwazaki--Hebeltechniken S. 46)
+\item von vorn: \hyperref[orgef65a86]{Waki-gatame} (Kashiwazaki--Hebeltechniken S. 46)
 \begin{itemize}
 \item Arm fest an sich heranziehen und über dem Ellenbogen Toris fixieren
 \item Fixieren des Beines am Knie mit diagonalem Arm
@@ -802,17 +914,16 @@ Situation &  & Angriff & Verteidigung & Done\\
 \end{itemize}
 
 
-\subsection{{\bfseries\sffamily DONE} \label{orgd3451e7}Zwischen den Beinen [2/2]}
-\label{sec:orgf6e1f1e}
-\subsubsection{{\bfseries\sffamily DONE} Angriff}
-\label{sec:org09e59e2}
+\subsection{\label{org891f77f}Zwischen den Beinen }
+\label{sec:orga84058d}
+\paragraph{Angriff}
+\label{sec:orgeb61d47}
 \begin{itemize}
-\item \hyperref[org4898d0b]{Ude-hishigi-juji-gatame}
+\item \hyperref[orgfcb6e26]{Ude-hishigi-juji-gatame}
 \begin{itemize}
-\item Schulter fixieren
+\item Schulter fixieren, quer zum Partner drehen und umkippen
 \end{itemize}
-– quer zum Partner drehen und umkippen
-\item \hyperref[org4898d0b]{Ude-hishigi-juji-gatame}
+\item \hyperref[orgfcb6e26]{Ude-hishigi-juji-gatame}
 \begin{itemize}
 \item Schulter fixieren
 \item Bein überschwingen und durchrollen
@@ -822,18 +933,18 @@ Situation &  & Angriff & Verteidigung & Done\\
 \item Uke greift unters Knie
 \item Schulter fixieren, Arm lang strecken
 \end{itemize}
-\item Ude-hijigi-\hyperref[orga0a2132]{hiza-gatame} (Kashiwazaki--Hebeltechniken S. 42)
+\item Ude-hijigi-\hyperref[orgbe98664]{hiza-gatame} (Kashiwazaki--Hebeltechniken S. 42)
 \begin{itemize}
 \item wie eben, aber Uke wendet sich nach links
 \item Bein überrollen, sodass Kopf Richtung Beine zeigt
 \end{itemize}
-\item \hyperref[orgca3a14b]{Ude-gatame} (Kashiwazaki--Hebeltechniken S. 43)
+\item \hyperref[org79aac92]{Ude-gatame} (Kashiwazaki--Hebeltechniken S. 43)
 \item Ryote-juji-gatame
 \item Sode-guruma-jime (Ärmelradwürge)
 \end{itemize}
 
-\subsubsection{{\bfseries\sffamily DONE} Verteidigung}
-\label{sec:org69ae0aa}
+\paragraph{Verteidigung}
+\label{sec:org6e77c4d}
 \begin{itemize}
 \item Aus dem Angreifer zurückziehen und Ellenbogen hinter den Oberschenkeln des Angreifers
 \begin{itemize}
@@ -845,88 +956,91 @@ Situation &  & Angriff & Verteidigung & Done\\
 \end{itemize}
 
 
-\subsection{{\bfseries\sffamily DONE} \label{org281c89d}Bein geklammert [2/2]}
-\label{sec:orge05dba1}
-\subsubsection{{\bfseries\sffamily DONE} Angriff (Befreiung aus Beinklammer)}
-\label{sec:orgcfd3d7f}
+\subsection{\label{org6e67a55}Bein geklammert }
+\label{sec:org8a230d8}
+\paragraph{Angriff (Befreiung aus Beinklammer)}
+\label{sec:orgf8933c3}
 \begin{enumerate}
-\item Ushiro-\hyperref[org0fccb72]{Kesa-Gatame}
+\item Ushiro-\hyperref[org5004057]{Kesa-Gatame}
 \begin{itemize}
 \item Fixieren des Unterarms mithilfe von Ukes Jacke
 \item Heranziehen von Ukes Knie um mithilfe des anderen Beines den Fuß zu befreien
 \end{itemize}
-\item \hyperref[org9c0034c]{Kata-Gatame}
+\item \hyperref[org86532d5]{Kata-Gatame}
 \begin{itemize}
-\item Fixieren von Kopf und Schulter mithilfe von \hyperref[org9c0034c]{Kata-gatame}
+\item Fixieren von Kopf und Schulter mithilfe von \hyperref[org86532d5]{Kata-gatame}
 \item Befreien des Fußes mit Unterstützung des anderen Beines (Fußstellung muss seitlich sein!)
 \end{itemize}
 \end{enumerate}
 
-\subsubsection{{\bfseries\sffamily DONE} Verteidigung}
-\label{sec:org2377bfd}
+\paragraph{Verteidigung}
+\label{sec:orgaa27e71}
 \begin{itemize}
 \item Bein klammern und mit den Armen den Partner fest umklammern (Immobilisation)
 \item Zum Partner drehen und den Partner nach hinten umkippen (Änderung der Rolle von Verteidigung zu Angriff)
 \item Das abgewinkelte Bein mit der Hand zum Partner schieben und damit seine Unterstützungsfläche veringern (Nutzung physikalischer Gesetze)
 \end{itemize}
 
-\section{{\bfseries\sffamily DONE} Theorie [2/2]}
-\label{sec:org152f95c}
-\subsection{{\bfseries\sffamily DONE} Geschichte}
-\label{sec:org38929dc}
-\subsubsection{{\bfseries\sffamily DONE} Ursprünge}
-\label{sec:org4acb4e6}
-Die Wurzeln des \label{org5f8b831}Judo reichen bis in die Nara-Zeit (710–784) zurück. In den beiden damaligen Chroniken Japans, dem Kojiki (712) und dem Nihonshoki (720), gibt es Beschreibungen von \emph{Ringkämpfen}, die mythischen Ursprungs sind. Seit 717 fanden am Kaiserhof alljährlich Preisringen statt, an denen Ringer aus allen Provinzen teilnahmen. Dieses Ringen wurde \emph{Sechie-Zumo} genannt. Die Bushi griffen dieses Sumo auf und entwickelten daraus das \emph{yoroikumiuchi} (Ringen in voller Rüstung).
+\newpage
+\section{Theorie }
+\label{sec:org5996d73}
+\subsection{Geschichte}
+\label{sec:org3feeba9}
+\paragraph{Ursprünge}
+\label{sec:org99ed289}
+Die Wurzeln des \label{org4f88021}Judo reichen bis in die Nara-Zeit (710–784) zurück. In den beiden damaligen Chroniken Japans, dem Kojiki (712) und dem Nihonshoki (720), gibt es Beschreibungen von \emph{Ringkämpfen}, die mythischen Ursprungs sind. Seit 717 fanden am Kaiserhof alljährlich Preisringen statt, an denen Ringer aus allen Provinzen teilnahmen. Dieses Ringen wurde \emph{Sechie-Zumo} genannt. Die Bushi griffen dieses Sumo auf und entwickelten daraus das \emph{yoroikumiuchi} (Ringen in voller Rüstung).
 
 Mit dem Aufstieg der Kriegerklasse Ende des 12. Jahrhunderts erlebten die Kampfkünste einen starken Aufschwung. Das kulturelle Geschehen wurde immer mehr vom Geist der Bushi bestimmt. In dieser Zeit entwickelten sich die Ursprünge des legendären Ehrenkodex', der später von Nitobe als Bushido beschrieben wurde.
 
-Im Japan der Ashikaga-Epoche (1136–1568) entwickelten sich unterschiedliche waffenlose Nahkampfsysteme: Eine Variante war \emph{Kogusoku} (kleine Rüstung). Diese Kampfart war nach den in dieser Zeit neu entwickelten leichteren Rüstungen benannt. In der Literatur und den historischen Dokumenten aus dieser Zeit finden sich weitere Nahkampfsysteme wie \emph{Tai-Jutsu} ("Körperkunst"), \emph{Torite} ("Ergreifen der Hände"), \emph{Koshi-no-Mawari} ("Hüfteindrehen"), \emph{Hobaku} (\emph{Ergreifen"), /Torinawajutsu} ("Kunst des Ergreifens und Verbindens").
+Im Japan der Ashikaga-Epoche (1136–1568) entwickelten sich unterschiedliche waffenlose Nahkampfsysteme: Eine Variante war \emph{Kogusoku} (kleine Rüstung). Diese Kampfart war nach den in dieser Zeit neu entwickelten leichteren Rüstungen benannt. In der Literatur und den historischen Dokumenten aus dieser Zeit finden sich weitere Nahkampfsysteme wie \emph{Tai-Jutsu} ("`Körperkunst"'), \emph{Torite} ("`Ergreifen der Hände"'), \emph{Koshi-no-Mawari} ("`Hüfteindrehen"'), \emph{Hobaku} ("`Ergreifen"'), \emph{Torinawajutsu} ("`Kunst des Ergreifens und Verbindens"').
 
 In der Mitte des 16. Jahrhunderts führten die Portugiesen die Schusswaffen in Japan ein und die Kriegskünste – \emph{bugei} mit Schwert, Pfeil und Bogen – verloren auf dem Schlachtfeld an Bedeutung. Ihre Traditionen wurden aber in der Edo-Zeit fortgeführt und im Sinne des Prinzips \emph{Bunbu} (literarische Bildung und militärische Praxis) zur Pflicht gemacht.
 
 Für das Prinzip des Nachgebens \emph{Ju} in der Kampfkunst gibt es verschiedene Einflüsse, Erklärungen, Legenden und Anekdoten: Im Konjaku-Monogatari findet man zum ersten Mal den Begriff \emph{yawara} (weich) im Zusammenhang mit einer Geschichte über das japanische Ringen. Stark waren sicherlich auch die chinesischen Einflüsse, denn seit der Ashikaga-Epoche wurde offiziell der Handel mit China aufgenommen und bis zum Ende des 16. Jahrhunderts immer weiter ausgedehnt.
 
-Über die Entstehung des \label{org8a57ef0}Jiu Jitsu existieren unterschiedliche Berichte, die einen legendenhaften Charakter haben. Ihr historischer Wahrheitsgehalt ist schwer nachzuweisen. Die poetisch schönste ist sicherlich die Legende des Arztes Akiyama Shirobei aus Hizen, der in China Medizin und die Kunst der Selbstverteidigung studiert haben soll. Wieder in Japan, zog er sich in einen Tempel namens Dazai-Tenjin zurück. Der Überlieferung nach war es Winter, und am 21. Tag im Tempel setzte starker Schneefall ein. Er betrachtete die Bäume; ihm fiel auf, dass viele Äste unter der Last des Schnees brachen, die des Weidenbaums aber wegen ihrer Elastizität nachgaben und den Schnee abgleiten ließen. Auf Grund dieses Vorgangs soll der Arzt Shirobei das Prinzip des „Ju“ – Nachgebens – in der Kampfkunst eingeführt haben. In der ersten Hälfte der Edo-Epoche (17./18. Jahrhundert) entwickelten sich unzählige Jiu-Jiutsu- oder artverwandte Schulen – jap. Ryu.
+Über die Entstehung des \label{org74d5825}Jiu Jitsu existieren unterschiedliche Berichte, die einen legendenhaften Charakter haben. Ihr historischer Wahrheitsgehalt ist schwer nachzuweisen. Die poetisch schönste ist sicherlich die Legende des Arztes Akiyama Shirobei aus Hizen, der in China Medizin und die Kunst der Selbstverteidigung studiert haben soll. Wieder in Japan, zog er sich in einen Tempel namens Dazai-Tenjin zurück. Der Überlieferung nach war es Winter, und am 21. Tag im Tempel setzte starker Schneefall ein. Er betrachtete die Bäume; ihm fiel auf, dass viele Äste unter der Last des Schnees brachen, die des Weidenbaums aber wegen ihrer Elastizität nachgaben und den Schnee abgleiten ließen. Auf Grund dieses Vorgangs soll der Arzt Shirobei das Prinzip des „Ju“ – Nachgebens – in der Kampfkunst eingeführt haben. In der ersten Hälfte der Edo-Epoche (17./18. Jahrhundert) entwickelten sich unzählige Jiu-Jiutsu- oder artverwandte Schulen – jap. Ryu.
 
-\subsubsection{{\bfseries\sffamily DONE} Kanō Jigorō}
-\label{sec:org6952801}
+\paragraph{Kanō Jigorō}
+\label{sec:orgaeb0365}
 Mit dem Ende der Tokugawa-Zeit und der Öffnung Japans kam es auch zu starken Veränderungen in der japanischen Gesellschaft. Durch die Meiji-Reform kam es zu einer Fülle von staatlichen, wirtschaftlichen und kulturellen Reformen. Die japanischen Künste wurden stark zurückgedrängt, alles „Westliche“ hatte Vorrang. Doch schon zu Beginn der 1880er-Jahre gab es eine Rückbesinnung in Bezug auf die geistlichen und sittlichen Werte.
 
-\emph{Kanō Jigorō} (1860–1938) wuchs in diesem Japan der extremen Veränderungen auf. Er lernte \hyperref[org8a57ef0]{Jiu Jitsu} an verschiedenen Schulen wie der Tenshinshinyo-Ryu und der Kito-Ryu. 1882 gründete Kanō Jigorō seine eigene Schule, das Kodokan („Ort zum Studium des Wegs“) in der Nähe des Eisho-Tempels im Stadtteil Shitaya in Tokio. Er nannte seine Kunst \hyperref[org5f8b831]{Judo}, da das Kanji (Schriftzeichen) Ju sowohl „sanft“ als auch „Nachgeben“ bedeuten kann und das Zeichen Do ebenfalls mit „Grundsatz“ und nicht nur mit „Weg“ übersetzt werden kann.
+\emph{Kanō Jigorō} (1860–1938) wuchs in diesem Japan der extremen Veränderungen auf. Er lernte \hyperref[org74d5825]{Jiu Jitsu} an verschiedenen Schulen wie der Tenshinshinyo-Ryu und der Kito-Ryu. 1882 gründete Kanō Jigorō seine eigene Schule, das Kodokan („Ort zum Studium des Wegs“) in der Nähe des Eisho-Tempels im Stadtteil Shitaya in Tokio. Er nannte seine Kunst \hyperref[org4f88021]{Judo}, da das Kanji (Schriftzeichen) Ju sowohl „sanft“ als auch „Nachgeben“ bedeuten kann und das Zeichen Do ebenfalls mit „Grundsatz“ und nicht nur mit „Weg“ übersetzt werden kann.
 
 Sein System bestand neben Wurftechniken (Nage Waza) aus Bodentechniken (Ne Waza) sowie Schlag-, Tritt- und Stoßtechniken (Atemi Waza), die er dem System der \emph{Kito-Ryu} und der \emph{Tenshinshinyo-Ryu} entnommen hatte. Dies waren traditionelle Jiu-Jitsu-Schulen, bei denen Kanō mittlerweile das Menkyo-Kaiden (die universelle Lehrerlaubnis und Meisterwürde) innehatte. Es war sogar eine kleine Sparte Waffentechnik (z. B. mit Schwert und Stöcken) im Curriculum vorhanden. Kanō selektierte zwar einige Techniken aus, welche dem von ihm gefundenen obersten Prinzip \emph{möglichst wirksamer Gebrauch von geistiger und körperlicher Energie} widersprachen. Dass er dabei aber alle „bösen“ Techniken entfernt hätte, welche geeignet sind, einen Menschen ernsthaft zu verletzen oder zu töten, ist ein weitverbreiteter Irrtum.
 
-Im Jahre 1886 konnten Schüler Kanos einen regulären Kampf zwischen der Kodokan-Schule und der traditionellen \hyperref[org8a57ef0]{Jiu Jitsu}-Schule Ryoi-Shinto Ryu für sich entscheiden. Es wird behauptet, Kano habe das \hyperref[org5f8b831]{Judo} durchaus als ernstzunehmende Selbstverteidigungskunst inklusive Schlägen und Fußtritten konzipiert, ohne die ein Sieg über Ryoi-Shinto Ryu nicht möglich gewesen wäre. Aufgrund dieses Erfolgs verbreitete sich \hyperref[org5f8b831]{Judo} in Japan rasch und wurde bald bei der Polizei und der Armee eingeführt. 1911 wurde \hyperref[org5f8b831]{Judo} an allen Mittelschulen Pflichtfach.
+Im Jahre 1886 konnten Schüler Kanos einen regulären Kampf zwischen der Kodokan-Schule und der traditionellen \hyperref[org74d5825]{Jiu Jitsu}-Schule Ryoi-Shinto Ryu für sich entscheiden. Es wird behauptet, Kano habe das \hyperref[org4f88021]{Judo} durchaus als ernstzunehmende Selbstverteidigungskunst inklusive Schlägen und Fußtritten konzipiert, ohne die ein Sieg über Ryoi-Shinto Ryu nicht möglich gewesen wäre. Aufgrund dieses Erfolgs verbreitete sich \hyperref[org4f88021]{Judo} in Japan rasch und wurde bald bei der Polizei und der Armee eingeführt. 1911 wurde \hyperref[org4f88021]{Judo} an allen Mittelschulen Pflichtfach.
 
-Der berühmte japanische Regisseur Akira Kurosawa drehte seinen ersten Film Sanshiro Sugata 1943 über das \hyperref[org5f8b831]{Judo}.
+Der berühmte japanische Regisseur Akira Kurosawa drehte seinen ersten Film Sanshiro Sugata 1943 über das \hyperref[org4f88021]{Judo}.
 Nach dem Zweiten Weltkrieg wurde das Kodokan für zwei Jahre zwangsweise geschlossen, 1947 wurde es wiedereröffnet.
 
-\subsubsection{{\bfseries\sffamily DONE} Der Weg in den Westen}
-\label{sec:orgb6b9010}
-1906 kamen japanische Kriegsschiffe zu einem Freundschaftsbesuch nach Kiel. Die Gäste führten dem deutschen Kaiser ihre Nahkampfkünste vor. Wilhelm II. war begeistert und ließ seine Kadetten in der neuen Kampfkunst unterrichten. Der damals bedeutendste deutsche Schüler war der Berliner \emph{Erich Rahn}, der im Jahre 1906 die erste deutsche Jiu-Jitsu-Schule gründete. Weitere Pioniere im \hyperref[org5f8b831]{Judo} sind \emph{Alfred Rhode} und \emph{Heinrich Frantzen} (Köln). 1926 fanden in Köln im Rahmen der 2. Deutschen Kampfspiele die ersten deutschen \hyperref[org5f8b831]{Judo}-(Jiu-Jitsu)-Meisterschaften statt. 1932 wurde im Frankfurter Waldstadion die erste internationale \hyperref[org5f8b831]{Judo}-Sommerschule durchgeführt. Anlässlich der \hyperref[org5f8b831]{Judo}-Sommerschule wurde am 11. August 1932 der Deutsche \hyperref[org5f8b831]{Judo}-Ring gegründet. Erster Vorsitzender wurde Alfred Rhode. Der Begriff \hyperref[org5f8b831]{Judo} setzte sich, wie schon im restlichen Europa, auch in Deutschland durch. 1933 besuchte Kanō Jigorō mit einigen Schülern auf einer Europareise auch Deutschland und gab Lehrgänge in Berlin und München. Die ersten \hyperref[org5f8b831]{Judo}-Europameisterschaften wurden 1934 im Kristallpalast in Dresden ausgerichtet.
+\paragraph{Der Weg in den Westen}
+\label{sec:orgb7fc8e6}
+1906 kamen japanische Kriegsschiffe zu einem Freundschaftsbesuch nach Kiel. Die Gäste führten dem deutschen Kaiser ihre Nahkampfkünste vor. Wilhelm II. war begeistert und ließ seine Kadetten in der neuen Kampfkunst unterrichten. Der damals bedeutendste deutsche Schüler war der Berliner \emph{Erich Rahn}, der im Jahre 1906 die erste deutsche Jiu-Jitsu-Schule gründete. Weitere Pioniere im \hyperref[org4f88021]{Judo} sind \emph{Alfred Rhode} und \emph{Heinrich Frantzen} (Köln). 1926 fanden in Köln im Rahmen der 2. Deutschen Kampfspiele die ersten deutschen \hyperref[org4f88021]{Judo}-(Jiu-Jitsu)-Meisterschaften statt. 1932 wurde im Frankfurter Waldstadion die erste internationale \hyperref[org4f88021]{Judo}-Sommerschule durchgeführt. Anlässlich der \hyperref[org4f88021]{Judo}-Sommerschule wurde am 11. August 1932 der Deutsche \hyperref[org4f88021]{Judo}-Ring gegründet. Erster Vorsitzender wurde Alfred Rhode. Der Begriff \hyperref[org4f88021]{Judo} setzte sich, wie schon im restlichen Europa, auch in Deutschland durch. 1933 besuchte Kanō Jigorō mit einigen Schülern auf einer Europareise auch Deutschland und gab Lehrgänge in Berlin und München. Die ersten \hyperref[org4f88021]{Judo}-Europameisterschaften wurden 1934 im Kristallpalast in Dresden ausgerichtet.
 
-Im August 1933 wurde \hyperref[org5f8b831]{Judo} von den Nationalsozialisten in das Fachamt Schwerathletik des Deutschen Reichsbundes für Leibesübungen (DRL) eingegliedert und verlor damit seine Eigenständigkeit. Nach der Überführung des Deutschen Reichsbundes in den Nationalsozialistischen Reichsbund für Leibesübungen (NSRL) 1937 wurde \hyperref[org5f8b831]{Judo} als eine Wettkampfdisziplin im Rahmen der originären Sportart \hyperref[org8a57ef0]{Jiu Jitsu} behandelt. Die letzten deutschen Meisterschaften in der NS-Zeit fanden 1941 in Essen statt.
+Im August 1933 wurde \hyperref[org4f88021]{Judo} von den Nationalsozialisten in das Fachamt Schwerathletik des Deutschen Reichsbundes für Leibesübungen (DRL) eingegliedert und verlor damit seine Eigenständigkeit. Nach der Überführung des Deutschen Reichsbundes in den Nationalsozialistischen Reichsbund für Leibesübungen (NSRL) 1937 wurde \hyperref[org4f88021]{Judo} als eine Wettkampfdisziplin im Rahmen der originären Sportart \hyperref[org74d5825]{Jiu Jitsu} behandelt. Die letzten deutschen Meisterschaften in der NS-Zeit fanden 1941 in Essen statt.
 
-Nach dem Zweiten Weltkrieg war \hyperref[org5f8b831]{Judo} in Deutschland bis 1948 durch die Alliierten verboten. Nach Gründung des Deutschen Athleten-Bundes (DAB) in Westdeutschland und des Deutschen Sportausschusses (DS) in der SBZ wurde \hyperref[org5f8b831]{Judo} 1949 als Sportart der Schwerathletik wieder zugelassen. 1950 fanden in Dresden die ersten DDR-Einzelmeisterschaften und 1951 in Frankfurt die ersten deutschen Meisterschaften in der Bundesrepublik nach dem Zweiten Weltkrieg statt. Der DAB und der DS veranstalteten bis 1954 gesamtdeutsche \hyperref[org5f8b831]{Judo}-Meisterschaften. 1952 wurde in Westdeutschland das Deutsche Dan-Kollegium (DDK) (Vorsitz: Alfred Rhode) und 1953 der Deutsche \hyperref[org5f8b831]{Judo}-Bund (Vorsitz: Heinrich Frantzen) gegründet. In der DDR existierte seit 1952 die Sektion \hyperref[org5f8b831]{Judo} im Deutschen Sportausschuß (Vorsitz: Lothar Skorning) als Vorläufer des 1958 gegründeten Deutschen \hyperref[org5f8b831]{Judo}-Verbandes der DDR (DJV). Der DJV richtete 1966 die ersten DDR-Meisterschaften für Frauen aus. 1970 fanden in Rüsselsheim die ersten deutschen Meisterschaften der Frauen in der Bundesrepublik statt. 1975 in München war das Geburtsjahr der ersten Frauen-Europameisterschaften.
+Nach dem Zweiten Weltkrieg war \hyperref[org4f88021]{Judo} in Deutschland bis 1948 durch die Alliierten verboten. Nach Gründung des Deutschen Athleten-Bundes (DAB) in Westdeutschland und des Deutschen Sportausschusses (DS) in der SBZ wurde \hyperref[org4f88021]{Judo} 1949 als Sportart der Schwerathletik wieder zugelassen. 1950 fanden in Dresden die ersten DDR-Einzelmeisterschaften und 1951 in Frankfurt die ersten deutschen Meisterschaften in der Bundesrepublik nach dem Zweiten Weltkrieg statt. Der DAB und der DS veranstalteten bis 1954 gesamtdeutsche \hyperref[org4f88021]{Judo}-Meisterschaften. 1952 wurde in Westdeutschland das Deutsche Dan-Kollegium (DDK) (Vorsitz: Alfred Rhode) und 1953 der Deutsche \hyperref[org4f88021]{Judo}-Bund (Vorsitz: Heinrich Frantzen) gegründet. In der DDR existierte seit 1952 die Sektion \hyperref[org4f88021]{Judo} im Deutschen Sportausschuß (Vorsitz: Lothar Skorning) als Vorläufer des 1958 gegründeten Deutschen \hyperref[org4f88021]{Judo}-Verbandes der DDR (DJV). Der DJV richtete 1966 die ersten DDR-Meisterschaften für Frauen aus. 1970 fanden in Rüsselsheim die ersten deutschen Meisterschaften der Frauen in der Bundesrepublik statt. 1975 in München war das Geburtsjahr der ersten Frauen-Europameisterschaften.
 
-\subsubsection{{\bfseries\sffamily DONE} Entwicklung zum Wettkampfsport}
-\label{sec:orga89ba98}
-Nach dem Zweiten Weltkrieg veränderte sich \hyperref[org5f8b831]{Judo} immer mehr vom Nahkampfsystem zum Wettkampfsport. Schlag-, Tritt- und andere den Gegner ernsthaft verletzende Techniken wurden als für den Wettkampf unnötig nicht mehr unterrichtet und gerieten dadurch teilweise in Vergessenheit. Die verbliebenen Techniken sind hauptsächlich Würfe (jap. Nage Waza), Falltechniken (jap. Ukemi Waza) und Bodentechniken (jap. Katame Waza). Entgegen der landläufigen Meinung gehören Schlag- und Tritttechniken nach wie vor zum \hyperref[org5f8b831]{Judo}. So sind in Katas wie der Kime-no-Kata oder der Kodokan Goshin-Jutsu immer noch potentiell tödliche Aktionen vorhanden. Allerdings werden Schläge und Tritte wie auch manch andere gefährlichere Techniken im heutigen \hyperref[org5f8b831]{Judo}, wenn überhaupt, erst zur Erlangung höherer Graduierungen als \hyperref[org5f8b831]{Judo}-Selbstverteidigung unterrichtet.
+\paragraph{Entwicklung zum Wettkampfsport}
+\label{sec:org5d7345f}
+Nach dem Zweiten Weltkrieg veränderte sich \hyperref[org4f88021]{Judo} immer mehr vom Nahkampfsystem zum Wettkampfsport. Schlag-, Tritt- und andere den Gegner ernsthaft verletzende Techniken wurden als für den Wettkampf unnötig nicht mehr unterrichtet und gerieten dadurch teilweise in Vergessenheit. Die verbliebenen Techniken sind hauptsächlich Würfe (jap. Nage Waza), Falltechniken (jap. Ukemi Waza) und Bodentechniken (jap. Katame Waza). Entgegen der landläufigen Meinung gehören Schlag- und Tritttechniken nach wie vor zum \hyperref[org4f88021]{Judo}. So sind in Katas wie der Kime-no-Kata oder der Kodokan Goshin-Jutsu immer noch potentiell tödliche Aktionen vorhanden. Allerdings werden Schläge und Tritte wie auch manch andere gefährlichere Techniken im heutigen \hyperref[org4f88021]{Judo}, wenn überhaupt, erst zur Erlangung höherer Graduierungen als \hyperref[org4f88021]{Judo}-Selbstverteidigung unterrichtet.
 
-\subsubsection{{\bfseries\sffamily DONE} Weltmeisterschaften und Olympische Spiele}
-\label{sec:org27d4646}
+\paragraph{Weltmeisterschaften und Olympische Spiele}
+\label{sec:org0d9e84e}
 1956 fanden in Tokio die ersten Weltmeisterschaften statt. Damals gab es allerdings nur eine offene Gewichtsklasse. 1961 bei den dritten Weltmeisterschaften in Paris wurden dann erstmals Gewichtsklassen eingeführt. Dort gelang es dem Niederländer Anton Geesink erstmals, die Vormachtstellung der Japaner zu brechen und die japanischen Judoka zu besiegen.
 
-Bei den Olympischen Spielen in Tokio 1964 war \hyperref[org5f8b831]{Judo} erstmals als olympischer Sport zu sehen. Der aus Köln stammende Wolfgang Hofmann gewann als erster Deutscher eine Silbermedaille bei den Olympischen Spielen. Zu diesem Anlass brachten die Deutsche Bundespost und auch die Deutsche Post der DDR eine 20-Pfennig-Briefmarke mit \hyperref[org5f8b831]{Judo}-Motiv heraus. 1968 bei den Olympischen Spielen in Mexiko-Stadt wurde \hyperref[org5f8b831]{Judo} zunächst wieder aus dem olympischen Programm gestrichen. Seit 1972 bei den Olympischen Spielen in München gehört \hyperref[org5f8b831]{Judo} beständig zum olympischen Programm. War \hyperref[org5f8b831]{Judo} zunächst eine Männerdomäne, so wurde 1988 Frauen-\hyperref[org5f8b831]{Judo} bei den Olympischen Spielen in Seoul als Demonstrationswettbewerb vorgestellt. Seit den Olympischen Spielen in Barcelona 1992 ist auch Frauen-\hyperref[org5f8b831]{Judo} im olympischen Programm.
+Bei den Olympischen Spielen in Tokio 1964 war \hyperref[org4f88021]{Judo} erstmals als olympischer Sport zu sehen. Der aus Köln stammende Wolfgang Hofmann gewann als erster Deutscher eine Silbermedaille bei den Olympischen Spielen. Zu diesem Anlass brachten die Deutsche Bundespost und auch die Deutsche Post der DDR eine 20-Pfennig-Briefmarke mit \hyperref[org4f88021]{Judo}-Motiv heraus. 1968 bei den Olympischen Spielen in Mexiko-Stadt wurde \hyperref[org4f88021]{Judo} zunächst wieder aus dem olympischen Programm gestrichen. Seit 1972 bei den Olympischen Spielen in München gehört \hyperref[org4f88021]{Judo} beständig zum olympischen Programm. War \hyperref[org4f88021]{Judo} zunächst eine Männerdomäne, so wurde 1988 Frauen-\hyperref[org4f88021]{Judo} bei den Olympischen Spielen in Seoul als Demonstrationswettbewerb vorgestellt. Seit den Olympischen Spielen in Barcelona 1992 ist auch Frauen-\hyperref[org4f88021]{Judo} im olympischen Programm.
 
-Im Jahre 1988 war \hyperref[org5f8b831]{Judo} erstmals bei den Paralympics in Seoul mit dabei. Seit 2004 in Athen gibt es auch Frauen-\hyperref[org5f8b831]{Judo} im Programm der Sommer-Paralympics. \hyperref[org5f8b831]{Judo} wird bei diesen Spielen von Blinden und Menschen mit geringem Sehvermögen praktiziert. Die paralympischen Athleten folgen denselben Regeln wie die Nichtbehinderten. Eventuelle Defizite werden durch zusätzliche Regelungen ausgeglichen. So besteht ein wesentlicher Unterschied darin, dass sich die Kämpfer und Kämpferinnen zur besseren Orientierung vor Kampfbeginn berühren dürfen. 
+Im Jahre 1988 war \hyperref[org4f88021]{Judo} erstmals bei den Paralympics in Seoul mit dabei. Seit 2004 in Athen gibt es auch Frauen-\hyperref[org4f88021]{Judo} im Programm der Sommer-Paralympics. \hyperref[org4f88021]{Judo} wird bei diesen Spielen von Blinden und Menschen mit geringem Sehvermögen praktiziert. Die paralympischen Athleten folgen denselben Regeln wie die Nichtbehinderten. Eventuelle Defizite werden durch zusätzliche Regelungen ausgeglichen. So besteht ein wesentlicher Unterschied darin, dass sich die Kämpfer und Kämpferinnen zur besseren Orientierung vor Kampfbeginn berühren dürfen. 
 
-\subsubsection{{\bfseries\sffamily DONE} Erfolge}
-\label{sec:orgc2664d3}
+\paragraph{Erfolge}
+\label{sec:orgec69476}
 Die größten Erfolge deutscher Judoka im Überblick:
 
 \begin{center}
 \begin{tabular}{rlll}
+\hline
+Jahr & Name & Titel & Land\\
 \hline
 1979 & Detlef Ultsch & Weltmeister & DDR\\
 1982 & Barbara Claßen & Weltmeisterin & BRD\\
@@ -950,14 +1064,14 @@ Die größten Erfolge deutscher Judoka im Überblick:
 \end{tabular}
 \end{center}
 
-\subsection{{\bfseries\sffamily DONE} Die \hyperref[org5f8b831]{Judo}-Prinzipien}
-\label{sec:org6906367}
-\subsubsection{{\bfseries\sffamily DONE} Seiryoku‐zen‐yo (das technische Prinzip) [精力善用]}
-\label{sec:org41f7dd3}
-Das erste Prinzip beschreibt, wie man die Judotechniken ausführen soll und wie man sich im Kampf zu verhalten hat. Es kann mit \textbf{"Bester Einsatz von Geist und Körper"} oder "Bester Einsatz der vorhande
-nen Kräfte" umschrieben werden und beinhaltet eine deutliche Absage an das 'Kraftmeiertum', die bloße Anwendung schierer physischer Kraft. Mit diesem Prinzip will Kano den Begriff \textbf{Ju} ("sanft, nachgeben, geschmeidig") des Wortes \hyperref[org5f8b831]{Judo} näher charakterisieren. Die Idee des Siegens durch Nachgeben, sowohl als körperliche Eigenschaft als auch als geistig-emotionale Einstellung findet sich hier wieder. 
+\subsection{Die \hyperref[org4f88021]{Judo}-Prinzipien}
+\label{sec:orgce03c4e}
+\paragraph{Seiryoku‐zen‐yo (das technische Prinzip) [精力善用]}
+\label{sec:orgc62e47e}
+Das erste Prinzip beschreibt, wie man die Judotechniken ausführen soll und wie man sich im Kampf zu verhalten hat. Es kann mit \textbf{"`Bester Einsatz von Geist und Körper"'} oder "`Bester Einsatz der vorhande
+nen Kräfte"' umschrieben werden und beinhaltet eine deutliche Absage an das 'Kraftmeiertum', die bloße Anwendung schierer physischer Kraft. Mit diesem Prinzip will Kano den Begriff \textbf{Ju} ("`sanft, nachgeben, geschmeidig"') des Wortes \hyperref[org4f88021]{Judo} näher charakterisieren. Die Idee des Siegens durch Nachgeben, sowohl als körperliche Eigenschaft als auch als geistig-emotionale Einstellung findet sich hier wieder. 
 
-In der \hyperref[org5f8b831]{Judo}-Praxis können folgende theoretisch-taktischen Grundsätze diesem Prinzip zugeordnet werden: 
+In der \hyperref[org4f88021]{Judo}-Praxis können folgende theoretisch-taktischen Grundsätze diesem Prinzip zugeordnet werden: 
 \begin{itemize}
 \item Ausnutzen der Bewegung des Gegners und des eigenen Schwungs
 \item Anwenden der Hebelgesetze
@@ -970,11 +1084,11 @@ In der \hyperref[org5f8b831]{Judo}-Praxis können folgende theoretisch-taktische
 
 \href{http://kodokanjudoinstitute.org/en/doctrine/word/seiryoku-zenyo/}{kodokanjudoinstitute}
 
-\subsubsection{{\bfseries\sffamily DONE} Ji‐ta‐kyo‐ei (das moralische Prinzip) [自他共栄]}
-\label{sec:org5b94002}
-Das zweite Prinzip Jigoro Kanos hebt \hyperref[org5f8b831]{Judo} über eine bloße Zweikampfsportart hinaus und lässt es zum Erziehungssystem werden. In der Übersetzung kann man dieses Prinzip als \textbf{"Gegenseitige Hilfe für den wechselseitigen Fortschritt und das beiderseitige Wohlergehen"} verstehen. Kano macht damit deutlich, mit welcher Einstellung und Haltung man \hyperref[org5f8b831]{Judo} erlernen und betreiben soll. Er macht klar, dass der Partner nicht nur "Übungsobjekt" ist, jemand, an dem man übt, sondern ein Gegenüber, für das man Verantwortung entwickeln muss und für dessen Fortschritt in technischer und persönlicher Hinsicht man genauso arbeiten muss, wie für den eigenen. Ohne willig mitarbeitende Partner ist ein \hyperref[org5f8b831]{Judo}-Studium nicht möglich. Mit dem Prinzip des gegenseitigen Helfens und Verstehens hat Kano den Aspekt des \textbf{Do} ("Weg, Prinzip, Grundsatz") des Wortes \hyperref[org5f8b831]{Judo} als Lebensweg oder prinzipielle Einstellung zum Leben im Miteinander näher beschrieben. 
+\paragraph{Ji‐ta‐kyo‐ei (das moralische Prinzip) [自他共栄]}
+\label{sec:orge877fd8}
+Das zweite Prinzip Jigoro Kanos hebt \hyperref[org4f88021]{Judo} über eine bloße Zweikampfsportart hinaus und lässt es zum Erziehungssystem werden. In der Übersetzung kann man dieses Prinzip als \textbf{"`Gegenseitige Hilfe für den wechselseitigen Fortschritt und das beiderseitige Wohlergehen"'} verstehen. Kano macht damit deutlich, mit welcher Einstellung und Haltung man \hyperref[org4f88021]{Judo} erlernen und betreiben soll. Er macht klar, dass der Partner nicht nur "`Übungsobjekt"' ist, jemand, an dem man übt, sondern ein Gegenüber, für das man Verantwortung entwickeln muss und für dessen Fortschritt in technischer und persönlicher Hinsicht man genauso arbeiten muss, wie für den eigenen. Ohne willig mitarbeitende Partner ist ein \hyperref[org4f88021]{Judo}-Studium nicht möglich. Mit dem Prinzip des gegenseitigen Helfens und Verstehens hat Kano den Aspekt des \textbf{Do} ("`Weg, Prinzip, Grundsatz"') des Wortes \hyperref[org4f88021]{Judo} als Lebensweg oder prinzipielle Einstellung zum Leben im Miteinander näher beschrieben. 
 
-Auf der \hyperref[org5f8b831]{Judo}-Matte beim täglichen Training kann man die Anwendung dieses Prinzips unter andere
+Auf der \hyperref[org4f88021]{Judo}-Matte beim täglichen Training kann man die Anwendung dieses Prinzips unter andere
 m daran erkennen, dass 
 \begin{itemize}
 \item Tori die Kontrolle über die Fallübung von Uke ausübt
@@ -984,24 +1098,25 @@ m daran erkennen, dass
 \item jeder Übende bereit ist, für sein Handeln und für die Gruppe Verantwortung zu übernehmen.
 \end{itemize}
 
-\subsubsection{{\bfseries\sffamily DONE} Onore o tsukushite naru o matsu! [尽己竢成]}
-\label{sec:org2d327a2}
+\paragraph{Onore o tsukushite naru o matsu! [尽己竢成]}
+\label{sec:orgb5d3629}
 \begin{quote}
 「己を尽して成るを竢つ」
 \end{quote}
 
 Do Your Best and Await the Result.
 
-\section{{\bfseries\sffamily DONE} Kata [1/1]}
-\label{sec:orgaae60b6}
-\subsection{{\bfseries\sffamily DONE} \label{org0f6a64a}Ju-no-Kata}
-\label{sec:org9b4b895}
-\subsubsection{{\bfseries\sffamily DONE} Geschichte}
-\label{sec:org707d38f}
+\newpage
+\section{Kata }
+\label{sec:org00b28f5}
+\subsection{\label{org278cc0e}Ju-no-Kata}
+\label{sec:org5411a7f}
+\paragraph{Geschichte}
+\label{sec:org2c85985}
 Im Jahre 1887, wurde diese als dritte Kata von Jigoro Kano im Kodokan entwickelt, um die unterschiedlichen \emph{Prinzipien von Angriff und Verteidigung, des Gleichgewichtbrechens und des Siegen durch Nachgeben} in stark abstrahierter Weise zu verdeutlichen. 
 
-Das Hauptziel, das Jigoro Kano bei der Schaffung der \hyperref[org0f6a64a]{Ju-no-kata} verfolgt hat, war, einen Beitrag zur körperlichen Ertüchtigung zu leisten. 
-Daneben sollte alles das, was \hyperref[org5f8b831]{Judo} als Kampfkunst ausmacht (Angriff, Verteidigung usw.), ebenfalls in der Kata vorhanden sein. 
+Das Hauptziel, das Jigoro Kano bei der Schaffung der \hyperref[org278cc0e]{Ju-no-kata} verfolgt hat, war, einen Beitrag zur körperlichen Ertüchtigung zu leisten. 
+Daneben sollte alles das, was \hyperref[org4f88021]{Judo} als Kampfkunst ausmacht (Angriff, Verteidigung usw.), ebenfalls in der Kata vorhanden sein. 
 Um dem Gedanken einer körperlichen Ertüchtigung besonders gerecht zu werden, gibt es vier Charakteristika:
 
 \begin{itemize}
@@ -1013,14 +1128,14 @@ Um dem Gedanken einer körperlichen Ertüchtigung besonders gerecht zu werden, g
 
 Hiermit wird auch der Anspruch, eine komplettes System zur körperlichen Ertüchtigung anzubieten, untermauert.
 
-Die \hyperref[org0f6a64a]{Ju-no-kata} besteht aus drei Serien zu je 5 Techniken, umfasst also insgesamt 15 Techniken. 
+Die \hyperref[org278cc0e]{Ju-no-kata} besteht aus drei Serien zu je 5 Techniken, umfasst also insgesamt 15 Techniken. 
 Diese Techniken werden langsam ausgeführt, können aber in der Geschwindigkeit deutlich gesteigert werden. 
 Die meisten Aktionen bestehen aus einer Serie von mehreren Angriffen, Abwehren, erneuten Angriffen usw. 
-Stets wird dabei "Ju" angewendet, also Nachgeben, Ausweichen, Weiterführen der gegnerischen Bewegung um letztendlich die Kontrolle zu behalten. 
+Stets wird dabei "`Ju"' angewendet, also Nachgeben, Ausweichen, Weiterführen der gegnerischen Bewegung um letztendlich die Kontrolle zu behalten. 
 Die Kata schult Koordination, Körperhaltung, Tai-Sabaki und vor allem feinste Krafteinsätze beim Kuzushi.
 
-\subsubsection{{\bfseries\sffamily DONE} Techniken}
-\label{sec:org572ae2a}
+\paragraph{Techniken}
+\label{sec:orgecb118d}
 \begin{enumerate}
 \item Gruppe
 \begin{itemize}
@@ -1048,39 +1163,40 @@ Die Kata schult Koordination, Körperhaltung, Tai-Sabaki und vor allem feinste K
 \end{itemize}
 \end{enumerate}
 
-(s. Kano--Kodokan-\hyperref[org5f8b831]{Judo} S. 204, \href{https://www.judobund.de/fileadmin/\_horusdam/897-DJB-Regelwerk\_Kata-Wettbewerbe-IJF2015.pdf}{DJB--Regelwerk-Kata-Wettbewerbe})
+(s. Kano--Kodokan-\hyperref[org4f88021]{Judo} S. 204, \href{https://www.judobund.de/fileadmin/\_horusdam/897-DJB-Regelwerk\_Kata-Wettbewerbe-IJF2015.pdf}{DJB--Regelwerk-Kata-Wettbewerbe})
 
-\section{{\bfseries\sffamily TODO} Literatur [0/3]}
-\label{sec:orge05dd69}
+\newpage
+\section{Quellen }
+\label{sec:org8bc4ae4}
 
-\subsection{{\bfseries\sffamily TODO} Bücher}
-\label{sec:org6fd8920}
+\subsection{Bücher}
+\label{sec:org183b946}
 
 \begin{center}
 \begin{tabular}{ll}
-Jigoro Kano & Kodokan \hyperref[org5f8b831]{Judo} (dt.)\\
-Toshiro Daigo & Kodokan \hyperref[org5f8b831]{Judo} Throwing Techniques\\
-Katsuhiko Kashiwazaki & Attacking \hyperref[org5f8b831]{Judo}\\
+Jigoro Kano & Kodokan \hyperref[org4f88021]{Judo} (dt.)\\
+Toshiro Daigo & Kodokan \hyperref[org4f88021]{Judo} Throwing Techniques\\
+Katsuhiko Kashiwazaki & Attacking \hyperref[org4f88021]{Judo}\\
 Katsuhiko Kashiwazaki & Newaza of Kashiwazaki (jp.)\\
 Nobuyuki Sato & Ashiwaza\\
 Michael Swain & Ashiwaza II\\
-Bernd Linn & \hyperref[org5f8b831]{Judo} Kompakt\\
-Ralf Lippmann & \hyperref[org5f8b831]{Judo} Trainer-C-Ausbildung\\
+Bernd Linn & \hyperref[org4f88021]{Judo} Kompakt\\
+Ralf Lippmann & \hyperref[org4f88021]{Judo} Trainer-C-Ausbildung\\
  & \\
 \end{tabular}
 \end{center}
 
-\subsection{{\bfseries\sffamily TODO} DVD}
-\label{sec:orgb422c13}
+\subsection{DVD}
+\label{sec:orgc87027d}
 
 \begin{center}
 \begin{tabular}{ll}
-Huizinga & Total \hyperref[org5f8b831]{Judo}\\
+Huizinga & Total \hyperref[org4f88021]{Judo}\\
 Inue & Samurai\\
 Quelmaltz & \\
 \end{tabular}
 \end{center}
 
-\subsection{{\bfseries\sffamily TODO} Web-Links}
-\label{sec:orgce7b61b}
+\subsection{Web-Links}
+\label{sec:org056faf1}
 \end{document}

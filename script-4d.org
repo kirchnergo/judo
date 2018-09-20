@@ -76,7 +76,7 @@ Die langjährige Erfahrung, die gesteigerten Kenntnisse und die daraus entstehen
 ** DONE Vorkenntnisse 
    CLOSED: [2018-09-16 Sun 15:25]
 
-Alle Techniken der Kyu‐ und Dan‐ Ausbildungsstufen (außer Kata) können stichprobenartig abgeprüft werden.
+Alle Techniken der Kyu- und Dan- Ausbildungsstufen (außer Kata) können stichprobenartig abgeprüft werden.
 
 ** TODO Standtechnik (stichprobenartig)
 
@@ -96,21 +96,20 @@ Erläuterung der folgenden Wurfprinzipien und Demonstration mit je 2 Techniken a
 
 Die oben aufgeführten Wurfprinzipien sollen anhand von jeweils zwei unterschiedlichen Wurftechniken aus jeweils zwei unterschiedlichen, judotypischen, sinnvollen Situationen erläutert und demonstriert werden (nähere Erläuterungen zu den Wurfprinzipien im Begleitskript).
 
-Der Prüfling muss sich auf alle Prinzipien vorbereiten, die Prüfungskommission soll 2‐3 Beispiele auswählen, um den Zeitrahmen nicht zu sprengen.
+Der Prüfling muss sich auf alle Prinzipien vorbereiten, die Prüfungskommission soll 2-3 Beispiele auswählen, um den Zeitrahmen nicht zu sprengen.
 
 ** TODO Bodentechnik (stichprobenartig)
 
 Demonstration, Erläuterung und Begründung grundsätzlicher Verhaltensweisen, Prinzipien und Lösungsmöglichkeiten am Boden:
-+ Angriff aus Ober‐ und Unterlage
-+ Abwehr aus Ober‐ und Unterlage  
++ Angriff aus Ober- und Unterlage
++ Abwehr aus Ober- und Unterlage  
 jeweils zu allen Standardsituationen.
 
-Grundsätzliche Verhaltensweisen am Boden, wie /Angriffs‐ und Verteidigungsverhalten/, sowie realistische Lösungsmöglichkeiten gegen alle Standardsituationen müssen erläutert, begründet und ausführlich demonstriert werden können. Dies gilt für das Angriffs‐ und auch für das Verteidigungsverhalten, sowohl in Ober‐ als auch in
-Unterlage. 
+Grundsätzliche Verhaltensweisen am Boden, wie /Angriffs- und Verteidigungsverhalten/, sowie realistische Lösungsmöglichkeiten gegen alle Standardsituationen müssen erläutert, begründet und ausführlich demonstriert werden können. Dies gilt für das Angriffs- und auch für das Verteidigungsverhalten, sowohl in Ober- als auch in Unterlage. 
 
 Zu unseren *Standardsituationen* des Bodenkampfes gehören:
 - die Bauchlage
-- die Bankposition
+- die Bankstellung
 - die Rückenlage (Angriff zwischen den Beinen)
 - die Beinklammer (ein Bein ist geklammert, einfach oder doppelt)
 
@@ -119,41 +118,245 @@ Der Prüfling muss sich auf alle Standardsituationen vorbereiten, die Prüfungs
 ** DONE Theorie 
    CLOSED: [2018-09-16 Sun 16:41]
 
-Geschichtliche Entwicklung und die Judo‐Prinzipien.
+Geschichtliche Entwicklung und die Judo-Prinzipien.
 
 Der Prüfling soll die historische Entwicklung des Judo von den Ursprüngen in Japan bis zur Gegenwart in Deutschland skizzieren können.
 
-Er soll die Bedeutung von Jigoro Kano und die von ihm entwickelten Prinzipien, *Seiryoku‐zen‐yo* und *Ji‐ta‐kyo‐ei*, kurz beschreiben und bewerten.
+Er soll die Bedeutung von Jigoro Kano und die von ihm entwickelten Prinzipien, *Seiryoku-zen-yo* und *Ji-ta-kyo-ei*, kurz beschreiben und bewerten.
 
 ** DONE Kata 
    CLOSED: [2018-09-16 Sun 16:43]
 
-Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
+Wahlweise *Kodokan-goshin-jutsu* oder *Ju-no-kata*.
 
 
 #+Latex: \newpage
-* TODO Vorkenntnisse [0/1]
+* TODO Vorkenntnisse [0/2]
 
-*** TODO Ne-waza (Bodentechnik)
+** TODO Nage-waza (Wurftechnik)
 
-**** TODO Osae-komi-waza (Haltetechnik) [抑込技] [2/4]
+Die Gokyo ist eine Stoffsammlung und unterteilt in dem zur Anwendung kommenden Wurfprinzip:
 
-***** DONE <<<Kesa-gatame>>> (Schulterschärpe)
-      CLOSED: [2018-09-16 Sun 15:44]
++ Tachi-waza (Standtechniken)
+  - Ashi-waza (Bein- und Fußwürfe)
+  - Koshi-waza (Hüftwürfe)
+  - Te-waza (Hand- und Armwürfe)
++ Sutemi-waza (Selbstfallwürfe, auch „Opferwürfe“)
+  - Yoko-sutemi-waza (Selbstfallwürfe zur Seite)
+  - Ma-sutemi-waza (Selbstfallwürfe nach hinten)
+
+*** Ashi-waza (Bein- und Fußwürfe)
+
+Beinwürfe können in Sichel-, Rad-, Einhänge- und Fegetechniken gegliedert werden. Erstere greifen das vornehmlich belastete Standbein des Partners an und entziehen ihm so das Gleichgewicht. Bei den Fegetechniken hingegen wird das unbelastete Bein angegriffen und dem Partner die Möglichkeit, sich mit diesem abzustützen, genommen. Bei den Radtechniken wird eines oder beide Beine des Partners blockiert und durch Drehung des eigenen Körpers um die längste Achse der fixierte Körper des Partners über diesen Block gedreht.
+
+Diese Techniken erfordern eine präzise Koordination der Arme und Beine sowohl zeitlich als auch räumlich.
+
+**** Ashi-guruma (Beinrad)
+Tori bricht das Gleichgewicht von Uke durch Zug der Arme nach vorne, dreht so ein, blockiert noch in der Eindrehbewegung beide Beine des Uke zwischen Knöchel und Knie mit seinem ausgestreckten, nicht aufgesetzten Bein und wirft durch eine schnelle Weiterdrehung seines Körpers und kontinuierlichen Zug der Arme, so dass Uke ein Rad über Toris Bein schlägt.
+
+**** Hiza-guruma (Knierad) 
+Tori setzt seine Fußsohle unter Ukes gegenüberliegendes Knie an und wirft den Gegner in einem Dreiviertelkreisbogen über den angesetzten Fuß.
+Im Gegensatz zu Sazae-tsuri-komi-ashi wird ein hinten stehendes Bein Ukes angegriffen; das vorne stehende Bein würde, mit dieser Wurftechnik angegriffen, sich selbst blockieren.
+
+Bei dieser Technik ist darauf zu achten, dass der Fuß Toris nicht direkt auf Ukes Knie gesetzt wird, um Verletzungen zu vermeiden. Weiterhin ist bei dieser Technik darauf zu achten, dass der Knöchel Toris nicht gegen Ukes Schienbein schlägt.
+
+**** Ko-soto-gake (Kleines äußeres Einhängen)
+Tori hängt sein Bein von außen in das gegenüberliegende Bein des Uke ein, wobei er die Ferse unterhalb der Kniekehle ansetzt und das Bein des Uke so am Boden fixiert. Mit gleichzeitiger Gewichtsverlagerung nach vorn wirft Tori Uke schräg nach hinten.
+
+**** O-guruma (Großes Rad)
+Tori bricht das Gleichgewicht von Uke durch Zug der Arme nach vorne, dreht ein, blockiert beide Beine von Uke zwischen Knie und Hüfte mit seinem fast waagerecht ausgestreckten Bein und wirft durch eine schnelle Drehung seines Körpers und kontinuierlichen Zug der Arme, so dass Uke ein Rad über Toris Bein schlägt.
+
+**** O-soto-gari (Große Außensichel)
+Dieser Beinsichelwurf ist eine typische, sehr effektive Technik, die auch im sportlichen Wettkampf erfolgreich angewandt werden kann. Sie ist ebenfalls in der '''Gonosen-No-Kata''' (Form der Gegenwürfe) zu finden.
+
+Tori macht einen weiten Schritt schräg-vorwärts an Uke vorbei, so dass beide Partner mit entgegengesetzter Blickrichtung fast nebeneinanderstehen. Durch Beibehaltung der Faßart sowie unterstützenden Armzug („Lenkradbewegung“) wird Uke gezwungen, sein Tori zugewandtes Bein zu belasten. Nun schwingt Tori sein Uke zugewandtes Bein zunächst gestreckt nach vorn („Pferdekuß“ vermeiden) und dann in einer durchgehenden Bewegung wieder nach hinten, um Ukes belastetes Bein zu sicheln, wodurch dieser geworfen wird. Tori muss dabei auf einem Bein stehend sein Gleichgewicht halten.
+
+**** O-soto-guruma (Großes Außenrad)
+O-soto-guruma entspricht im Wurfeingang zunächst dem O-soto-gari.
+
+Der Unterschied ist, dass O-soto-guruma keine Sicheltechnik ist, sondern eine Radtechnik, d.&nbsp;h. die Beine Ukes werden nicht unter seinem Körper weggesichelt, sondern blockiert. Bei der Ausholbewegung seines (Uke zugewandten) Schwungbeines führt Tori eine geringe Drehung um seine Längsachse von Uke fort aus, so dass Uke fast auf die Hüfte aufgeladen wird. Bei der abschließenden Rückbewegung des Schwungbeins werden nun beide Beine Ukes angegriffen. Dabei führt Tori seine Körperdrehung fort, so dass Uke über das Schwungbein geworfen wird.
+
+**** O-soto-otoshi (Großer Außensturz)
+Der Wurfeingang entspricht dem O-soto-gari. Tori stellt den Fuß seines Uke zugewandten Beines jedoch hinter Uke ab und blockiert so dessen Standbein, fixiert Uke und wirft diesen durch Druck am Oberkörper nach hinten. Gegebenenfalls geht Tori dabei in die Knie und führt Uke nach unten.
+
+**** O-uchi-gari (大内刈, Große Innensichel)
+]]
+Tori sichelt mit einer Halbkreisbewegung seines Beins das gegenüberliegende belastete Bein Ukes von innen hinten und wirft rückwärts.
+
+**** Okuri-ashi-barai (Fußnachfegen)
+Tori zwingt Uke zu einem Schritt (zweckmäßigerweise seitwärts oder in einer Kreisbewegung). Dabei wird das Standbein des Uke durch aufwärts gerichteten Armzug des Tori entlastet. Tori fegt von außen das unbelastete Bein des Uke gegen das instabile Standbein und kippt Uke förmlich um.
+
+**** Sasae-tsuri-komi-ashi (支釣込足, Hebezugfußhalten) 
+Tori blockiert mit der Fußsohle ein gegenüberliegendes, vorgestelltes, belastetes Bein von Uke etwas oberhalb des Spanns und wirft Uke vorwärts-seitwärts, indem er ihn zwingt, den Schritt nach vorn weiterzuführen.
+
+**** (Ashi-) Uchi-mata (Innerer Schenkelwurf) 
+Tori bringt Uke durch Zug der Arme nach vorne aus dem Gleichgewicht, dreht ein, führt mit seinem Oberschenkel Ukes Schwungbein nach und wirft durch weiteren Zug und Drehen seines Körpers nach vorne.
+
+*** Koshi-waza (Hüftwürfe) 
+Der werfende Partner bricht das Gleichgewicht des Partners nach vorn, dreht mit einer Halbdrehung ein und bringt die eigene Hüfte mehr oder weniger unter den Schwerpunkt (Hüfte) des Partners. Durch Beinstreckung und Armzug wird der so fixierte Partner dann über die Hüfte nach vorn geworfen.
+
+**** O-goshi (大腰, Großer Hüftwurf) 
+Tori dreht ein und hebt durch Streckung der Beine Uke aus und führt dessen Bewegung durch Körperdrehung und Armzug weiter. Die dem Uke zugewandte Hand schiebt dabei auf dem Rücken des Uke, die andere Hand zieht am langen Arm nach unten.
+
+**** (Koshi-) Uchi-mata (Innerer Schenkelwurf) 
+Tori bringt Uke durch Zug der Arme nach vorne aus dem Gleichgewicht, dreht ein und blockiert die Vorwärtsbewegung des Uke mit seiner Hüfte. Tori schwingt sein Uke zugewandtes Bein aufwärts, greift damit das bereits deutlich entlastete Standbein des Uke an und wirft diesen über die Hüfte nach vorn.
+
+**** Uki-goshi (Hüftschwung) 
+Tori dreht ein, fixiert Uke jedoch schon während der Eindrehbewegung, so dass dieser rechtwinklig zu Tori steht. Durch die Beinstreckung Toris wird das Gleichgewicht des Uke endgültig gebrochen, und durch die Fortsetzung der Eindrehbewegung, insbesondere durch Zurücksetzen des von Uke abgewandten Beines des Tori, sowie Armzug wird Uke zu Boden geschleudert.
+
+**** Tsuri-komi-goshi (Hebehüftwurf)
+Tori dreht sich in tiefer Kniebeuge stehend ein und wirft den Gegner, indem er ihn nach oben stemmt.
+
+Tori erfasst Ukes rechten Ärmel möglichst kurz oberhalb des Ellenbogens. Mit der rechten Hand greift er in Ukes linkes Revers in Kragenhöhe. Es ist vorteilhaft den Wurf auszuführen, wenn Uke einen Rechtsvorwärts-Schritt macht.
+Anschließend dreht man sich nach rechts ein, wobei man, im Gegensatz zu den meisten Hüftwürfen, sich so tief in die Kniebeuge begibt, dass sich Toris Gesäß etwa auf Ukes Kniehöhe befindet. Obwohl es bei diesem Wurf angebracht ist, so tief wie möglich zu stehen, darf Tori nur so weit in die Knie gehen, wie es der eigene feste Stand in dieser Position gestattet.
+
+Zur Wurfausführung zieht Tori mit dem linken Arm vorwärts und nach unten. Mit dem rechten Arm, der sich gerade nach oben gestreckt mit der Hand an Ukes Revers befindet, wird nun das Gleichgewicht des Uke nach vorne gebrochen, sodass Uke auf dem eigenen Rücken liegt. Als Nächstes wird Uke sowohl durch Zug an der Ärmelhand als auch durch Zug am Revers des Uke nach vorne und Hüfteinsatz in Kombination mit dem eigenen Aufrichten und Abbeugen ausgehoben und nach vorne geworfen.
+
+Dieser Wurf ist, vorausgesetzt man kann sicher genug in tiefer Kniebeuge stehen, vor allem geeignet, um körpergrößere Gegner zu werfen.
+Versucht Uke e[[inen Hüftwurfansatz durch Abblocken mit gestrecktem Oberkörper unwirksam zu machen, ermöglicht dieser Wurf meist den Gegner dennoch auszuheben und zu werfen.
+
+*** Te-waza (Hand- und Armwürfe)
+Der Partner wird entweder im Bereich der Schulter des Werfenden fixiert, ausgehoben und mehr oder weniger über den Körper des Werfenden geworfen oder durch eine erzwungene Änderung der Bewegungsrichtung aus dem Gleichgewicht gebracht und förmlich zu Boden gerissen.
+
+**** Kata-guruma (Schulterrad)
+Tori bringt Uke durch Zug seiner Arme diagonal nach vorne aus dem Gleichgewicht, geht tief in die Knie, um unterhalb Ukes Schwerpunkt zu gelangen, greift mit seinem Arm von innen um Ukes Oberschenkel und wirft ihn über beide Schultern ab. Tori richtet sich dabei auf, so dass Uke ein großes Rad über die Schultern des Tori schlägt.
+
+**** Seoi-nage (背負投, Schulterwurf)
+Tori dreht tief ein, unterläuft so den Schwerpunkt des Uke und fixiert diesen dabei an seiner Schulter. Durch Aufrichten und gleichzeitigen Armzug wird Uke nach vorn geworfen.
+
++ Varianten
+  - Morote-seoi-nage: Tori bringt seinen Ellenbogen unter Ukes Achsel
+  - Ippon-seoi-nage: Tori klemmt Ukes Arm in seine Ellenbeuge
+  - Eri-seoi-nage: Tori greift einseitig
+  - Seoi-otoshi: Tori streckt den Fuß aus und zieht Uke darüber
+  - Koga-Seoi-Nage: Tori dreht von außen ein und wirft mit seitenverkehrter Fassart
+
+Die Varianten unterscheiden sich in der Fassart, der notwendigen Absenkung des Schwerpunktes bei der Eindrehbewegung und in der Relation, welche Schulter des Tori (relativ zur Eindrehrichtung) den Uke fixiert.
+
+Kann auch „shoi-nage“ ausgesprochen werden, wenn die ersten beiden japanischen Zeichen zu einem Begriff („Rückentrage“) verschmelzen.
+
+**** Uki-otoshi (Schwebehandzug) 
+Tori weicht einer Vorwärtsbewegung des Uke schräg zur Seite aus und geht auf eines seiner Knie herunter. Durch die gleichzeitige plötzliche Änderung der Zugrichtung nach unten zwingt er Uke zu einem freien Fall vorwärts.
+
+Als Wettkampftechnik ist Uki-otoshi eine absolute Rarität. Als erster Wurf der Nage-no-kata demonstriert er aber eindrucksvoll das für das Judo fundamentale Prinzip, wie durch Ausweichen und Weiterführen der Bewegung des Partners geworfen werden kann.
+
+**** Tai-otoshi (Körpersturz) 
+Mit einer Drehbewegung wird der Vorwärtsbewegung des Uke ausgewichen und sehr weit eingedreht, das außen stehende Bein wird gestreckt (ganz leicht angewinkelt um das Verletzungsrisiko zu vermindern) in die Bewegungsrichtung des Uke gestellt. Es wird über das gestreckte Bein geworfen, Zugpunkt ist die Hand am Revers des Uke.
+
+*** Yoko-sutemi-waza (Seitliche Körperwürfe zur Seite)
+
+Durch die Aufgabe des eigenen Gleichgewichtes wird der Partner gezwungen, seine Bewegung fortzusetzen. Dabei werden die Beine des Partners blockiert und dessen Fall seitlich am werfenden, bereits am Boden liegenden Partner vorbeigelenkt. 
+
+**** Tani-otoshi (Talfallzug)
+Tori steht seitlich von Uke, bricht dessen Gleichgewicht durch Armzug nach hinten und durch Druck seiner Schulter von vorne, gleitet mit einem Bein hinter beide Beine des Uke und wirft, indem er sich selbst auf die Seite fallen lässt und dabei Uke mitreißt.
+
+**** Yoko-gake (Seitliches Einhängen)
+Tori hält engen Kontakt zu dem seitlich neben ihm stehenden Uke, blockiert das ihm zugewandte belastete Bein des Uke am Spann mit dem eigenen entgegengesetzten Fuß und zieht den Uke dabei noch stark auf dieses Bein. Tori streckt das blockierende Bein und wirft sich dabei zur Seite. Dadurch wird das Standbein des Uke mit zunehmendem Fall des Tori immer mehr zur Seite geschoben und Uke zugleich zu Boden gezogen.
+
+**** Soto-maki-komi (Außendrehwurf)
+
+Soto-maki-komi kann sehr gut ausgeführt werden, wenn Uke auf Tori zu geht. Tori zieht kräftig mit der linken Hand am Ärmel Ukes und zwingt ihn zu einem großen Schritt. Durch eine Eindrehbewegung, bei der – ähnlich wie bei Tai-Otoshi – Toris rechtes Bein außen an Ukes rechtes Bein gelegt wird und Tori Ukes rechten Arm in der Achsel einklemmt, wird ein enger Körperkontakt hergestellt. Tori dreht sich weiter und zieht Uke mit sich zu Boden, wobei Uke durch den Schwung als Erster die Matte berührt (weiterhin enger Körperkontakt). Tori fällt neben Uke (nicht '''auf''' Uke!) und kann so zum Beispiel sofort eine Haltetechnik anbringen.
+
+Der Wurf gehört zur Gruppe der Yoko-sutemi-waza, wenn nicht nach Mitfalltechnik sortiert wird.
+
+**** Hane-maki-komi (Springdrehwurf)
+Hane-maki-komi ist eine Art Hane-goshi, ausgeführt als Mitfalltechnik.
+Wie bei Soto-maki-komi, muss Tori einen engen Körperkontakt zu Uke herstellen, um den Wurf durchzuführen.
+Unterschied zu Soto-maki-komi ist das Ausheben des Uke durch das Wegfegen des Beines von Uke, wie bei Hane-goshi.
+
+Uke fällt oft sehr hoch und sehr hart, da dieser keinen eigenen Einfluss mehr auf seine Flugbahn hat und der Fall allein von Toris Geschick abhängt.
+
+Der Wurf gehört zur Gruppe der Yoko-sutemi-waza, wenn nicht nach Mitfalltechnik sortiert wird.
+
+**** Ko-uchi-maki-komi
+Ko-uchi-maki-komi ähnelt dem Ko-uchi-gari. Anders als bei dieser Technik fällt jedoch Tori mit. Wichtig ist dabei, dass das angegriffene Bein Ukes Standbein ist. Dies ist zum Beispiel zu erreichen, wenn Uke in Auslage steht. Tori hakt sein rechtes Bein von innen in Ukes rechtes Bein ein. Dabei klemmt er mit seinem rechten Arm Ukes rechten Oberschenkel ein. Uke wird jetzt durch Toris Oberkörper, sowie Arm an einer Fluchtbewegung gehindert. Um zu Werfen lässt sich Tori auf seine rechte Seite fallen. Er zwingt dabei durch seinen Körper Uke mit zu Boden und sichert durch seinen rechten Arm. Da das angegriffene Bein Ukes Standbein ist, verliert dieser dadurch das Gleichgewicht und fällt zu Boden. Ist das angegriffene Bein nicht Ukes Standbein, dann läuft der Angriff ins Leere.
+
+Der Wurf gehört zur Gruppe der Yoko-sutemi-waza, wenn nicht nach Mitfalltechnik sortiert wird.
+
+*** Ma-sutemi-waza (Selbstfallwürfe nach hinten)
+
+Der werfende Partner gibt sein eigenes Gleichgewicht auf und zwingt den Partner so zu Boden. Dadurch dass der werfende direkt unter dem Schwerpunkt des Geworfenen zu liegen kommt, kann er dessen Fall direkt über den eigenen Körper hinweg lenken.
+
+**** Tomoe-nage (Kreiswurf/ Überkopfwurf)
+
+Tori zwingt Uke zu einem Schritt vorwärts, dabei setzt er einen Fuß in der Leiste des Uke an und sich selbst direkt unter dem Schwerpunkt des Uke, also idealerweise direkt vor oder zwischen den Füßen des Uke auf den Boden und bringt Uke so in eine tief abgebeugte Position. Tori lässt sich nun auf den Rücken rollen und schiebt mit dem Fuß in der Leiste des Uke nach, worauf Uke mit einer Vorwärtsrolle leicht seitlich über Tori fällt.
+
+**** Ura-nage (Rückwurf)
+
+Tori umfasst Uke von der Seite, geht tief in die Knie, um unterhalb von Ukes Schwerpunkt zu gelangen, hebt Uke durch explosives Strecken der Beine sowie Vorschieben von Hüfte und Bauch aus, lässt sich selbst auf den Rücken fallen, ohne dabei in den Beinen einzuknicken, und wirft Uke über die Schulter nach hinten ab.
+
+*** Maki-komi-waza
+
+Uke fällt bei einigen dieser Techniken sehr hoch und sehr hart, da er von Tori azimutal beschleunigt wird, jedoch stets einen längeren Weg beschreiben muss und somit eine höhere Bahngeschwindigkeit erreicht. Als Kampftechniken stellen die Maki-komi-waza auch einen sinnvollen Übergang vom Stand in den Boden dar. Oft kann sofort in eine Haltetechnik übergegangen werden. Als wesentliche Anforderung stellt sich die Beherrschung von Selbstfallwürfen bei gleichzeitigem Fixieren des Uke und dem Ansetzen einer Eindrehtechnik. Außerdem sollte Tori /nach/ Uke die Matte berühren.
+
+ Die ''Maki-komi-waza'' werden größtenteils, jedoch nicht ausschließlich unter die Sutemi-waza eingruppiert. Diese Techniken vereinen Prinzipien dieser Gruppen mit denen der Tachi-waza. Da keine Trennung von Tori und Uke stattfindet, könnten die ''Maki-komi-waza'' bei restriktiver Auslegung sogar als reine Stand-Boden-Übergänge (und nicht als Wurftechnik) aufgefasst werden.
+
+**** Hane-maki-komi
+
+ Dieser Wurf fällt offiziell unter die Yoko-sutemi-waza.
+
+**** Ko-uchi-maki-komi
+
+ Diese Technik wird als Variante des ''Ko-uchi-gari'' betrachtet.
+
+ Tori greift mit einer Sichelbewegung seines diagonal entgegengesetzten Beines von innen das Standbein des Uke an. Dabei unterstützt Tori den Angriff, indem er seinen Griff am Revers löst, der Sichelbewegung folgend abtaucht und das Standbein des Uke zwischen Arm und Körperseite fixiert, dabei wird praktisch eine Eindrehbewegung vollführt. Indem Tori sein Gleichgewicht aufgibt, wird Uke schräg nach hinten geworfen.
+
+**** Soto-maki-komi
+
+ Dieser Wurf fällt ebenfalls offiziell unter die Yoko-sutemi-waza.
+
+**** Laats-Abtaucher
+
+ Diese nach den belgischen Brüdern Philip Laats (-65 kg) und Johann Laats (-78 kg) benannte Technik gilt als Variante des Kata-guruma und gehört damit zur Gruppe der Te-waza.
+
+ Tori setzt wie ''Kata-guruma'' zum Aufladen des Uke an, fixiert Uke jedoch vorher, indem er seinen eigenen Nacken unter dessen Achsel einklemmt, und fällt selbst zur Seite. Uke wird dadurch gezwungen, über die Schultern des Tori 
+
+*** Beingreiftechniken
+
+ Diesen Würfen ist gemein, dass durch Greifen eines oder beider Beine der Gegner zu Fall gebracht oder soweit destabilisiert wird, dass ein relativ schwacher Wurfansatz zum Erfolg führt. Die Einteilung dieser Techniken erfolgt zumeist nach der Art der endgültigen Wurfausführung oder der Wurf wird als Variante der abschließenden Technik betrachtet. Die Nomenklatur der Einzeltechniken unterliegt einigen Schwankungen. Im deutschen Sprachraum herrscht unter anderem die Praxis vor, unabhängig von der Wurfausführung alle einhändigen Techniken, bei denen das Bein des Uke von innen gegriffen wird, als ''Kuchiki-taoshi'' zu bezeichnen, und alle anderen als ''Kata-ashi-dori''.
+
+ In den 1990er Jahren gelangten einige Techniken des Sambo in das Wettkampfjudo, wodurch ''Beingreiftechniken'' sehr populär wurden. Seit 2010 sind diese jedoch bei offiziellen Wettkämpfen verboten.
+
+**** Kata-ashi-dori
+
+ Die Technik kann als Variante des O-uchi-gari angesehen werden.
+ 
+ Tori greift von außen das unbelastete Bein des Uke und sichelt das Standbein mit ''O-uchi-gari''. Uke fällt dabei relativ hart fast gerade nach hinten.
+
+**** Kuchiki-taoshi (einen morschen Baum fällen)
+ Dieser Wurf wird offiziell in Gruppe der Te-waza eingruppiert.
+
+**** Morote-gari/Ryo-(te)-ashi-dori (Beidhandsichel)
+
+Diese Technik gehört zur Gruppe der Te-waza[[]].
+
+Tori taucht vor Uke ab, ergreift mit beiden Händen die Zubon des Uke am Knie und zieht, während er mit der Schulter gegen die Hüfte des Uke drückt, dessen Beine weg, sodass Uke nach hinten geworfen wird.
+
+** TODO Ne-waza (Bodentechnik)
+
+*** TODO Osae-komi-waza (Haltetechnik) [抑込技] [2/4]
+
+**** DONE <<Kesa-gatame>>Kesa-gatame (Schulterschärpe)
+     CLOSED: [2018-09-16 Sun 15:44]
       
-- neben dem Gegner auf einer Seite liegend oder kniend halten
++ neben dem Gegner auf einer Seite liegend oder kniend halten
 
-| <<<Hon-kesa-gatame>>>    | Urform der Kesa-gatame                                                                 |
-| <<<Kuzure-kesa-gatame>>> | nicht um den Kopf, sondern unter den Arm fassen                                        |
-| <<<Uki-gatame>>>         | aus dem Ude-hishigi in die Festhalte wechseln (Eckersley), Schienbein gegen Oberkörper |
-| <<<Makura-gesa-gatame>>> | Urform, wobei die Hand, von dem Arm der um den Kopf geht, in das eigene Bein fasst     |
++ <<<Hon-kesa-gatame>>> 
+  - Urform der [[Kesa-gatame]]                                                                 
++ <<<Kuzure-kesa-gatame>>> 
+  - nicht um den Kopf, sondern unter den Arm fassen                                      
++ <<<Uki-gatame>>>         
+  - aus dem Ude-hishigi in die Festhalte wechseln (Eckersley), Schienbein gegen Oberkörper 
+
+
++ <<<Makura-gesa-gatame>>> | Urform, wobei die Hand, von dem Arm der um den Kopf geht, in das eigene Bein fasst     |
 | (Kashira-gatame)         |                                                                                        |
 | <<<Gyaku-kesa-gatame>>>  | Umgekert; Blick Richtung Beine, Hand im Gürtel                                        |
 | <<<Kata-Gatame>>>        | Arm und Kopf von Uke mit einem Arm umschlingen                                         |
 | <<<Ura-Gatame>>>         | Gurke                                                                                  |
 
-***** DONE Yoko-shiho-gatame (Seitenvierer) 
-      CLOSED: [2018-09-16 Sun 16:20]
+**** DONE Yoko-shiho-gatame (Seitenvierer) 
+     CLOSED: [2018-09-16 Sun 16:20]
 
 - von der Seite her auf dem Bauch liegend oder kniend halten
 
@@ -169,7 +372,7 @@ Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
 | <<<Yoko-ashi-shiho-gatame>>>   | wie, Kata-osae-gatame, zusätzlich Ukes Fuß eingeklemmt                                                |
 | <<<Yoko-sankaku-gatame>>>      | Uke Bankstellung und Tori steigt vom Kopf her ein. Endposition: Tori liegt im rechten Winkel zu Uke   |
 
-***** TODO Kami-shiho-gatame (oberer Vierer)
+**** TODO Kami-shiho-gatame (oberer Vierer)
 
 - über dem Gegner vom Kopf her auf dem Bauch liegend oder kniend halten
 
@@ -178,7 +381,7 @@ Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
 | <<<Ura-shiho-gatame>>>         | Tori greift beide Reverse                                                                                                        |
 | <<<Kami-sankaku-gatame>>>      | Angriff von Ukes Kopf und Endposition gegenparallel liegen. Wie Yoko-sankaku-gatame, nur das Tori mit dem Kopf zu den Füßen geht |
 
-***** TODO Tate-shiho-gatame (Reitvierer)
+**** TODO Tate-shiho-gatame (Reitvierer)
 
 - über dem Gegner liegend bzw. kniend halten
 
@@ -187,11 +390,10 @@ Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
 | <<<Tate-sankaku-gatame>>>      | Ausgangsposition Tori hat Uke zwischen den Beine und setzt Sankaku an und dreht Uke über die Seite bis er oben sitzt |
 | <<<Tate-obi-shiho-gatame>>>    |                                                                                                                      |
 
+*** TODO Shime-Waza (Würgetechnik) [絞技] [5/7]
 
-**** TODO Shime-Waza (Würgetechnik) [絞技] [5/7]
-
-***** DONE Juji-jime 
-      CLOSED: [2018-09-17 Mon 23:26]
+**** DONE Juji-jime 
+     CLOSED: [2018-09-17 Mon 23:26]
 
 - mit beiden Händen unter Kreuzen der Unterarme würgen
 
@@ -202,8 +404,8 @@ Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
 | <<<Sode-kuruma-jime>>>     | in den eigenen Ärmel fassen und Ukes Hals zwischen den Unterarmen einklemmen                                             |
 | <<<Drehwürge>>> (Mahrenke) | eine Hand im Nacken die andere ins gleiche Revers unter den Arm durch, Ellenbogen eindrehen und unter den Partner rollen |
 
-***** DONE Okuri-eri-jime
-      CLOSED: [2018-09-17 Mon 23:41]
+**** DONE Okuri-eri-jime
+     CLOSED: [2018-09-17 Mon 23:41]
 
 + durch Ziehen des Kragens würgen
 
@@ -217,8 +419,8 @@ Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
 [fn:koshi-jime] Uke greift mit Seoi-Nage an. Tori übernimmt mit Okuri-eri-jime. Linke Hand blockiert Ukes rechte Seite, in dem er unter dem Arm durch greift. Die Würge zieht durch vorbringen der Hüfte zwischen Toris Arm und Ukes Schulter.
 [fn:kingston] Uke ist in der Bankstellung. Tori greift mit der rechten Hand unter dem Kinn Ukes in dessen rechtes Reverse. Die andere Hand greift in den Gürtel und das linke Bein wird über Uke zwischen dessen Arm und Bein gesteckt. Das Bein wird als Schwungbein für eine Rolle genutzt. Tori dreht durch die Rolle Uke um.  Er baut Spannung zwischen der rechten Hand am Hals und der linken Hand an den Beinen auf.
 
-***** DONE Kata-ha-jime
-      CLOSED: [2018-09-17 Mon 23:45]
+**** DONE Kata-ha-jime
+     CLOSED: [2018-09-17 Mon 23:45]
 
 + Würgen unter Festlegung von Arm bzw. Schulter
 
@@ -229,26 +431,26 @@ Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
 
 [fn:kata-ha] Tori sitzt hinter Uke. Recht Hand geht unter Ukes Kinn und greift in dessen linkes Revers. Die linke Hand schiebt sich unter Ukes linken Arm hin durch und führt seinen Arm hinter Ukes Kopf bzw. Nacken.
 
-***** DONE Hadaka-Jime 
-      CLOSED: [2018-09-17 Mon 23:55]
+**** DONE Hadaka-Jime 
+     CLOSED: [2018-09-17 Mon 23:55]
 
 + ohne Hilfe des Judogi würgen
++ <<<Hadaka-jime>>> :: Urform[fn:hadaka]                                                                                            
+  - Tori legt die Innenseite seines rechten Unterarms vorn an Ukes Hals, schließt über dessen linker Schulter die Hände zusammen, und übt durch kombinierte Aktion der Arme Druck auf Ukes Kehle aus.
++ <<<Ushiro-jime>>> :: Tori ist hinter Uke und schiebt seinen unter Arm unter Ukes Halt durch. Tori greift Hand in Hand und würgt.  
++ <<<Sode-jime>>>   :: Wie Sode-kuruma-jime, nur den Arm greifen und nicht den eigenen Ärmel. Ausgangsposition zwischen den Beinen. 
 
-| <<<Hadaka-jime>>> | Urform[fn:hadaka]                                                                                            |
-| <<<Ushiro-jime>>> | Tori ist hinter Uke und schiebt seinen unter Arm unter Ukes Halt durch. Tori greift Hand in Hand und würgt.  |
-| <<<Sode-jime>>>   | Wie Sode-kuruma-jime, nur den Arm greifen und nicht den eigenen Ärmel. Ausgangsposition zwischen den Beinen. |
+[fn:hadaka] 
 
-[fn:hadaka] Tori legt die Innenseite seines rechten Unterarms vorn an Ukes Hals, schließt über dessen linker Schulter die Hände zusammen, und übt durch kombinierte Aktion der Arme Druck auf Ukes Kehle aus.
-
-***** DONE Ryo-te-jime 
-      CLOSED: [2018-09-17 Mon 23:56]
+**** DONE Ryo-te-jime 
+     CLOSED: [2018-09-17 Mon 23:56]
 
 + die Revers ergreifen und mit Parallegriff würgen
 
 | <<<Ryo-te-jime>>>    | Tori greift mit beiden Händen in Uke Revers in Höhe dessen Halses. Beide Daumen innen. Beide Hände nach außen drehen |
 | <<<Maki-komi-jime>>> | ähnlich Tomeo-jime. Angriff von unten zwischen den Beinen.                                                           |
 
-***** TODO Katate-jime 
+**** TODO Katate-jime 
 
 + Hauptsächlich mit einer Hand würgen
 
@@ -258,7 +460,7 @@ Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
 
 [fn:ebi] Tori ist zwischen den Beinen. Er arbeitet sich heraus, hält die Beine mit der einen Hand von unten und greift mit der anderen Hand in Ukes Revers und würgt mit dem Unterarm.
 
-***** TODO Ashi-jime 
+**** TODO Ashi-jime 
 
 + mit Hilfe von Fuß oder Bein würgen
 
@@ -273,12 +475,12 @@ Wahlweise *Kodokan‐goshin‐jutsu* oder *Ju‐no‐kata*.
 [fn:hasami] Uke befindet sich in der Bankstellung. Tor kniet dich an Ukes linker Seite. Sein rechtes Knie berührt den Bocen, während das linke hochgestellt ist. Er schiebt seinen linken Unterarm so unter Ukes Kinn, das die Speiche auf die Luftröhre zu liegen kommt. Seine linke Hand ergreift mit dem Daumen nach innen Ukes rechten Jackenaufschlag möglichst weit oben. Die rechte Hand erfaßt indessen Ukes rechten Ärmel dicht am Schultergelenk.
 Nun schwingt Tori sein linkes Bein über Ukes Kopf und legt die Kniekehle auf Ukes Nacken. Ein Zug mit dem linken Arm nach oben und ein gleichzeitiger Druck  mit der linken Kniekehle nach unten würgen Uke.
 
-**** TODO Kansetsu-Waza (Hebeltechnik) [関節技] [0/7]
+*** TODO Kansetsu-Waza (Hebeltechnik) [関節技] [0/7]
 
 - Ude-hishigi-waza (Streckhebel)
 - Ude-garami-waza (Beugehebel)
 
-***** TODO Juji-gatame
+**** TODO Juji-gatame
 
 + den zwischen den Beinen befindlichen Arm über die Leistengegend hebeln
 
@@ -289,7 +491,7 @@ Nun schwingt Tori sein linkes Bein über Ukes Kopf und legt die Kniekehle auf Uk
 | <<<Yoko-juji-gatame>>>        |                                                                                                    |
 | <<<Othen-gatame>>>            | ein Bein über dem Körper das andere hinder dem Kopf fixiert den anderen Arm.                       |
 
-***** TODO Ude-gatame 
+**** TODO Ude-gatame 
 
 + mit beiden Händen auf Arm oder Ellenbogen drückend hebeln
 
@@ -298,7 +500,7 @@ Nun schwingt Tori sein linkes Bein über Ukes Kopf und legt die Kniekehle auf Uk
 | <<<Hizi-maki-komi>>>        |                                                                                                              |
 | <<<Kuzure-hizi-maki-komi>>> |                                                                                                              |
 
-***** TODO Ashi-gatame 
+**** TODO Ashi-gatame 
 
 + mit Hilfe von Bein oder Knie hebeln
 
@@ -310,7 +512,7 @@ Nun schwingt Tori sein linkes Bein über Ukes Kopf und legt die Kniekehle auf Uk
 | <<<Ryo-hiza-gatame>>>  | Tori sitzt auf Uke und hebelt beide Arme über je ein Knie.                                                 |
 | <<<Kesa-ashi-gatame>>> | Kesa-Gatame und Uke fixierten Arm unter das Bein bringen und hebeln.                                       |
 
-***** TODO Hara-gatame 
+**** TODO Hara-gatame 
 
 + mit dem Bauch oder der Körpervorderseite hebeln
 
@@ -318,14 +520,14 @@ Nun schwingt Tori sein linkes Bein über Ukes Kopf und legt die Kniekehle auf Uk
 | Gyaku-ude-gatame   | zwischen den Beinen, dann Uke umdrehen, Arm fixieren und in der eigenen Rückenlage über den Bauch hebeln |
 | Kuzure-hara-gatame | aus Kuzure-gesa-gatame den Fuß über Uke Kopf bringen                                                     |
 
-***** TODO Waki-gatame
+**** TODO Waki-gatame
 
 + mit einer Körperseite oder der Achsel hebeln
 
 | <<<Waki-gatame>>> | parallel in Bankstellung über die Achsel hebeln                                  |
 | <<<Gyaku-waki-gatame>>> | gegenparallel in der Bankstellung, Arm in der Achselhöhle eingeklemmt und hebeln |
 
-***** TODO Kannuki-gatame
+**** TODO Kannuki-gatame
 
 + den Arm mit den Unterarmen verriegeln und hebeln
 
@@ -335,7 +537,7 @@ Nun schwingt Tori sein linkes Bein über Ukes Kopf und legt die Kniekehle auf Uk
 | <<<Kami-shiho-kannuki-gatame>>> | kuzure-kami-shiho gatame den Arm strecken, der andere Arm fasst den Oberarm          |
 | <<<Ryo-kannuki-gatame>>>        | beide Arme von außen umschlingen                                                     |
 
-***** TODO Ude-garami
+**** TODO Ude-garami
 
 + Ukes gebeugten Arm hebeln
 
@@ -674,7 +876,7 @@ Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit ei
 + Ansatz von Daki-age (Ausheber), um den Angriff zu unterbrechen
 
 
-** DONE <<<Bein geklammert>>> [2/2]
+** DONE <<<Beinklammer>>> [2/2]
    CLOSED: [2018-09-16 Sun 22:53]
 
 *** DONE Angriff (Befreiung aus Beinklammer)
@@ -783,7 +985,7 @@ Die größten Erfolge deutscher Judoka im Überblick:
 
 ** DONE Die Judo-Prinzipien
    CLOSED: [2018-09-16 Sun 17:00]
-*** DONE Seiryoku‐zen‐yo (das technische Prinzip) [精力善用]
+*** DONE <<<Seiryoku-zen-yo>>> (das technische Prinzip) [精力善用]
     CLOSED: [2018-09-16 Sun 16:59]
 
  Das erste Prinzip beschreibt, wie man die Judotechniken ausführen soll und wie man sich im Kampf zu verhalten hat. Es kann mit *"Bester Einsatz von Geist und Körper"* oder "Bester Einsatz der vorhande
@@ -800,7 +1002,7 @@ Die größten Erfolge deutscher Judoka im Überblick:
 
  [[http://kodokanjudoinstitute.org/en/doctrine/word/seiryoku-zenyo/][kodokanjudoinstitute]]
 
-*** DONE Ji‐ta‐kyo‐ei (das moralische Prinzip) [自他共栄]
+*** DONE <<<Ji-ta-kyo-ei>>> (das moralische Prinzip) [自他共栄]
     CLOSED: [2018-09-16 Sun 12:05]
 
  Das zweite Prinzip Jigoro Kanos hebt Judo über eine bloße Zweikampfsportart hinaus und lässt es zum Erziehungssystem werden. In der Übersetzung kann man dieses Prinzip als *"Gegenseitige Hilfe für den wechselseitigen Fortschritt und das beiderseitige Wohlergehen"* verstehen. Kano macht damit deutlich, mit welcher Einstellung und Haltung man Judo erlernen und betreiben soll. Er macht klar, dass der Partner nicht nur "Übungsobjekt" ist, jemand, an dem man übt, sondern ein Gegenüber, für das man Verantwortung entwickeln muss und für dessen Fortschritt in technischer und persönlicher Hinsicht man genauso arbeiten muss, wie für den eigenen. Ohne willig mitarbeitende Partner ist ein Judo-Studium nicht möglich. Mit dem Prinzip des gegenseitigen Helfens und Verstehens hat Kano den Aspekt des *Do* ("Weg, Prinzip, Grundsatz") des Wortes Judo als Lebensweg oder prinzipielle Einstellung zum Leben im Miteinander näher beschrieben. 
@@ -813,14 +1015,6 @@ Die größten Erfolge deutscher Judoka im Überblick:
  - beim Üben von Judotechniken und beim Randori Rücksicht auf Alter, Geschlecht, körperliche und technische  Entwicklung des Partners genommen wird und wechselseitige Erfolgserlebnisse ermöglicht werden 
  - jeder Übende bereit ist, für sein Handeln und für die Gruppe Verantwortung zu übernehmen. 
 
-*** DONE Onore o tsukushite naru o matsu! [尽己竢成]
-    CLOSED: [2018-09-16 Sun 12:05]
-
-#+BEGIN_QUOTE
-「己を尽して成るを竢つ」
-#+END_QUOTE
-
- Do Your Best and Await the Result.
 
 #+Latex: \newpage
 * DONE Kata [1/1]
@@ -876,6 +1070,17 @@ Die Kata schult Koordination, Körperhaltung, Tai-Sabaki und vor allem feinste K
 (s. Kano--Kodokan-Judo S. 204, [[https://www.judobund.de/fileadmin/_horusdam/897-DJB-Regelwerk_Kata-Wettbewerbe-IJF2015.pdf][DJB--Regelwerk-Kata-Wettbewerbe]])
 
 #+Latex: \newpage
+
+* TODO Schlusswort
+** DONE Onore o tsukushite naru o matsu! [尽己竢成]
+   CLOSED: [2018-09-20 Thu 08:49]
+
+#+BEGIN_QUOTE
+「己を尽して成るを竢つ」
+#+END_QUOTE
+
+ Do Your Best and Await the Result.
+
 * TODO Quellen [0/3]
 
 ** TODO Bücher

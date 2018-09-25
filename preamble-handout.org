@@ -7,7 +7,10 @@
 
 #+LATEX_HEADER: \usepackage[utf8]{inputenc}
 #+LATEX_HEADER: \usepackage[ngerman]{babel}
-#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage{fontspec}
+#+Latex_header: \usepackage[EU1]{fontenc}
+#+Latex_Header: \usepackage{polyglossia}
+#+Latex_Header: \setmainlanguage[babelshorthands=true]{german}
 
 #+LATEX_HEADER: \usepackage{atbegshi}
 #+LATEX_HEADER: \usepackage{footnote}

@@ -6,7 +6,7 @@
 # Packages einbinden
 
 #+LATEX_HEADER: \usepackage[utf8]{inputenc}
-#+LATEX_HEADER: \usepackage[ngerman]{babel}
+# #+LATEX_HEADER: \usepackage[ngerman]{babel}
 #+LATEX_HEADER: \usepackage{fontspec}
 #+Latex_header: \usepackage[EU1]{fontenc}
 #+Latex_Header: \usepackage{polyglossia}

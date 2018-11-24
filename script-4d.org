@@ -155,10 +155,9 @@ Wahlweise *Kodokan-goshin-jutsu* oder *Ju-no-kata*.
   CLOSED: [2018-11-19 Mon 09:49]
 ** DONE Nage-waza (Wurftechnik)
    CLOSED: [2018-11-18 Sun 23:30]
-*** DONE Übersicht [3/3]
-    CLOSED: [2018-09-25 Tue 09:23]
-**** DONE Gokyo
-     CLOSED: [2018-09-25 Tue 09:23]
+
+*** DONE Gokyo-no-waza
+    CLOSED: [2018-11-24 Sat 12:06]
 
 Die Gokyo-no-waza ist unterteilt in folgende Kategorien:
 
@@ -222,8 +221,8 @@ Die <<<Gokyo-no-waza>>> ist der Standardlehrplan der Judo-Wurftechniken und wurd
     7. Sumi-otoshi
     8. Yoko-gake
 
-**** DONE Vom Kodokan anerkannt
-     CLOSED: [2018-09-25 Tue 09:23]
+*** DONE Shinmeisho-no-waza
+    CLOSED: [2018-11-24 Sat 12:06]
 
 Zum 100sten Jahrestag des Kodokan (1982) wurde eine zusätzliche Gruppe mit acht traditionellen Würfen hinzugefügt (diese waren 1920 herausgenommen worden) und 17 neuere Techniken wurden als offizielle Kodokan Judo-Würfe anerkannt (shinmeisho-no-waza). 1997 fügte der Kodokan die letzten zwei zusätzlichen Würfe der shinmeisho-no-waza hinzu.
 
@@ -274,8 +273,8 @@ Zum 100sten Jahrestag des Kodokan (1982) wurde eine zusätzliche Gruppe mit acht
   18. Sode-tsuri-komi-goshi
   19. Ippon-seoi-nage
 
-**** DONE Weitere bekannte Techniken im JVB
-     CLOSED: [2018-09-25 Tue 09:23]
+*** DONE Weitere bekannte Techniken im JVB
+    CLOSED: [2018-09-25 Tue 09:23]
 
 Unabhängig vom Kodokan hat der JVB folgende Techniken systematisiert. Alle darüberhinausgehenden Techniken sind vom JVB (noch) nicht mit einer Grundausführung klassifiziert.
 
@@ -449,7 +448,7 @@ In den 1990er Jahren gelangten einige Techniken des Sambo in das Wettkampfjudo, 
      - Tori fässt von unten um den Hals ins Revers; die linke Hand blockiert Ukes rechte Seite, in dem er unter dem Arm durch greift. Die Würge zieht durch vorbringen der Hüfte zwischen Toris Arm und Ukes Schulter.
   4. <<<Jigoku-jime>>> 
      - Uke ist in der Bankstellung.
-     - Tori steigt von vorne mit dem rechten Bein in den rechten Arm von Uke und steigt mit dem linken Bein über Uke; die linke Hand greift von innen in Ukes Arm. Die rechte Hand greift Ukes Kragen und dann rollt Tori schräg nach links vorne über. Die linke Hand zieht und das linke Bein blockiert weiter Ukes rechten Arm. Durch ein Zurücklehnen wird Uke abgewürgt. 
+     - Tori steigt von vorne mit dem rechten Bein in den rechten Arm von Uke; die linke Hand greift von innen in Ukes Arm. Die rechte Hand greift Ukes Kragen und dann rollt Tori zurück, so dass Uke auf ihm liegt. Die rechte Hand zieht und das linke Bein blockiert weiter Ukes rechten Arm. Durch ein Zurücklehnen wird Uke abgewürgt. 
   5. <<<Kingston-Rolle>>> 
      - Uke ist in der Bankstellung. 
      - Tori greift mit der rechten Hand unter dem Kinn Ukes in dessen rechtes Reverse. Die andere Hand greift in den Gürtel und das linke Bein wird über Uke zwischen dessen Arm und Bein gesteckt. Das Bein wird als Schwungbein für eine Rolle genutzt. Tori dreht durch die Rolle Uke um. Er baut Spannung zwischen der rechten Hand am Hals und der linken Hand an den Beinen auf. Der Körper von Tori geht zu Ukes Füßen und umgreift dessen Bein, am Besten in den eigenen Kragen. Dadurch baut sich die Spannung am Hals auf.
@@ -467,7 +466,7 @@ In den 1990er Jahren gelangten einige Techniken des Sambo in das Wettkampfjudo, 
   4. <<<Othen-Jime>>>
      - Uke ist in Bankstellung
      - Tori steigt mit dem recten Bein von vorn in Ukes rechten Arm und mit dem linken über ihn rüber 
-     - die linke Hand geht unter Ukes linker Achsel hindurch und er rollt nach schräg vorne über und würgt, wobei ein Arm mit dem Bein und das andere mit dem Arm fixiert sind
+     - die linke Hand geht unter Ukes linker Achsel hindurch und er rollt nach schräg vorne über und würgt, wobei ein Arm mit dem rechten Bein und der andere mit dem linken Arm fixiert sind
 
 - Hadaka-jime - /Nacktes Würgen, ohne Hilfe von Ukes Judogi würgen/
 
@@ -576,7 +575,7 @@ Zu den <<<Ude-hishigi-waza>>> gehören:
   4. <<<Kuzure-hizi-maki-komi>>> 
      - Hebel im Stand
      - Ansatz wie Hizi-maki-komi, wobei Tori sein Bein in Ukes Hüfte stützt und wegschiebt. Tori geht mit in die Bodenlagen.
-  5. <<<Mune-gyaku>> 
+  5. <<<Mune-gyaku>>> 
      - Mune-gatame  
      - Tori schwingt sein linkes Bein über Ukes Kopf. Die rechte Hand Toris rutscht zum Ellenbogengelenkt von Ukes linkem Arm hoch und drückt dann mit beiden Händen genau auf das Ellenbogengelenk zum Ude-gatame; die linke Hand kann dabei auch Ukes Schulter fixieren
 
@@ -628,7 +627,8 @@ Zu den <<<Ude-hishigi-waza>>> gehören:
   3. <<<Mune-kannuki-gatame>>> 
      - in Mune-gatame Ukes Arm strecken und durch den Riegelgriff hebeln
   4. <<<Kami-shiho-kannuki-gatame>>> 
-     - Kuzure-kami-shiho gatame den Arm strecken, der andere Arm fasst den Oberarm, durch Verriegelung hebeln
+     - Kuzure-kami-shiho-gatame 
+     - aufrichten und den umwickleten Arm strecken; der andere Arm fasst den Oberarm, durch Verriegelung hebeln
   5. <<<Ryo-kannuki-gatame>>>
      - Uke ist zwischen den Beinen 
      - beide Arme von außen umschlingen und die Hände verriegeln. Nah am eigenen Handgelenk fassen und Ukes Hüfte wegschieben.
@@ -638,9 +638,9 @@ Zu den <<<Ude-garami-waza>>> gehören:
 
   1. <<<Ude-garami>>>
      - Mune-gatame
-     - Ukes handgelenk ergreifen und den gebeugten Arm schlüsseln
+     - Ukes Handgelenk ergreifen und den gebeugten Arm schlüsseln
   2. <<<Ashi-garami>>> 
-     - /<<<Hurenschlüssel>>>/
+     - ,,<<<Hurenschlüssel>>>``
      - Uke zwischen den Beinen
      - mit der linken Hand in Ukes linken Kragen greifen und dabei seinen linken Arm seitlich bringen
      - das rechte Bein überschwingen und beide Beine parallel bringen; durch hochbringen der Hüfte schlüsseln
@@ -677,40 +677,49 @@ Zu den <<<Ude-garami-waza>>> gehören:
 | Sicheln      | Ko-uchi-gari      | Standard                                         |
 |              |                   | (Keiji Suzuki)[fn:suzuki]                        |
 |              | O-soto-gari       | Standard                                         |
-|              |                   | Gegenwurf O-soto-gari                            |
+|              |                   | O-soto-gaeshi (Gegenwurf O-soto-gari)            |
 | Einhängen    | Ko-soto-gake      | Standard                                         |
 |              |                   | Nidan-ko-soto-gake (Gegenwurf O-soto-gari)       |
 |              | Ko-uchi-gake      | Standard                                         |
+|              |                   | Kombination O-uchi-gari                          |
 | Blockieren   | Hiza-guruma       | Standard                                         |
-|              |                   | Gegenwurf Hiza-Guruma                            |
+|              |                   | Gegenwurf Hiza-guruma                            |
 |              | Ashi-guruma       | Standard                                         |
 |              |                   | Kawaishi-Eingang                                 |
 | Verwringen   | Harai-goshi       | Standard                                         |
 |              |                   | Kombi Uki-goshi                                  |
 |              | Uchi-mata         | Standard                                         |
-|              |                   | Kombi O-uchi-gari                                |
+|              |                   | Kombi O-uchi-gari (evtl. Ken-ken-uchi-mata)      |
+|              | Tai-otoshi        | Standard (Verwringen von Uke)                    |
 | Eindrehen    | Ippon-seoi-nage   | Standard                                         |
 |              |                   | Finte Ko-uchi-barai                              |
 |              | O-goshi           | Standard                                         |
 |              | Tsuri-komi-goshi  | Standard                                         |
 |              |                   | Sode-tsuri-komi-goshi                            |
 | Einrollen    | Soto-maki-komi    | Standard                                         |
-|              |                   | Kombi Harai-goshi                                |
+|              | Uchi-maki-komi    | Standard                                         |
 |              | Ko-uchi-maki-komi | Standard                                         |
 |              |                   | Kombi Ipon-seoi-nage                             |
-| Ausheben     | Utsuri-goshi      | Standard                                         |
-|              | Ura-nage          | Gegenwurf Harai-goshi                            |
-|              | Sukui-nage        | Standard                                         |
+| Ausheben     | Sukui-nage        | Standard                                         |
 |              |                   | Gegenwurf Harai-goshi (Te-guruma)                |
+|              | Utsuri-goshi      | Standard                                         |
+|              | Ura-nage          | Gegenwurf Harai-goshi                            |
 | Selbstfallen | Tomoe-nage        | Standard                                         |
 |              |                   | Yoko-tomoe-nage                                  |
 |              | Sumi-gaeshi       | Standard                                         |
 |              |                   | Kombi Uchi-mata + Yok-sumi-gaeshi[fn:sumigaeshi] |
 
-[fn:suzuki] Keiji Suzuki (JP), Olympiasieger 2004, Weltmeister 2003 und 2005
-[fn:sumigaeshi] Linke Hand an Ukes linkem Ärmel, rechte Hand auf Ukes Rücken in Höhe der Schulterblatter.
+#+Latex: \newpage
+Bei der Demonstration wird 
+- zunächst das Prinzip genannt,
+- ein oder zwei Techniken ausgeführt,
+- das Prinzip erläutert 
+- weitere Techniken demonstriert und auf die Variationen und Nuancen eingegangen.
 
-** DONE Fegen (Barai) [2/2]
+[fn:suzuki] \raggedright Keiji Suzuki (JP), Olympiasieger 2004, Weltmeister 2003 und 2005
+[fn:sumigaeshi] \raggedright Linke Hand an Ukes linkem Ärmel, rechte Hand auf Ukes Rücken in Höhe der Schulterblatter.
+
+** DONE <<<Fegen>>> (<<<Barai>>>) [2/2]
    CLOSED: [2018-09-16 Sun 21:32]
 
 Ukes sich bewegendes Bein wird in Bewegungsrichtung weitergeleitet, gefegt. 
@@ -735,7 +744,7 @@ Das Bein ist noch/schon belastet, aber die Reibung zwischen Fußsohle und Unters
 - Finte Ko-uchi-gari
   - Antäuschen von Ko-uchi-gari. Direkter Schritt mit dem rechten Fuß zur Seite und Fegen des rechten Fußes von Uke, welches leicht vorgeschoben ist.
 
-** DONE Sicheln (Gari) [2/2]
+** DONE <<<Sicheln>>> (<<<Gari>>>) [2/2]
    CLOSED: [2018-11-19 Mon 23:24]
 
 Ukes Stützpunkt, ein stehendes, belastetes Bein in Richtung von dessen Zehen mit der Beinrückseite oder der Fußsohle wegreißen, sicheln.
@@ -753,7 +762,7 @@ Ukes Stützpunkt, ein stehendes, belastetes Bein in Richtung von dessen Zehen mi
 - Standard
 - Gegenwurf O-soto-gari (O-soto-gaeshi)
 
-** DONE Einhängen (Gake) [2/2]
+** DONE <<<Einhängen>>> (<<<Gake>>>) [2/2]
    CLOSED: [2018-11-19 Mon 23:25]
 
 Tori hängt ein Bein blockierend hinter Ukes stehendes und belastetes Bein ein und drückt bzw. schiebt ihn über diese Blockade hinweg.
@@ -762,14 +771,16 @@ Tori hängt ein Bein blockierend hinter Ukes stehendes und belastetes Bein ein u
     CLOSED: [2018-11-19 Mon 23:25]
 
 - Standard
-- Kombi O-soto-gari (Nidan-ko-soto-gake)
+- Gegenwurf O-soto-gari (Nidan-ko-soto-gake)
+  - in das hintere Bein (und damit in beide) einhängen
 
 *** DONE Ko-uchi-gake [0/0]
     CLOSED: [2018-11-19 Mon 23:25]
 
 - Standard
+- Kombination O-uchi-gari
 
-** DONE Blockieren/Stoppen [2/2]
+** DONE <<<Blockieren>>>/Stoppen [2/2]
    CLOSED: [2018-11-19 Mon 23:25]
 
 Ukes vorwärts kommendes oder stehendes Bein wird unterhalb des Körperschwerpunktes mit der Fußsohle oder der Beininnenseite blockiert oder gestoppt. Gleichzeitig wird er oberhalb seines Schwerpunktes über diese Blockade gezogen.
@@ -786,7 +797,7 @@ Ukes vorwärts kommendes oder stehendes Bein wird unterhalb des Körperschwerpun
 - Standard
 - Kawaishi-Eingang
 
-** DONE Verwringen/Rotieren lassen [2/2]
+** DONE <<<Verwringen>>>/Rotieren lassen [3/3]
    CLOSED: [2018-11-19 Mon 23:25]
 
 Tori stellt mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch eine starke Verwringung (gleichzeitige Rotation um die Körperquer- und längsachse) im Oberkörper, verbunden mit einer Kopfdrehung und Armzug wird Uke geworfen.
@@ -803,7 +814,13 @@ Tori stellt mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch eine starke Verwr
 - Standard
 - Kombi O-uchi-gari
 
-** DONE Eindrehen [3/3]
+*** DONE Tai-otoshi
+    CLOSED: [2018-11-24 Sat 12:23]
+
+- Standard 
+  - Uke wird durch Tori verwrungen
+
+** DONE <<<Eindrehen>>> [3/3]
    CLOSED: [2018-11-19 Mon 23:25]
 
 Tori stellt durch Platzwechsel und eine Drehbewegung im Oberkörper Seite-Bauch-Kontakt oder Rücken-Bauch-Kontakt zu Uke her. Mit diesem Kontakt wird durch Armzug, Weiterdrehen oder Ausheben geworfen.
@@ -825,7 +842,7 @@ Tori stellt durch Platzwechsel und eine Drehbewegung im Oberkörper Seite-Bauch-
 - Standard
 - Sode-tsuri-komi-goshi
 
-** DONE Einrollen (Maki-komi) [3/3]
+** DONE <<<Einrollen>>> (<<<Maki-komi>>>) [3/3]
    CLOSED: [2018-11-19 Mon 23:25]
 
 Tori rollt sich um einen Arm oder ein Bein ein (Maki-komi) und überträgt durch weiterrollen die Kraft auf Uke.
@@ -836,18 +853,18 @@ Tori rollt sich um einen Arm oder ein Bein ein (Maki-komi) und überträgt durch
 - Standard
 - Kombi Harai-goshi
 
+*** DONE Uchi-maki-komi
+    CLOSED: [2018-11-19 Mon 23:29]
+
+- Standard
+
 *** DONE Ko-uchi-maki-komi [0/0]
     CLOSED: [2018-11-19 Mon 23:29]
 
 - Standard
 - Ippon-seoi-nage
 
-*** DONE Uchi-maki-komi
-    CLOSED: [2018-11-19 Mon 23:29]
-
-- Standard
-
-** DONE Ausheben [3/3]
+** DONE <<<Ausheben>>> [3/3]
    CLOSED: [2018-11-19 Mon 23:25]
 
 Tori stellt bei gebeugten Beinen mit seiner Hüfte Kontakt zu Ukes Rumpf her. Durch Beinstreckung, Hüfteinsatz und Armzug wird Uke ausgehoben und geworfen.
@@ -868,10 +885,10 @@ Tori stellt bei gebeugten Beinen mit seiner Hüfte Kontakt zu Ukes Rumpf her. Du
 
 - Gegenwurf Harai-goshi
 
-** DONE Selbstfallen/Opfern (Sutemi) [2/2]
+** DONE <<<Selbstfallen>>>/Opfern (<<<Sutemi>>>) [2/2]
    CLOSED: [2018-11-19 Mon 23:25]
 
-Tori gibt sein Gleichgewicht auf, lässt sich fallen. Unter Ausnutzung der so entstandenen Energie wird Uke mit Armzug zum Teil auch Beineinsatz geworfen.
+Tori gibt sein Gleichgewicht auf und lässt sich fallen. Unter Ausnutzung der so entstandenen Energie wird Uke mit Armzug zum Teil auch Beineinsatz aus dem Gleichgewicht gebracht und so geworfen.
 
 *** DONE Tomoe-nage [0/0]
     CLOSED: [2018-11-19 Mon 23:30]
@@ -885,57 +902,108 @@ Tori gibt sein Gleichgewicht auf, lässt sich fallen. Unter Ausnutzung der so en
 - Standard (Sumi-gaeshi)
 - Kombi Uchi-mata (Yoko-sumi-gaeshi)
 
+** <<<Stürzen>>> (<<<Otoshi>>>)
+
+Tori bringt durch Körperdrehung sowie gleichzeitigen Einsatz der Hände Uke aus dem Gleichgewicht und bringt ihn dann durch Drücken oder Ziehen zu Fall.
+
+Dieses Prinzip ist nicht in der Prüfungsordnung erwähnt.
+
+*** Uki-Otoshi
+
+- Sandard
+- Ko-uchi-gaeshi
+- Uchi-mata-sukashi
+
+*** Sumi-Otoshi
+
+- Standard
+
 #+Latex: \newpage
-* TODO Bodentechnik [3/6]
+* DONE Bodentechnik [7/7]
+  CLOSED: [2018-11-24 Sat 15:10]
 ** DONE Übersicht
    CLOSED: [2018-09-17 Mon 23:15]
 
 | Situation[fn:verteidigung] |   |   | Position | Verhalten/Technik                                              |
 |----------------------------+---+---+----------+----------------------------------------------------------------|
-| Bauchlage                  | V | p |          | Einigeln                                                       |
-|                            |   | a | oben     | Angriff provozieren (wechselseitig öffnen)                     |
-|                            |   | a |          | seitlich drehen (Gleichgewichtsbrechung)                       |
-|                            | A |   | oben     | Ushiro-jime (einspannen)                                       |
-|                            |   |   |          | Ura-gatame (durch überrollen, Hebelgesetz)                     |
-|                            |   |   | seitlich | Herumreißen                                                    |
-|                            |   |   |          | Koshi-jime (,,Krüger-Würge``)                                  |
-|                            |   |   |          | (Sode-jime (Komlock))                                          |
-|                            |   |   | vorn     | Kami-sankaku-gatame                                            |
+| Bauchlage                  | V | p | *        | Einigeln                                                       |
+|                            | . | a | oben     | Angriff provozieren (wechselseitig öffnen)                     |
+|                            | . | a | .        | seitlich drehen (Gleichgewichtsbrechung)                       |
+|                            | A |   | seitlich | Herumreißen                                                    |
+|                            | . |   | oben     | Ushiro-jime (einspannen)                                       |
+|                            | . |   | .        | Ura-gatame (durch überrollen, Hebelgesetz)                     |
+|                            | . |   | seitlich | (Koshi-jime (,,Krüger-Würge``))                                |
+|                            | . |   | .        | (Sode-jime (Komlock))                                          |
+|                            | . |   | vorn     | (Kami-sankaku-gatame)                                          |
 |----------------------------+---+---+----------+----------------------------------------------------------------|
-| Bankstellung               | V | p |          | Einigeln                                                       |
-|                            |   | a | vorn     | Aufstehen                                                      |
-|                            |   | a |          | Gyaku-Waki-gatame                                              |
-|                            |   | a | seitlich | Ura-gatame (Arm-Rolle)                                         |
-|                            | A |   | seitlich | Kesa-gatame (beide Arme wegreißen)                             |
-|                            |   |   |          | Umdrehen (Nelson-Ringertechnik) in Mune-gatame                 |
-|                            |   |   | oben     | Ura-shiho-gatame (beide Revers, Hebelgesetze)                  |
-|                            |   |   | seitlich | Drehwürge (Juji-jime)                                          |
-|                            |   |   |          | Ashi-gatame (Angriffspunkte nutzen)                            |
-|                            |   |   | vorn     | (Kami-sankaku-gatame)                                          |
-|                            |   |   |          | Sankaku-garami (,,Huizinga-Rolle``, Hebelgesetze)[fn:huizinga] |
+| Bankstellung               | V | p | *        | Einigeln                                                       |
+|                            | . | a | vorn     | Aufstehen                                                      |
+|                            | . | a | .        | Gyaku-Waki-gatame                                              |
+|                            | . | a | seitlich | Ura-gatame (Arm-Rolle)                                         |
+|                            | A |   | .        | Kesa-gatame (beide Arme wegreißen)                             |
+|                            | . |   | .        | Umdrehen (Nelson-Ringertechnik) in Mune-gatame                 |
+|                            | . |   | oben     | (Ura-shiho-gatame (beide Revers, Hebelgesetze))                |
+|                            | . |   | seitlich | Drehwürge (Juji-jime, Drehmoment, Gleichgewichtsbrechung)      |
+|                            | . |   | .        | Ashi-gatame (Angriffspunkte nutzen)                            |
+|                            | . |   | vorn     | (Kami-sankaku-gatame)                                          |
+|                            | . |   | .        | Sankaku-garami (,,Huizinga-Rolle``, Hebelgesetze)[fn:huizinga] |
 |----------------------------+---+---+----------+----------------------------------------------------------------|
-| Zwischen den Beinen        | V | a | oben     | Umdrehen (meiden)                                              |
-|                            |   | a |          | Durchsteigen                                                   |
-|                            | A |   |          | Ebi-jime                                                       |
+| Zwischen den Beinen        | V | p | oben     | Umdrehen (meiden)                                              |
+|                            | . | a | .        | Durchsteigen                                                   |
+|                            | A |   | .        | Ebi-jime                                                       |
 |                            | V | a | unten    | Verhindern der Annäherung (meiden)                             |
-|                            |   | p |          | über den Rücken in den Gürtel greifen (immobilisieren)         |
-|                            | A |   |          | Hiza-gatame (Hüfte verdrehen)                                  |
-|                            |   |   |          | Ryo-hiza-gatame (Hebelgesetze)                                 |
-|                            |   |   |          | ,,Schere`` (Hebelgesetze)                                      |
-|                            |   |   |          | (Ude-gatame)                                                   |
-|                            |   |   |          | Sankaku-jime (Uke greift unter das Knie)                       |
+|                            | . | p | .        | über den Rücken in den Gürtel greifen (immobilisieren)         |
+|                            | A |   | .        | Hiza-gatame (Hüfte verdrehen)                                  |
+|                            | . |   | .        | Ryo-hiza-gatame (Hebelgesetze)                                 |
+|                            | . |   | .        | ,,Schere`` (Hebelgesetze, Drehmoment)                          |
+|                            | . |   | .        | Ashi-garami (,,Hurenschlüssel``, Hebelgesetze)                 |
+|                            | . |   | .        | (Ude-gatame)                                                   |
+|                            | . |   | .        | (Sankaku-jime (Uke greift unter das Knie))                     |
 |----------------------------+---+---+----------+----------------------------------------------------------------|
 | Beinklammer                | V | p |          | die Arme klammern (immobilisieren)                             |
-|                            |   | a |          | Partner drehen (in Längsachse bringen)                         |
+|                            | . | a |          | Partner drehen (Drehmoment)                                    |
 |                            | A |   |          | Kata-gatame                                                    |
-|                            |   |   |          | Yoko-shiho-gatame (Kashiwazaki)                                |
-|                            |   |   |          | Sode-jime (ohne Befreiung)                                     |
+|                            | . |   |          | Yoko-shiho-gatame (Kashiwazaki)                                |
+|                            | . |   |          | Sode-jime (ohne Befreiung)                                     |
 
-[fn:verteidigung] Verteidigung (V), Angriff (A), aktiv (a), passiv (p)
-[fn:huizinga] Mark Huizinga (NL), Olympiasieger 2000
+[fn:verteidigung] \raggedright Verteidigung (V), Angriff (A), aktiv (a), passiv (p)
+[fn:huizinga] \raggedright Mark Huizinga (NL), Olympiasieger 2000
 
+#+Latex:\newpage
+** DONE Systematik
+   CLOSED: [2018-11-24 Sat 14:13]
 
-#+Latex: \newpage
+Die Systematik ergibt sich aus der Einschätzung des Erfolges in der Ausgangslage, nach Verteidigung bzw. Angriff und nach Dynamik bzw. Schwierigkeitsgrad. 
+
+In der Bauchlage ist Uke sehr stark eingeschränkt und Tori quasi völlig ausgeliefert. Die Bankstellung gibt es schon mehr Handlungsspielraum, während der Ausgang in der Situation in der sich Uke zwischen den Beinen befindet noch offener ist. In der Beinklammer liegt Uke bereits auf dem Rücken und Tori muss sich ,,nur`` noch befreien bzw. eine geeignete Technik ansetzten. Bei Jeder Situation wird zunächst auf das Verteidigungsverhalten eingegangen. Dies geschieht vom passiven zum aktiven Verhalten, das mitunter auch als Angriff von Uke gewertet werden kann. Bei der Verteidigung werden die Angriffspunkte genannt, die danach bei einem Angriff genutzt werden können. Bei der Erläuterung des Angriffsverhaltens wird auf die angewandten Prinzipien eingegangen. 
+
+Bei einfachen Situationen erfolgt die Erläuterung zusammen mit der Demonstration. Bei komplexeren Handlungsabläufen wird zunachst die Handlung demonstriert und danach erläutert.
+
+*** DONE Verteidigung
+    CLOSED: [2018-09-16 Sun 16:33]
+
+Die Verteidigung hat zwei Punkte.
+1. eigene Sicherheit herstellen, 
+2. Angriffsposition herausarbeiten.
+ 
+Ziel ist es, sich aus der Verteidigungsposition in die Angriffsposition zu bringen. 
+Wird das vom Partner verhindert, muss man den Partner in seiner Bewegungsfreiheit eingrenzen und kontrollieren.
+Hier gibt es im Allgemeinen ein Spektrum zwischen *passivem* und *aktivem* Verteidigen.
+
+*** DONE Angriff
+    CLOSED: [2018-09-16 Sun 16:37]
+
+Bei allen Angriffen ist darauf zu achten, dass es Uke nicht gelingen kann aufzustehen. 
+Er muss fixiert werden. Sonst wird der Bodenkampf unterbrochen und der Angriff kann nicht zu Ende geführt werden.
+
+Auch bei einem Angriff gibt es zwei Phasen.
+1. den Partner sicher fixieren bzw. unter Kontrolle haben,
+2. die Zieltechnik erarbeiten und vollenden.
+
+Man sollte sich ein Angriffsportfolio aufbauen. Der Partner kann auf einen Angriff in verschiedenen Varianten reagieren. 
+Für jede Reaktion sollte mindestens eine Folgetechnik im Repertoire sein. Hier gilt auch die Empfehlung, viele Bodenrandori mit unterschiedlichen Partnern zu absolvieren. Dabei zeigen sich oft neue Reaktionen auf, für die man sich eine Technik erarbeiten kann. Dadurch kann das eigene Portfolio kontinuierlich erweitert werden. 
+
+#+Latex:\newpage
 ** DONE Grundsätzliches Verhalten am Boden
    CLOSED: [2018-09-16 Sun 16:32]
 
@@ -955,7 +1023,7 @@ Tori gibt sein Gleichgewicht auf, lässt sich fallen. Unter Ausnutzung der so en
      - Zuerst <<<Kontrolle>>>, dann Technik herausarbeiten
      - <<<belasten>>> (Körpergewicht), <<<fixieren>>> (Hebelgesetze, Drehachsen, Judogi), <<<immobilisieren>>>
      - den Gegner im Blick haben
-  3. Nutzen von physikalischen Gesetzen
+  3. <<<Nutzen von physikalischen Gesetzen>>>
      - <<<Hebelgesetze>>>: langer Hebel besser als kurzer
      - <<<Kraftverhältnisse>>>: die Füße werden zu Händen, der Rumpf wird zum Arm
      - <<<Gewicht>>>: einhängen statt anstrengen
@@ -964,29 +1032,7 @@ Tori gibt sein Gleichgewicht auf, lässt sich fallen. Unter Ausnutzung der so en
 
 /Die Kunst im Bodenkampf besteht also darin diese Prinzipien zu befolgen und die Fehler (d.h. Verstößen gegen diese Prinzipien) des Partners zu erkennen und zu nutzen./
 
-*** DONE Angriff
-    CLOSED: [2018-09-16 Sun 16:37]
-
-Bei allen Angriffen ist darauf zu achten, dass es Uke nicht gelingen kann aufzustehen. 
-Er muss fixiert werden. Sonst wird der Bodenkampf unterbrochen und der Angriff kann nicht zu Ende geführt werden.
-Erst den Partner sicher fixieren bzw. unter Kontrolle haben, bevor die Zieltechnik erarbeitet und vollendet wird.
-
-Man sollte sich ein Angriffsportfolio aufbauen. Der Partner kann auf einen Angriff in verschiedenen Varianten reagieren. 
-Für jede Reaktion sollte mindestens eine Folgetechnik im Repertoire sein. 
-Hier auch die Empfehlung, viele Bodenrandori mit unterschiedlichen Partnern zu absolvieren. 
-Dabei zeigen sich oft neue Reaktionen auf, für die man sich eine Technik erarbeiten kann. 
-Dadurch kann das eigene Portfolio kontinuierlich erweitert werden. 
-
-*** DONE Verteidigung
-    CLOSED: [2018-09-16 Sun 16:33]
-
-Die Verteidigung hat zwei Punkte. 
-1. Eigene Sicherheit herstellen, 
-2. Angriffsposition herausarbeiten. 
-Ziel ist es, sich aus der Verteidigungsposition in die Angriffsposition zu bringen. 
-Wird das vom Partner verhindert, dann den Partner in seiner Bewegungsfreiheit eingrenzen und kontrollieren.
-Hier gibt es im Allgemeinen ein Spektrum zwischen *passivem* und *aktivem* Verteidigen. 
-
+#+Latex:\newpage
 ** DONE <<<Bauchlage>>> [2/2]
    CLOSED: [2018-11-22 Thu 22:43]
 
@@ -994,28 +1040,30 @@ Hier gibt es im Allgemeinen ein Spektrum zwischen *passivem* und *aktivem* Verte
     CLOSED: [2018-11-22 Thu 22:34]
 
 + Passives Verteidigen 
-  1. Flach auf den Bodenlegen (Einigeln)
+  1. Flach auf den Boden legen (Einigeln)
      + wenig Angriffsflächen bieten
-     + Arme, besonders Ellenbogen eng an den Körper legen
-     + Hals einziehen
-     + die Hände über Kreuz die Angriffe am Hals abwehren
-  Nachteil: leicht um die Längsachse zu drehen
+       + Arme, besonders Ellenbogen eng an den Körper legen
+       + Hals einziehen
+       + die Hände über Kreuz die Angriffe am Hals abwehren
+     + Nachteil: leicht um die Längsachse zu drehen
 + Aktives Verteidigen
   1. Auf einer Seite Arm und das Knie anziehen (Angriff provozieren)
      + Angriffsfläche der anderen Körperseite ist dadurch stark reduziert
      + der Partner wird provoziert die geöffnete Seite anzugreifen
      + ein Wechsel der Seite, anziehen von Arm und Knie, zerstört den gestarteten Angriff des Partners
-     + ein Wechsel kann nur solange erfolgen, wie uns der Partner nicht fixiert hat
+     + ein Wechsel kann nur solange erfolgen, wie uns der Partner nicht fixieren konnte
+     + Nachteil: bietet neue Angriffsflächen
+  2. seitlich drehen (Gleichgewichtsbrechung)
+     + wenn der Parter die Beine einspannen will und dazu die Hüfte hochreißt, diesen Impuls nutzen und mit einem dynamischen Stoß den Partner zur Seite drehen
++ Weitere Möglichkeiten
+  1. Aufstehen, solange der Parte einen nicht fixiert hat
   2. Einschränken der Bewegungsfreiheit und damit den Weg zur Ausführung der Technik versperren
      + festhalten des angreifenden Arms bzw. Hand (Kraft, Gewicht)
      + fixieren des Beines (Gewicht)
      + fixieren der Hüfte durch seitliches Rollen (Gleichgewichtsbrechung)
-  Nachteil: bietet neue Angriffsflächen
-+ Weitere Möglichkeiten
-  1. Aufstehen, solange der Parte einen nicht fixiert hat
-  2. Den Partner zwischen die Beine nehmen
+  3. Den Partner zwischen die Beine nehmen
      + sich aus dem Partner herausdrehen und ihn zwischen die Beine nehmen, dadurch ist die Kontrolle hergestellt
-  3. In die Bankstellung wechseln
+  4. In die Bankstellung wechseln
      + mit dem Positionswechsel den Angriff des Partners zerstören
 
 *** DONE Angriff
@@ -1030,125 +1078,153 @@ Hier gibt es im Allgemeinen ein Spektrum zwischen *passivem* und *aktivem* Verte
      - linker Arm fasst durch die linke Achsel von Uke ins eigene Revers (fixieren)
      - Drehung um 180 Grad unter Kontrolle von Ukes Schultern (Kontrolle)
      - Kopf gegen Hüfte und rechte Hand in Uke Hose am Knie 
-     - überrollen (Hebelgesetze)
+     - überrollen (Hebelgesetze: der gesamte Körper wird zum Hebel!)
   3. Sankaku-juji-gatame \citep[S. 32]{kashiwazaki2012einführung} (Kraftverhältnisse)
   4. Ude-hijigi-juji-gatame \citep[S. 27]{kashiwazaki2012einführung} (Kraftverhältnisse und Drehmoment)
 + von der Seite
   1. Herumreißen und Yoko-shiho-gatame
-  1. Koshi-jime (Krüger-Würge)
-  2. Sode-jime (Sode-kuruma-jime in \citep[S. 86]{komuro2011komlock})
+  2. Koshi-jime (Krüger-Würge)
+  3. Sode-jime (Sode-kuruma-jime in \citep[S. 86]{komuro2011komlock})
      - linkes Bein klammert, linker Arm greift durch Uke auf seine rechte Schulter, rechter Arm kontrolliert die Hüfte (fixieren)
-     - Griff ins eigene rechte Revers und würgen
+     - Griff ins eigene rechte Revers und würgen (Uke sieht nicht, was man macht, d.h. man nutzt das eingeschränkte Sichtfeld aus)
 + Von vorn
   1. Kami-sankaku-gatame (Kraftverhältnisse, Gewicht und Hebelgesetze)
 
-** TODO <<<Bankstellung>>> [0/2]
+#+Latex:\newpage
+** DONE <<<Bankstellung>>> [2/2]
+   CLOSED: [2018-11-24 Sat 14:41]
 
-*** TODO Verteidigung
+*** DONE Verteidigung
+    CLOSED: [2018-11-24 Sat 14:31]
 
 + Passives Verteidigen
-  1. Einschränken der Bewegungsfreiheit und damit den Weg zur Ausführung der Technik versperren
+  1. Einigeln
+     + wenig Angriffsflächen bieten
+     + Nachteil: eingeschränkte Sicht, viele Angriffspunkte
+  2. Einschränken der Bewegungsfreiheit und damit den Weg zur Ausführung der Technik versperren
      - Festhalten des angreifenden Arms bzw. Hand
      - fixieren des Beines
      - fixieren der Hüfte durch zur Seite rollen
 + Aktives Verteidigen
-  1. Tori greift unter dem Arm durch - von der Seite: Ura-Gatame (Gurke)
-     - Arm fest an sich heranziehen und über dem Ellenbogen Toris fixieren
-     - Zur Seite rollen und mit der anderen Hand ein Bein ergreifen (am besten innen)
-     - Spannung durch Druck mit dem Ellenbogen aufbauen
-  2. Tori greift unter dem Arm durch - von vorn: Gyaku-waki-gatame \citep[S. 46]{kashiwazaki2012einführung}
+  1. Aufstehen
+     - Beine grätschen und sich in den Grätschwinkelstand drücken
+  2. Positionswechsel
+     - Durchtauchen und den Parter in die Bankstellung zwingen
+  3. Tori greift unter dem Arm durch - von vorn: Gyaku-waki-gatame \citep[S. 46]{kashiwazaki2012einführung}
      - Arm fest an sich heranziehen und über dem Ellenbogen Toris fixieren
      - Fixieren des Beines am Knie mit diagonalem Arm
      - Nacken einsetzen!
      - Durchsteigen und hebeln
-  3. Den Partner zwischen die Beine nehmen
+  4. Tori greift unter dem Arm durch - von der Seite: Ura-Gatame (Gurke)
+     - Arm fest an sich heranziehen und über dem Ellenbogen Toris fixieren
+     - Zur Seite rollen und mit der anderen Hand ein Bein ergreifen (am besten innen) (Kraftverhältnisse, Schwerpunkt)
+     - Spannung durch Druck mit dem Ellenbogen aufbauen
+  5. Den Partner zwischen die Beine nehmen
      - Zur Seite drehen und den Partner kontrolliert zwischen die Beine führen
-  4. Positionswechsel
-     - Durchtauchen und den Parter in die Bankstellung zwingen
-  5. Aufstehen
-     - Beine grätschen und sich in den Grätschwinkelstand drücken
 
-*** TODO Angriff
+*** DONE Angriff
+    CLOSED: [2018-11-24 Sat 14:41]
 
++ von der Seite
+  1. Kesa-Gatame
+     - Beide Arme des Partners umfassen und zu sich ziehen (Hebelgesetze)
+     - Partner fällt auf die Seite
+     - Kontrolle des Zugarms und Partner fixieren
+  2. Umdrehen (Nelson) und Mune-gatame
+     - Hebelgesetze anwenden
+  3. Drehwürge (Juji-gatame)
+     - offene Punkte schaffen
+     - Aufreißen und Körper dicht an Partner bringen (Drehmoment) und den Partner überrollen (Schwerpunkt, Gewicht)
+  4. Ashi-gatame
+     - Fehler (Arme sind nicht dicht genug am Körper) von Uke ausnutzen und hebeln (Kraftverhältnisse, Hebelgesetze)
 + von oben
   1. Ura-shiho-gatame
      - Mit beiden Händen von hinten unter den Achselhöhlen des Partners in das jeweilige Reverse fassen
      - Zur Seite rollen und mit den Beinen den Partner wegstoßen
   2. Sankaku-juji-gatame
   3. Ude-hijigi-juji-gatame
-+ von der Seite
-  1. Kesa-Gatame
-     - Beide Arme des Partners umfassen und zu sich ziehen
-     - Partner fällt auf die Seite
-     - Kontrolle des Zugarms und Partner fixieren
-  2. Umdrehen (Nelson) und Mune-gatame
-     - Hebelgesetze anwenden
-  3. Drehwürge
-     - offene Punkte schaffen
-  4. Ashi-gatame
-     - Fehler von Uke ausnutzen
 + von vorn
   1. Kami-sankaku-gatame
-  2. Sankaku-garami (Huizinga-Rolle)
-     - Einsteigen in Ukes rechten Arm von vorne, Drehung um 180 Grad, parallel zu Uke
+  2. Sankaku-garami (,,Huizinga-Rolle``)
+     - Einsteigen in Ukes rechten Arm von vorne, Drehung um 180 Grad, parallel zu Uke 
      - Durchfassen in Ukes rechtes Knie
-     - Durchschwingen
-     - Ausnutzen der Hebelgesetze (ganzer Körper)
+     - Durchschwingen und festhalten
+     - Ausnutzen der Hebelgesetze (der ganzer Körper wird zum Hebel!)
 
-** TODO <<<Zwischen den Beinen>>> [2/2]
+#+Latex:\newpage
+** DONE <<<Zwischen den Beinen>>> [4/4]
+   CLOSED: [2018-11-24 Sat 15:10]
 
-*** DONE Verteidigung 
-    CLOSED: [2018-11-22 Thu 09:07]
+*** DONE Verteidigung in Oberlage
+    CLOSED: [2018-11-24 Sat 15:06]
 
++ Passives Verteidigen
+  1. Umdrehen (meiden)
+  2. Ansatz von Daki-age (Ausheber)
+     - um den Angriff zu unterbrechen (Mate)
++ Aktives Verteidigen
+  1. Seitlich Vorbeigehen
+     - Hose des Partners in Höhe Fußgelenke fassen, eng zusammenführen und auf die Matte drücken und fixieren
+     - außen am Partner vorbei gehen
+  2. Durchsteigen
+     - aus dem Angreifer zurückziehen und Ellenbogen hinter den Oberschenkeln des Angreifers
+     - mit den Ellenbogen die Oberschenkel auseinander drücken und mit den Knie zuerst durchsteigen (wenn man rechts durchsteigt, dann das linke Knie zuerst, sonst kann der Gegner leichter klammern)
+
+*** DONE Angrifff in Oberlage
+    CLOSED: [2018-11-24 Sat 15:06]
+
++ Ebi-Jime
+  - ein Arm geht von innen um das Bein und fasst im Reverse. 
+  - das eingeschlossene Bein wird mithilfe des eignen Oberkörpers zum Kopf des Partners gedrückt
+
+*** DONE Verteidigung in Unterlage
+    CLOSED: [2018-11-24 Sat 15:06]
+
++ Aktives Verteidigen
+  1. flexibles Unterschenkelkreisen
+     - durch fixieren der Ellenbogen verhindert man, dass Uke vorbei geht oder anderweitig angreifen kann (Kraftverhältnisse)
 + Passives Verteidigen
   1. Eine Seite des Angreifers fixieren
      - Gewicht auf eine Seite von Tori verlagern
      - Toris Arm greifen und ihn stark zu sich ziehen
-     - diagonal über den Rücken in Ukes Gürtel greifen 
-+ Aktives Verteidigen
-  1. Seitlich Vorbeigehen
-     - Hose des Partners in Höhe Fußgelenke fassen, eng zusammenführen und auf die Matte drücken und fixieren. 
-     - außen am Partner vorbei gehen
-  2. Durchsteigen
-     - aus dem Angreifer zurückziehen und Ellenbogen hinter den Oberschenkeln des Angreifers
-     - mit den Ellenbogen die Oberschenkel auseinander drücken und mit den Knie zuerst durchsteigen (wenn man rechts durchsteigt, dann das linke Knie zuerst, sonst kann der Gegner klammern)
-  3. Ebi-Jime
-     - ein Arm geht von innen um das Bein und fasst im Reverse. 
-     - das eingeschlossene Bein wird mithilfe des eignen Oberkörpers zum Kopf des Partners gedrückt
-  4. Ansatz von Daki-age (Ausheber)
-     - um den Angriff zu unterbrechen (Mate)
-+ Aktives Verteidigen in Unterlage
-  1. flexibles Unterschenkelkreisen
-     - durch fixieren der Ellenbogen verhindert man, dass Uke vorbei geht oder anderweitig angreifen kann
+     - diagonal über den Rücken in Ukes Gürtel greifen (Gewicht, Hebelgesetze)
 
-*** DONE Angriff
+*** DONE Angriff in Unterlage
     CLOSED: [2018-11-22 Thu 09:11]
 
 + Hiza-gatame \citep[S. 143]{komuro2011komlock}
-  - wie eben, aber Uke wendet sich nach links
-  - Bein überrollen, sodass Kopf Richtung Beine zeigt
-+ Ryo-hiza-gatame
-+ /Schere/
-+ Sankaku-jime
-  - Uke greift unters Knie
-  - Schulter fixieren, Arm lang strecken
+  - rechten Arm fixieren indem man den Arm umschlingt und unter der Achsel durchgreift
+  - Bein wegstoßen (Stützpunkt wegnehmen) und Knie ansetzen (Kraftverhältnisse)
++ Ryo-hiza-gatame (Hebelgesetze)
++ /Schere/ (Hebelgesetze, Kraftverhältnisse)
+  - Schere nach links
+  - Schere nach rechts
+  - Gleichgewichtsbrechung, Drehmoment nutzen indem der Partner immer zuerst dicht an die Körperachse gebracht wird
++ Ashi-garami
+  - der gesamte Körper unterstützt den Schlüssel
 + Ude-gatame
   - Ukes Arm zwischen eigener Schulter und Kopf fixieren
   - Ukes linkes Bein wegdrücken 
   - Variante:  \citep[S. 43]{kashiwazaki2012einführung}
++ Sankaku-jime
+  - Uke greift unters Knie
+  - Schulter fixieren, Arm lang strecken
 
-** TODO <<<Beinklammer>>> [2/2]
+#+Latex:\newpage
+** DONE <<<Beinklammer>>> [2/2]
+   CLOSED: [2018-11-24 Sat 14:23]
    
 *** DONE Verteidigung
     CLOSED: [2018-11-20 Tue 18:34]
 
 + Passives Verteidigen
-  1. Bein klammern und mit den Armen den Partner fest umklammern (Immobilisation)
+  1. Bein klammern und mit den Armen den Partner fest umklammern (immobilisieren)
   2. Den Partner komplett zwischen die Beine nehmen
      - das Knie unter den Körper schieben und verschließen
 + Aktives Verteidigen
   1. Zum Partner drehen und den Partner nach hinten umkippen 
-     - das abgewinkelte Bein mit der Hand zum Partner schieben und damit seine Unterstützungsfläche veringern (Nutzung physikalischer Gesetze)
+     - das abgewinkelte Bein mit der Hand zum Partner schieben und damit seine Unterstützungsfläche veringern (Drehmoment)
+     - Arm des Partner in Drehachse bringen (Drehmoment)
      - Änderung der Rolle von Verteidigung zu Angriff
   2. Kata-gatame
      - wenn der Partner sich stark über den Körper schiebt und den Arm nicht fixiert
@@ -1158,10 +1234,10 @@ Hier gibt es im Allgemeinen ein Spektrum zwischen *passivem* und *aktivem* Verte
 
 1. Kata-Gatame
    - Fixieren von Kopf und Schulter mithilfe von Kata-gatame
-   - Befreien des Fußes mit Unterstützung des anderen Beines (Fußstellung muss seitlich sein!)
+   - Befreien des Fußes mit Unterstützung des anderen Beines (Kraftverhältnisse)
 2. Yoko-shiho-gatame \citep[S. 46]{kashiwazaki1998newaza}
    - Bein ausgestreckt und Ukes Unterarm mit Riegelgriff fixieren
-   - Fixieren des Unterarms mithilfe von Ukes Jacke
+   - Fixieren des Unterarms mithilfe von Ukes Judogi
    - Heranziehen von Ukes Knie, um mithilfe des anderen Beines den Fuß zu befreien
 3. Sode-jime (Sode-kuruma-jime in \citep[S. 127]{komuro2011komlock})
 
@@ -1178,9 +1254,10 @@ Hier gibt es im Allgemeinen ein Spektrum zwischen *passivem* und *aktivem* Verte
   - natürlicher Trieb des Kräftemessens
   - kultisch-religiöse Riten
 - Ursprünge in Japan
-  - ca. 16. Jh. - Einführung des Gewehres
+  - Nara-Zeit (710–784)
+    - 720 Datierung des ersten Sumo-Kampfes auf 23 v.u.Z im Nihonshoki (日本書紀)
   - zweite Hälte 16. Jh. - Ju-jutsu wird als eigenes System unterrichtet
-  - 1603-1668 (Edo) - Waffenverbot am Hofe
+  - 1603-1868 (Edo) - Waffenverbot am Hofe
     - mehr als 100 Schulen mit eigenen Techniken und Lehrmethoden
   - 1868 Meiji-Restauration
     - Abschaffung der Feudalherschaft
@@ -1192,9 +1269,8 @@ Hier gibt es im Allgemeinen ein Spektrum zwischen *passivem* und *aktivem* Verte
     - später Leibarzt des Tenno
   - Kano (1860 - 1938) studiert verschiedene Ju-jutsu-Schulen
     - Kito-ryu und Tenjin Shinyo-ryu
-  - 1882 Kodokan gegründet
+  - 1882 Kodokan gegründet im Ei-Shoji
   - 1893 Kano wird Sekretär im Erziehungsministerium
-  - 1898 Judo wird Pflichtfach an Schulen
   - 1910 Kano IOC-Mitglied
   - 1933 Kano in D
   - 1938 Kano stirbt auf der Rückreise von Europa
@@ -1205,9 +1281,11 @@ Hier gibt es im Allgemeinen ein Spektrum zwischen *passivem* und *aktivem* Verte
     - YOKOYAMA, Sakujiro (1869-1912)
     - TOMITA, Tsunejiro (1865-1937)
   - 1885 Nage-no-kata, Katame-no-kata
+  - 1886 Sieg des Kodokan gegen Jiu-jitsu-Schule
   - 1887 Ju-no-kata, Itsutsu-no-kata
   - 1895 Go-kyo (1920)
-  - 1922 Sei-ryoku-zen-yo und Jita-kyo-ei als Prinzipien formuliert
+  - 1911 Pflichtfach an Mittelschulen
+  - 1922 Seiryoku-zen-yo und Ji-ta-kyo-ei als Prinzipien formuliert
 - Entwicklung in D
   - 1896 1. Olympische Spiele in Athen
   - 1906 jap. Kreuzer in Kiel
@@ -1222,10 +1300,12 @@ Hier gibt es im Allgemeinen ein Spektrum zwischen *passivem* und *aktivem* Verte
   - 1953 DJB gegründet
   - 1956 1. WM in Tokyo
   - 1958 DJV gegründet
-  - 1964 Olympische Spiele Tokyo
+  - 1964 Judo bei Olympische Spielen in Tokyo
+  - 1970 Bestandteil des Lehrplans an Schulen der DDR
   - 1971 1. WM in BRD (Ludwigshafen)
   - 1992 Frauenjudo wird olympisch
 
+#+Latex: \newpage
 *** DONE Ursprünge
     CLOSED: [2018-09-17 Mon 21:31]
 
@@ -1239,20 +1319,20 @@ In der Mitte des 16. Jahrhunderts führten die Portugiesen die Schusswaffen in J
 
 Für das Prinzip des Nachgebens /Ju/ in der Kampfkunst gibt es verschiedene Einflüsse, Erklärungen, Legenden und Anekdoten: Im Konjaku-Monogatari findet man zum ersten Mal den Begriff /yawara/ (weich) im Zusammenhang mit einer Geschichte über das japanische Ringen. Stark waren sicherlich auch die chinesischen Einflüsse, denn seit der Ashikaga-Epoche wurde offiziell der Handel mit China aufgenommen und bis zum Ende des 16. Jahrhunderts immer weiter ausgedehnt.
 
-Über die Entstehung des <<<Jiu Jitsu>>> existieren unterschiedliche Berichte, die einen legendenhaften Charakter haben. Ihr historischer Wahrheitsgehalt ist schwer nachzuweisen. Die poetisch schönste ist sicherlich die Legende des Arztes Akiyama Shirobei aus Hizen, der in China Medizin und die Kunst der Selbstverteidigung studiert haben soll. Wieder in Japan, zog er sich in einen Tempel namens Dazai-Tenjin zurück. Der Überlieferung nach war es Winter, und am 21. Tag im Tempel setzte starker Schneefall ein. Er betrachtete die Bäume; ihm fiel auf, dass viele Äste unter der Last des Schnees brachen, die des Weidenbaums aber wegen ihrer Elastizität nachgaben und den Schnee abgleiten ließen. Auf Grund dieses Vorgangs soll der Arzt Shirobei das Prinzip des „Ju“ – Nachgebens – in der Kampfkunst eingeführt haben. In der ersten Hälfte der Edo-Epoche (17./18. Jahrhundert) entwickelten sich unzählige Jiu-Jiutsu- oder artverwandte Schulen – jap. Ryu.
+Über die Entstehung des <<<Jiu-jitsu>>> existieren unterschiedliche Berichte, die einen legendenhaften Charakter haben. Ihr historischer Wahrheitsgehalt ist schwer nachzuweisen. Die poetisch schönste ist sicherlich die Legende des Arztes Akiyama Shirobei aus Hizen, der in China Medizin und die Kunst der Selbstverteidigung studiert haben soll. Wieder in Japan, zog er sich in einen Tempel namens Dazai-Tenjin zurück. Der Überlieferung nach war es Winter, und am 21. Tag im Tempel setzte starker Schneefall ein. Er betrachtete die Bäume; ihm fiel auf, dass viele Äste unter der Last des Schnees brachen, die des Weidenbaums aber wegen ihrer Elastizität nachgaben und den Schnee abgleiten ließen. Auf Grund dieses Vorgangs soll der Arzt Shirobei das Prinzip des „Ju“ – Nachgebens – in der Kampfkunst eingeführt haben. In der ersten Hälfte der Edo-Epoche (17./18. Jahrhundert) entwickelten sich unzählige Jiu-jitsu oder artverwandte Schulen – jap. Ryu.
 
-[fn:judowiki] Siehe [[https://de.wikipedia.org/wiki/Judo#Geschichte][de.wikipedia.org/wiki/Judo#Geschichte]]
+[fn:judowiki] \raggedright Siehe [[https://de.wikipedia.org/Judo#Geschichte][wikipedia/Judo]]
 
-*** DONE Kanō Jigorō
+*** DONE Jigoro Kano
     CLOSED: [2018-09-17 Mon 21:31]
 
 Mit dem Ende der Tokugawa-Zeit und der Öffnung Japans kam es auch zu starken Veränderungen in der japanischen Gesellschaft. Durch die Meiji-Reform kam es zu einer Fülle von staatlichen, wirtschaftlichen und kulturellen Reformen. Die japanischen Künste wurden stark zurückgedrängt, alles ,,Westliche`` hatte Vorrang. Doch schon zu Beginn der 1880er-Jahre gab es eine Rückbesinnung in Bezug auf die geistlichen und sittlichen Werte.
 
-/Kanō Jigorō/ (1860–1938) wuchs in diesem Japan der extremen Veränderungen auf. Er lernte Jiu Jitsu an verschiedenen Schulen wie der /Tenshinshinyo-Ryu/ und der /Kito-Ryu/. 1882 gründete Kanō Jigorō seine eigene Schule, das *Kodokan* (,,Ort zum Studium des Wegs``) in der Nähe des Eisho-Tempels im Stadtteil Shitaya in Tokio. Er nannte seine Kunst Judo, da das Kanji (Schriftzeichen) Ju sowohl ,,sanft`` als auch ,,Nachgeben`` bedeuten kann und das Zeichen Do ebenfalls mit ,,Grundsatz`` und nicht nur mit ,,Weg`` übersetzt werden kann.
+/Kano Jigoro/ (1860–1938) wuchs in diesem Japan der extremen Veränderungen auf. Er lernte Jiu-jitsu an verschiedenen Schulen wie der /Tenshin-shinyo-Ryu/ und der /Kito-Ryu/. 1882 gründete Kanō Jigorō seine eigene Schule, das *Kodokan* (,,Ort zum Studium des Wegs``) in der Nähe des Eisho-Tempels im Stadtteil Shitaya in Tokyo. Er nannte seine Kunst Judo, da das Kanji (Schriftzeichen) Ju sowohl ,,sanft`` als auch ,,Nachgeben`` bedeuten kann und das Zeichen Do ebenfalls mit ,,Grundsatz`` und nicht nur mit ,,Weg`` übersetzt werden kann.
 
-Sein System bestand neben Wurftechniken (Nage-waza) aus Bodentechniken (Ne-waza) sowie Schlag-, Tritt- und Stoßtechniken (Atemi-waza), die er dem System der /Kito-Ryu/ und der /Tenshinshinyo-Ryu/ entnommen hatte. Dies waren traditionelle Jiu-Jitsu-Schulen, bei denen Kanō mittlerweile das Menkyo-Kaiden (die universelle Lehrerlaubnis und Meisterwürde) innehatte. Es war sogar eine kleine Sparte Waffentechnik (z. B. mit Schwert und Stöcken) im Curriculum vorhanden. Kanō selektierte zwar einige Techniken aus, welche dem von ihm gefundenen obersten Prinzip /möglichst wirksamer Gebrauch von geistiger und körperlicher Energie/ widersprachen. Dass er dabei aber alle ,,bösen`` Techniken entfernt hätte, welche geeignet sind, einen Menschen ernsthaft zu verletzen oder zu töten, ist ein weitverbreiteter Irrtum.
+Sein System bestand neben Wurftechniken (Nage-waza) aus Bodentechniken (Ne-waza) sowie Schlag-, Tritt- und Stoßtechniken (Atemi-waza), die er dem System der /Kito-ryu/ und der /Tenshin-shinyo-ryu/ entnommen hatte. Dies waren traditionelle Jiu-jitsu-Schulen, bei denen Kano mittlerweile das Menkyo-Kaiden (die universelle Lehrerlaubnis und Meisterwürde) innehatte. Es war sogar eine kleine Sparte Waffentechnik (z. B. mit Schwert und Stöcken) im Curriculum vorhanden. Kano selektierte zwar einige Techniken aus, welche dem von ihm gefundenen obersten Prinzip /möglichst wirksamer Gebrauch von geistiger und körperlicher Energie/ widersprachen. Dass er dabei aber alle ,,bösen`` Techniken entfernt hätte, welche geeignet sind, einen Menschen ernsthaft zu verletzen oder zu töten, ist ein weitverbreiteter Irrtum.
 
-Im Jahre 1886 konnten Schüler Kanos einen regulären Kampf zwischen der Kodokan-Schule und der traditionellen Jiu Jitsu-Schule /Ryoi-Shinto-Ryu/ für sich entscheiden. Es wird behauptet, Kano habe das Judo durchaus als ernstzunehmende Selbstverteidigungskunst inklusive Schlägen und Fußtritten konzipiert, ohne die ein Sieg über Ryoi-Shinto Ryu nicht möglich gewesen wäre. Aufgrund dieses Erfolgs verbreitete sich Judo in Japan rasch und wurde bald bei der Polizei und der Armee eingeführt. /1911 wurde Judo an allen Mittelschulen Pflichtfach./
+Im Jahre 1886 konnten Schüler Kanos einen regulären Kampf zwischen der Kodokan-Schule und der traditionellen Jiu-jitsu-Schule /Ryoi-shinto-ryu/ für sich entscheiden. Es wird behauptet, Kano habe das Judo durchaus als ernstzunehmende Selbstverteidigungskunst inklusive Schlägen und Fußtritten konzipiert, ohne die ein Sieg über Ryoi-shinto-ryu nicht möglich gewesen wäre. Aufgrund dieses Erfolgs verbreitete sich Judo in Japan rasch und wurde bald bei der Polizei und der Armee eingeführt. /1911 wurde Judo an allen Mittelschulen Pflichtfach./
 
 Der berühmte japanische Regisseur Akira Kurosawa drehte seinen ersten Film Sanshiro Sugata 1943 über das Judo.
 Nach dem Zweiten Weltkrieg wurde das Kodokan für zwei Jahre zwangsweise geschlossen, 1947 wurde es wiedereröffnet.
@@ -1262,7 +1342,7 @@ Nach dem Zweiten Weltkrieg wurde das Kodokan für zwei Jahre zwangsweise geschlo
 
 1906 kamen japanische Kriegsschiffe zu einem Freundschaftsbesuch nach Kiel. Die Gäste führten dem deutschen Kaiser ihre Nahkampfkünste vor. Wilhelm II. war begeistert und ließ seine Kadetten in der neuen Kampfkunst unterrichten. Der damals bedeutendste deutsche Schüler war der Berliner /Erich Rahn/, der im Jahre 1906 die /erste deutsche Jiu-Jitsu-Schule/ gründete. Weitere Pioniere im Judo sind /Alfred Rhode/ und /Heinrich Frantzen/ (Köln). 1926 fanden in Köln im Rahmen der 2. Deutschen Kampfspiele die ersten deutschen Judo-(Jiu-Jitsu)-Meisterschaften statt. 1932 wurde im Frankfurter Waldstadion die erste internationale Judo-Sommerschule durchgeführt. Anlässlich der Judo-Sommerschule wurde am 11. August 1932 der Deutsche Judo-Ring gegründet. Erster Vorsitzender wurde Alfred Rhode. Der Begriff Judo setzte sich, wie schon im restlichen Europa, auch in Deutschland durch. 1933 besuchte Kanō Jigorō mit einigen Schülern auf einer Europareise auch Deutschland und gab Lehrgänge in Berlin und München. /Die ersten Judo-Europameisterschaften wurden 1934 im Kristallpalast in Dresden ausgerichtet./
 
-Im August 1933 wurde Judo von den Nationalsozialisten in das Fachamt Schwerathletik des Deutschen Reichsbundes für Leibesübungen (DRL) eingegliedert und verlor damit seine Eigenständigkeit. Nach der Überführung des Deutschen Reichsbundes in den Nationalsozialistischen Reichsbund für Leibesübungen (NSRL) 1937 wurde Judo als eine Wettkampfdisziplin im Rahmen der originären Sportart Jiu Jitsu behandelt. Die letzten deutschen Meisterschaften in der NS-Zeit fanden 1941 in Essen statt.
+Im August 1933 wurde Judo von den Nationalsozialisten in das Fachamt Schwerathletik des Deutschen Reichsbundes für Leibesübungen (DRL) eingegliedert und verlor damit seine Eigenständigkeit. Nach der Überführung des Deutschen Reichsbundes in den Nationalsozialistischen Reichsbund für Leibesübungen (NSRL) 1937 wurde Judo als eine Wettkampfdisziplin im Rahmen der originären Sportart Jiu-jitsu behandelt. Die letzten deutschen Meisterschaften in der NS-Zeit fanden 1941 in Essen statt.
 
 /Nach dem Zweiten Weltkrieg war Judo in Deutschland bis 1948 durch die Alliierten verboten./ Nach Gründung des Deutschen Athleten-Bundes (DAB) in Westdeutschland und des Deutschen Sportausschusses (DS) in der SBZ wurde Judo 1949 als Sportart der Schwerathletik wieder zugelassen. /1950 fanden in Dresden die ersten DDR-Einzelmeisterschaften und 1951 in Frankfurt die ersten deutschen Meisterschaften in der Bundesrepublik nach dem Zweiten Weltkrieg statt./ Der DAB und der DS veranstalteten bis 1954 gesamtdeutsche Judo-Meisterschaften. 1952 wurde in Westdeutschland das Deutsche Dan-Kollegium (DDK) (Vorsitz: Alfred Rhode) und 1953 der Deutsche Judo-Bund (Vorsitz: Heinrich Frantzen) gegründet. In der DDR existierte seit 1952 die Sektion Judo im Deutschen Sportausschuß (Vorsitz: Lothar Skorning) als Vorläufer des 1958 gegründeten Deutschen Judo-Verbandes der DDR (DJV). Der DJV richtete 1966 die ersten DDR-Meisterschaften für Frauen aus. 1970 fanden in Rüsselsheim die ersten deutschen Meisterschaften der Frauen in der Bundesrepublik statt. /1975 in München war das Geburtsjahr der ersten Frauen-Europameisterschaften./
 
@@ -1274,9 +1354,9 @@ Nach dem Zweiten Weltkrieg veränderte sich Judo immer mehr vom Nahkampfsystem z
 *** DONE Weltmeisterschaften und Olympische Spiele
     CLOSED: [2018-09-17 Mon 21:30]
 
-/1956 fanden in Tokio die ersten Weltmeisterschaften statt./ Damals gab es allerdings nur eine offene Gewichtsklasse. 1961 bei den dritten Weltmeisterschaften in Paris wurden dann erstmals Gewichtsklassen eingeführt. Dort gelang es dem Niederländer Anton Geesink erstmals, die Vormachtstellung der Japaner zu brechen und die japanischen Judoka zu besiegen.
+/1956 fanden in Tokyo die ersten Weltmeisterschaften statt./ Damals gab es allerdings nur eine offene Gewichtsklasse. 1961 bei den dritten Weltmeisterschaften in Paris wurden dann erstmals Gewichtsklassen eingeführt. Dort gelang es dem Niederländer Anton Geesink erstmals, die Vormachtstellung der Japaner zu brechen und die japanischen Judoka zu besiegen.
 
-/Bei den Olympischen Spielen in Tokio 1964 war Judo erstmals als olympischer Sport zu sehen./ Der aus Köln stammende Wolfgang Hofmann gewann als erster Deutscher eine Silbermedaille bei den Olympischen Spielen. Zu diesem Anlass brachten die Deutsche Bundespost und auch die Deutsche Post der DDR eine 20-Pfennig-Briefmarke mit Judo-Motiv heraus. 1968 bei den Olympischen Spielen in Mexiko-Stadt wurde Judo zunächst wieder aus dem olympischen Programm gestrichen. Seit 1972 bei den Olympischen Spielen in München gehört Judo beständig zum olympischen Programm. War Judo zunächst eine Männerdomäne, so wurde 1988 Frauen-Judo bei den Olympischen Spielen in Seoul als Demonstrationswettbewerb vorgestellt. /Seit den Olympischen Spielen in Barcelona 1992 ist auch Frauen-Judo im olympischen Programm./
+/Bei den Olympischen Spielen in Tokyo 1964 war Judo erstmals als olympischer Sport zu sehen./ Der aus Köln stammende Wolfgang Hofmann gewann als erster Deutscher eine Silbermedaille bei den Olympischen Spielen. Zu diesem Anlass brachten die Deutsche Bundespost und auch die Deutsche Post der DDR eine 20-Pfennig-Briefmarke mit Judo-Motiv heraus. 1968 bei den Olympischen Spielen in Mexiko-Stadt wurde Judo zunächst wieder aus dem olympischen Programm gestrichen. Seit 1972 bei den Olympischen Spielen in München gehört Judo beständig zum olympischen Programm. War Judo zunächst eine Männerdomäne, so wurde 1988 Frauen-Judo bei den Olympischen Spielen in Seoul als Demonstrationswettbewerb vorgestellt. /Seit den Olympischen Spielen in Barcelona 1992 ist auch Frauen-Judo im olympischen Programm./
 
 Im Jahre 1988 war Judo erstmals bei den Paralympics in Seoul mit dabei. Seit 2004 in Athen gibt es auch Frauen-Judo im Programm der Sommer-Paralympics. Judo wird bei diesen Spielen von Blinden und Menschen mit geringem Sehvermögen praktiziert. Die paralympischen Athleten folgen denselben Regeln wie die Nichtbehinderten. Eventuelle Defizite werden durch zusätzliche Regelungen ausgeglichen. So besteht ein wesentlicher Unterschied darin, dass sich die Kämpfer und Kämpferinnen zur besseren Orientierung vor Kampfbeginn berühren dürfen. 
 
@@ -1308,6 +1388,7 @@ Die größten Erfolge deutscher Judoka im Überblick:
 | 2008 | Ole Bischof          | Olympiasieger   | D    |
 |------+----------------------+-----------------+------|
 
+#+Latex: \newpage
 ** DONE Die Judo-Prinzipien
    CLOSED: [2018-11-22 Thu 22:43]
 *** DONE <<<Seiryoku-zen-yo>>> (das technische Prinzip) [精力善用]
@@ -1325,7 +1406,12 @@ Das erste Prinzip[fn:kodokanweb] beschreibt, wie man die Judotechniken ausführe
  - den Gegner studieren und Schwachpunkte nutzen 
  - die eigenen Stärken gegen die Schwächen des Gegners nutzen 
 
-[fn:kodokanweb] Siehe [[http://kodokanjudoinstitute.org/en/doctrine][kodokanjudoinstitute.org/en/doctrine]]
+Auch außerhalb des Dojo kann dieses Prinzip angewand werden. Es lehrt uns, nach den bestmöglichen Handlungsweisen zu suchen, unabhängig von den individuellen Umständen, und hilft uns zu verstehen, dass unnötige Sorge eine Verschwendung von Energie ist.
+
+#+BEGIN_QUOTE
+Gehe deinen Weg zielstrebig weiter, ohne eingebildet zu werden durch Siege oder gebrochen zu werden durch Niederlagen, und ohne dabei die Vorsicht zu vergessen, wenn alles ruhig ist, oder ängstlich zu werden, wenn Gefahr droht. \citep[S.25]{kano2007kodokan}
+#+END_QUOTE
+[fn:kodokanweb] \raggedright Siehe [[http://kodokanjudoinstitute.org/en/doctrine][kodokanjudoinstitute.org/en/doctrine]]
 
 *** DONE <<<Ji-ta-kyo-ei>>> (das moralische Prinzip) [自他共栄]
     CLOSED: [2018-09-16 Sun 12:05]
@@ -1339,10 +1425,12 @@ Auf der Judo-Matte beim täglichen Training kann man die Anwendung dieses Prinzi
 - beim Üben von Judotechniken und beim Randori Rücksicht auf Alter, Geschlecht, körperliche und technische  Entwicklung des Partners genommen wird und wechselseitige Erfolgserlebnisse ermöglicht werden 
 - jeder Übende bereit ist, für sein Handeln und für die Gruppe Verantwortung zu übernehmen. 
 
+Auch dieses Prinzip sollte ein Leitmotiv für das tägliche Handeln auch außerhalb des Dojo sein!
+
 *** DONE Weitere Lebens- und Trainingsgrundsätze von Jigiro Kano
     CLOSED: [2018-11-18 Sun 15:16]
 
-Um 1909, als Kanō für das IOC zu arbeiten begann, gerieten die geistigen Inhalte des judō noch mehr in Gefahr, durch die Überbetonung des sportlichen Charakters verloren zu gehen. Die einstigen Werte, die dem Judō-Meister bei der Gründung seiner Kampfkunst so wichtig waren, und deren Befolgung er zum Teil streng kontrollierte, waren bei den jüngeren Schülern von Konsumdenken und Gewinnsucht abgelöst worden. Das erfolgreiche Bestreiten eines Wettkampfs hatte von nun an mehr Bedeutung als die Übung des judō als Lebensweg. Tatsächlich lässt sich sagen, dass das judō seit dem Zeitpunkt, an dem Saigo Shiro den Kōdōkan verließ, unbeabsichtigt immer mehr zum Sport wurde. Die Kampfkraft Saigos und dessen Erfahrung auf dem Gebiet des daito ryū hatten dem Kōdōkan-Jūdō einen Ruf der Unbesiegbarkeit beigebracht, der nach seinem Weggang nicht mehr gehalten werden konnte und zu einer allmälichen Verflachung der Lehren führte. Gegen Ende seines Lebens begann sich der Wertverlust des Kōdōkan-Judō immer deutlicher zu offenbaren, und Kanō, der schon seit längerer Zeit voller Sorge diese Entwicklungen beobachtet hatte, entschloss sich, sechs Regeln aufzustellen, die seine ursprüngliche Vorstellung des judō erhalten sollten:
+Um 1909, als Kano für das IOC zu arbeiten begann, gerieten die geistigen Inhalte des Judo noch mehr in Gefahr, durch die Überbetonung des sportlichen Charakters verloren zu gehen. Die einstigen Werte, die Kano bei der Entwicklung des Judo so wichtig waren, und deren Befolgung er zum Teil streng kontrollierte, waren bei den jüngeren Schülern von Konsumdenken und Gewinnsucht abgelöst worden. Das erfolgreiche Bestreiten eines Wettkampfs hatte von nun an mehr Bedeutung als die Übung des Judo als Lebensweg. Tatsächlich lässt sich sagen, dass das Judo seit dem Zeitpunkt, an dem Saigo Shiro den Kodokan verließ, unbeabsichtigt immer mehr zum Sport wurde. Die Kampfkraft Saigos und dessen Erfahrung auf dem Gebiet des /Daito-ryu/ hatten dem Kodokan-Judo einen Ruf der Unbesiegbarkeit beigebracht, der nach seinem Weggang nicht mehr gehalten werden konnte und zu einer allmälichen Verflachung der Lehren führte. Gegen Ende seines Lebens begann sich der Wertverlust des Kodokan-Judo immer deutlicher zu offenbaren, und Kano, der schon seit längerer Zeit voller Sorge diese Entwicklungen beobachtet hatte, entschloss sich, sechs Regeln aufzustellen, die seine ursprüngliche Vorstellung des Judo erhalten sollten:
 
 - Chikara-hittatsu - Bemühen führt immer zum Ziel
 - Ji-ta-kyo-ei - gegenseitige Hilfe und Kooperation
@@ -1351,10 +1439,10 @@ Um 1909, als Kanō für das IOC zu arbeiten begann, gerieten die geistigen Inhal
 - Seiryoku-saizen-katsuyoi - geistige und körperliche Kraft
 - Shin-shin-jizai - geistige und körperliche Geschmeidigkeit
 
-Doch wusste der Jūdō-Meister sehr wohl, dass diese Regeln allein nicht genügten, um dem Kōdōkan-Jūdō seine alten Inhalte wiederzugeben. Daher begann er in der ganzen Welt umherzureisen, um mit der Werbung für seine Kunst auch Vorträge über die eigentliche Bedeutung seiner Kampfkunst zu halten. In einem dieser unzähligen Referate ermahnte Kanō seine anwesenden Übungsleiter, sich in ihrem Unterricht nicht nur auf das Training im dōjō zu beschränken, sondern mit ihren Schülern auch auf die philosophischen Aspekte des jūdō einzugehen:
+Doch Kano wusste sehr wohl, dass diese Regeln allein nicht genügten, um dem Kodokan-Judo seine alten Inhalte wiederzugeben. Daher begann er in der ganzen Welt umherzureisen, um mit der Werbung für seine Kunst auch Vorträge über die /eigentliche Bedeutung/ seiner Kampfkunst zu halten. In einem dieser unzähligen Referate ermahnte Kano seine anwesenden Übungsleiter, sich in ihrem Unterricht nicht nur auf das Training im Dojo zu beschränken, sondern mit ihren Schülern auch auf die philosophischen Aspekte des Judo einzugehen:
 
 #+BEGIN_QUOTE
-Judo wird über zwei Methoden gelehrt. Die eine bezeichnet man als randori, die andere als kata. (...) Ihr solltet dabei jedoch bedenken, daß es nicht möglich ist, die Fähigkeit zur größten Effizienz in jeder Bewegung allein durch die Übung der Kata und des randori im dōjō zu entwickeln. Man muß sich immer ins Bewußtsein rufen, diese Prinzipien auch in den Handlungen des täglichen Lebens zu üben, denn nur dann kann man die Fähigkeit erlangen, wie selbstverständlich die eigene Energie am effektivsten einzusetzen. (Yuko-no-katsudo, 1921) 
+Judo wird über zwei Methoden gelehrt. Die eine bezeichnet man als Randori, die andere als Kata. (...) Ihr solltet dabei jedoch bedenken, daß es nicht möglich ist, die Fähigkeit zur größten Effizienz in jeder Bewegung allein durch die Übung der Kata und des Randori im Dojo zu entwickeln. Man muß sich immer ins Bewußtsein rufen, /diese Prinzipien auch in den Handlungen des täglichen Lebens zu üben/, denn nur dann kann man die Fähigkeit erlangen, /wie selbstverständlich die eigene Energie am effektivsten einzusetzen/. (Yuko-no-katsudo, 1921) 
 #+END_QUOTE
 
 
@@ -1387,7 +1475,7 @@ Die Ju-no-kata erleichtert es dem Judoka, durch die harmonische Verbindung mit d
 Die langsam fließenden Aktionen und Reaktionen erfordern ein hohes Maß an Genauigkeit. Der Handlungsablauf stärkt die körperliche und geistige Konzentration sowie die Sensibilität des Körpers für Zeit und Raum, lenkt die Aufmerksamkeit durch gleichsam meditative Bewegungsübung nach innen und gleicht Anspannung und Entspannung aus, indem er Geschicklichkeit zum Vernichten von Gewalt nutzt.
 Dadurch entwickeln sich körperliche und geistige Gelassenheit sowie entspannte Wachsamkeit und innere Ruhe.
 
-Weil Ju-no-kata verschiedene natürliche, effektive Bewegungen enthält, Bewegungen wie Beugen, Dehnen und Drehen (Tai sabaki) ist sie sehr wirkungsvoll, um den Körper rundum zu entwickeln und in einen guten konditionell-technischen Zustand zu bringen. Ju-no-kata lockert das Rückgrat und die Schultern und macht sie beweglich und stärkt zugleich die Muskeln des Rumpfes und der Beine. Die Wirkung des Dehnens und Kräftigens wird insbesondere durch das Halten der Endposition erreicht.
+Weil Ju-no-kata verschiedene natürliche, effektive Bewegungen enthält, Bewegungen wie Beugen, Dehnen und Drehen (Tai-sabaki) ist sie sehr wirkungsvoll, um den Körper rundum zu entwickeln und in einen guten konditionell-technischen Zustand zu bringen. Ju-no-kata lockert das Rückgrat und die Schultern und macht sie beweglich und stärkt zugleich die Muskeln des Rumpfes und der Beine. Die Wirkung des Dehnens und Kräftigens wird insbesondere durch das Halten der Endposition erreicht.
 
 
 *** DONE Techniken
@@ -1426,7 +1514,7 @@ Die Kata schult Koordination, Körperhaltung, Tai-sabaki und vor allem feinste K
 + <<<Kiri-oroshi>>>
   - Uke bereitet den Angriff vor (mit dem rechten Fuß zurück gehend, gleichzeitiges Drehen nach rechts und die rechte Handfläche zeigt nach vorne). 
   - Uke greift mit Te-gatana an, während er rechts vorwärts geht. 
-  - Tori geht zurück (rechts-links), greift Ukes rechtes Handgelenk und macht zwei Tsugiashi- Schritte vorwärts, um Ukes Gleichgewicht über die rechte Ecke nach hinten zu brechen. 
+  - Tori geht zurück (rechts-links), greift Ukes rechtes Handgelenk und macht zwei Tsugi-ashi-Schritte vorwärts, um Ukes Gleichgewicht über die rechte Ecke nach hinten zu brechen. 
   - Uke drückt mit der linken Hand gegen Toris rechten Ellenbogen, um den Griff an seinem rechten Handgelenk zu lösen, und dreht Tori in einem großen Kreis um 180°. 
   - Tori dreht sich auf dem linken Fuß und greift Ukes vier linke Finger mit seiner linken Hand (von unten), den linken Daumen auf Ukes linke Handfläche legend. 
   - Tori geht weiter hinter Uke und bricht dessen Gleichgewicht nach hinten. 

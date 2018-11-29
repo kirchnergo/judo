@@ -1,4 +1,4 @@
-Von Markdown nach PDF mit [pandoc](https://pandoc.org/demos.html)
+Von Markdown nach PDF mit [pandoc](https://pandoc.org/demos.html):
 ```zsh
 pandoc --pdf-engine=xelatex --template=../inc/mytemplate.tex \\
   --variable mainfont="Palatino" --variable sansfont="Helvetica" \\ 
